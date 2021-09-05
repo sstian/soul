@@ -1,0 +1,672 @@
+---
+title: World Opera 6
+categories: World
+tags:
+  - Opera
+abbrlink: 2d8f
+date: 2020-06-20 13:14:00
+---
+
+## 哆啦A梦：大雄的金银岛
+
+**映画ドラえもん のび太の宝島  [日]今井一晓**
+
+电影分级：
+
++ [日本]
+G级：没有任何限制；
+G-12：12岁以下需陪同；
+R15+：15岁以下禁止；
+R18+：18岁以下禁止。
+
++ [美国]
+G级(GENERAL AUDIENCES)：大众级，所有年龄均可观看；
+PG级(PARENTAL GUIDANCE SUGGESTED)：普通级，建议在父母的陪伴下观看;
+PG-13级(PARENTS STRONGLY CAUTIONED)：特别辅导级，13岁以下需要父母陪同；
+R级(RESTRICTED)：限制级，17岁以下要求有父母或成人陪同观看;
+NC-17级(NO ONE 17 AND UNDER ADMITTED)：17岁及以下观众禁止观看.
+
++ [英国]
+U级：普通级，适合所有观众；
+PG级：家长指导级。
+12A级和12级：适合12岁以上青少年观看。
+15级：适合15岁以上成熟级观众观看。
+18级和R18级：适合18岁以上成人观看。
+
+IMDb= Internet Movie Database互联网电影资料库
+
+哆啦A梦（ドラえもん），野比大雄（のび のびた），源静香（みなもと しずか），
+刚田武/胖虎（こんた たけし），骨川小夫（ほねかわ すねお），
+约翰·西尔弗♡菲奥娜 子：弗洛克 女：莎菈
+
++ 只要齐心合力，一定会有办法的。——野比大雄
++ 遇到困难的时候永远都别轻易放弃。——胖虎
++ 想要获得任何东西，是要付出代价的。——约翰·西尔弗
+
+![哆啦A梦之大雄的金银岛](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/哆啦A梦之大雄的金银岛.png)
+
+## 五十度系列
+
+**Ⅰ五十度灰（Fifty Shades of Grey）  [美]萨姆·泰勒-约翰逊**
+**Ⅱ五十度黑（Fifty Shades Darker）  [美]詹姆斯·弗雷**
+**Ⅲ五十度飞（Fifty Shades Freed）  [美]詹姆斯•弗雷**
+
+valentine/sweetheart 情人，pregnant 怀孕的
+
+[Grey House 格雷公司]
+克里斯蒂安·格雷（Christian Grey）♡安娜斯塔希娅·斯蒂尔（Anastasia Steele），
+弟：艾略特·格雷（Elliot Grey）♡凯特·卡瓦纳（Kate Kavanagh）
+母：格蕾丝•格雷（Grace Grey） 妹：米娅·格雷（Mia Grey），
+泰勒（Teylor），杰克•海德（Jack Hyde），莱拉（Leila），艾琳娜·林肯（Elena Lincoln）
+
++ 成功的关键是知人善任。
+  The key to my success is identifying talents in individuals.
++ 真想咬你迷人的嘴唇。——克里斯蒂安·格雷
+  I’d like to bite that lip.—— Christian Grey
++ 良好沟通的一个关键点在于沟通双方都是清醒的。
++ 说话，倾听，解决问题。——安娜斯塔希娅•斯蒂尔
+  Talk, listen, work stuff out.—— Anastasia Steele
++ 现在我唯一无法想象的就是没有你。——艾略特•格雷
+  Now the only thing I can’t imagine is being without you.—— Elliot Grey
++ 如果婚姻中没有犯错的余地，没有一个会超过一星期。——格蕾丝•格雷
+  If there was no room in marriage for mistakes, none of them would last more than a week.—— Grace Grey
+
+## 环太平洋
+
+**Ⅰ环太平洋（Pacific Rim）  [美]吉尔莫•德尔•托罗**
+**Ⅱ环太平洋：雷霆再起（PacificRim: Uprising）  [美]斯蒂文•S•迪奈特**
+
+jaeger program 贼鸥计划，jaeger 机甲战士，Kaiju 怪兽，marshal 元帅，holy jesus 天啊，Breach 虫洞，Precursors 先驱，rocket thruster 火箭推进器
+
+drift 通感：两个驾驶员，通过记忆实现心智结合；结合得越深，能力越强大。
+(Two pilots, mind-melding through memories. The deeper the bond, the better you fight.)
+rabbit 兔子=Random Access Brain Impulse Triggers
+
+机甲战士：
+危险流浪者 Gipsy Danger <等离子榴弹炮 Plasma Cannon，天马流星拳 Elbow rocket>，
+英勇保护着 Guardian Bravo，军刀雅典娜 Saber Athena，凤凰游击士Bracer Phoenix，
+拳击手 Scrapper
+
+[碎片圆顶 shatterdome]
+[环太平洋联合军防部队猎人学院 PPDC Pilot Academy]
+罗利·贝克特（Raleigh Becket）：弟=兄：杨希·贝克特（Yancy Becket），
+斯达克·潘特考斯（Stacker Pentecost），森真子（Mako Mori），
+纽特·吉塞乐（Newton Geiszler），赫尔曼·哥特里布（Hermann Gottlieb），
+赫克·汉森（Herc Hansen）：父=子：查克·汉森（Chuck Hansen），
+崔天童（Tendo Choi），汉尼拔•周（Hannibal Chau）；
+杰克·潘特考斯（Jake Pentecost），奈特·兰伯特（Nathan Lambert），
+阿玛拉·纳玛尼（Amara Namani），邵丽雯（Shao Liwen）
+
++ 机会总给勇敢的人。——纽特•吉塞乐
+  Fortune favors the brave.—— Newton Geiszler
++ 复仇，就像撕开愈合的伤口。
+  Vengeance is like an open wound.
++ 我永远都在你身边。——斯达克•潘特考斯
+  I’ll always be here for you.—— 斯达克•潘特考斯
++ 一切要以相容为主。
+  It’s about compatibility.
++ 长久以来待在一个人的记忆里，很难适应这段记忆突然变得沉默。
+  不过，让另一个人真正进入你的记忆，需要足够的信任。——罗利•贝克特
+  You know, you live in someone else’s head for so long the hardest part to deal with is the silence. 
+  To let someone else in, to really connect, you have to trust them.—— Raleigh Becket
++ 赫克•汉森：把握机会，永不言悔。——查克•汉森
+  If you have the shot, you take it!—— Chuck Hansen
++ 富贵险中求。
+  Big risks mean big reward.
++ 不要用别人的话评价自己，你不会喜欢那样的自己。
+  Don’t let what other people think of you define who you are. 
+  You won’t like where that takes you.
++ 我们得明白敌人的目的，才知道是否已经打败了它们。——杰克•潘特考斯
+  We need to understand our enemy’s objective to know we’ve beaten them.—— Jake Pentecost
++ 运气掌握在自己手中。——森真子
+  We make our own luck.—— Mako Mori
+
+![环太平洋](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/环太平洋.jpg)
+
+## 鸦
+
+**鴉 -KARAS-  [日] 龙之子企画室**
+
+鸦：由城市精灵“百合音”与人类订下契约而产生。
+御座：拥有超强力量的巨型机械怪，去掉精神后的物理形态，为了维持生命要吸取人类的新鲜血液。
+
+01 鸦 开眼 –OVERTURE- 02 火炎轮 -INFERNO- 03 灭 覚醒 –REVIVE- 
+04 人 乙羽 –SACRIFICE- 05 幻想区 –ENGAGE- 06 真 伝说 –EXISTENCE-
+
+乙羽（おとは），百合音（ゆりね），鵺yè（ぬえ），炎（ほむら），比奈留（ヒナル），
+鹭坂实 女：鹭坂良子，吴鸣海；雨降小僧；凤春院廻向，河童，轮入道，镰鼬，土蜘蛛
+
++ 被遗忘，是很寂寞的。——雨降小僧
++ 只要有人需要你，你就会继续活着。——百合音
++ 炎：真正成为鸦的，只有理解人的悲伤的灵魂。
+
+![鸦-KARAS](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/鸦-KARAS-.jpg)
+
+## 悟空传
+
+**WUKONG  [中]郭子健**
+
+[天机处 天机仪]
+孙悟空，阿紫，杨戬，天蓬，阿月，卷帘，菩提；上圣天尊，上苍。
+
++ 遇见你的那一天，我的星河才亮起来……我想守护的只有你。——天蓬
++ 过去，真的那么重要吗？和你在一起的这几天，是我最幸福的时候。——阿月
++ 你感到无能为力的时候，才是你觉醒的时候。——菩提
++ 来不及好好告别，空留一段 记忆的线，系不下长长的哀恋，却魂绕梦牵。
+  永远到底有多远，心心之间 念念之远。——蔡健雅紫MUSIC
++ 我要这天再遮不住我眼，要这地再埋不了我心，要这众生都明白我意，要那诸佛都烟消云散。
+
+## 催眠大师
+
+**THE GREAT HYPNOTIST  [中]陈正道**
+
+阴阳眼 Ghost eyes：（灵异）通过天眼能看到灵魂，可通灵、抓鬼、长生不老。
+
+佛教五眼 Five Eyes：
+
+| 木       | 金       | 火       | 水       | 土       | 空     |
+| -------- | -------- | -------- | -------- | -------- | ------ |
+| 憎       | 忧       | 喜       | 惧       | 疑       | 虑     |
+| 视觉     | 嗅觉     | 味觉     | 听觉     | 触觉     | 意觉   |
+| 形容词   | 叹词     | 动词     | 名词     | 代词     | 连接词 |
+| 瞪眼     | 皱眉     | 咧嘴     | 展眉     | 眨眼     | 低头   |
+| **天眼** | **佛眼** | **法眼** | **慧眼** | **肉眼** |        |
+| 见浊     | 烦恼浊   | 众生浊   | 命浊     | 劫浊     |        |
+| 我相     | 人相     | 众生相   | 寿者相   |          |        |
+| 镜显智   | 妙观智   | 作事智   | 平等智   |          |        |
+| 天眼智   | 漏尽智   | 见命智   | 天耳智   | 化身智   | 他心智 |
+| 天眼明   | 漏尽明   | 见命明   |          |          |        |
+
+六道：（宗教）善道=天道、人道、阿修罗道，恶道=畜生道、饿鬼道、地狱道。=>六道轮回
+
+既视现象=既视感 [法语]Déjà vu [日语]きしかん=海马效应：未经历之事似曾相识。
+
+恍惚催眠VS清醒催眠
+
+徐瑞宁♡陈婷，任小妍/顾洁♡骆雨凇，方教授
+
++ 有的时候聪明的谎言，比真相更可信。
++ 很多看上去轻描淡写的事情，其实比我们想象的要严重得多。
++ 一个人说谎，不是有目的就是有原因的。——徐瑞宁
++ 亲人有两种，一种是天生的，一种是后天经过努力付出得到的。——骆雨凇
+
+## 禁闭岛
+
+**Shutter Island  [美]马丁·斯科塞斯**
+
+suck cock 吮吸公鸡（喜欢性爱）
+
+泰德·丹尼尔/安德鲁·雷德斯 Teddy Daniels / Andrew Laeddis，
+查克·奥尔/莱斯特·希恩 Chuck Aule / Lester Sean，Dr. John Cawley，Dolores Chanal
+
++ 你想当一个活着的怪物，还是做一个死去的好人？——安德鲁·雷德斯
+  To live as a monster or to die as a good man. -- Andrew Laeddis
++ 记住我们也曾活过、爱过笑过。
+  Remember us for we too have lived, loved, and laughed.
+
+## 工作细胞
+
+**はたらくさいぼう  [日]清水茜**
+
+血液六项工作：保持水分，交换气体，运送养分，调节体温，身体防御，修补伤口。
+初始T细胞 (识别抗原活性化) 效应T细胞 (分化) 辅助T细胞、杀手T细胞。
+造血干细胞=>红细胞、白细胞、血小板。
+
++ 白细胞：
+  - 中性粒细胞、嗜酸性粒细胞、嗜碱性粒细胞；
+  - 巨噬细胞、单核细胞；
+  - 淋巴球：杀手T细胞，B细胞。
+
+01 肺炎球（肺炎链球菌） 02 すり傷（擦伤） 03 インフルエンザ（流行性感冒） 
+04 食中毒（食物中毒） 05 スギ花粉アレルギー（杉树花粉过敏） 
+06 赤芽球と骨髄球（成红血细胞和骨髓细胞） 07 がん細胞（癌细胞） 
+08 血液循環（血液循环） 09 胸腺細胞（胸腺细胞） 
+10 黄色ブドウ球菌（金黄色葡萄球菌） 11 熱中症（中暑） 
+12 出血性ショック（前編）（失血性休克（前篇）） 
+13 出血性ショック（後編）（失血性休克（后篇））
+
+红血球AE3803，白血球U-1146
+
++ 红血球（赤血球 せっけっきゅう）：
+  在血液循环中，将氧气输送到身体各处，也将二氧化碳输送到肺部；红细胞因为含有大量的血红蛋白而呈红色。
++ 白血球（中性粒细胞）（白血球 はっけっきゅう（好中球））：
+  主要工作是排除从外部入侵到体内的细菌和病毒等异物；其中，中性粒细胞占了血液中白血球数量的一半以上。
++ 杀伤性T细胞（细胞毒性T细胞）（キラーT細胞ティーさいぼう（細胞傷害性Ｔ細胞））：
+  识别并破坏被病毒感染的细胞和癌细胞等异物的杀手；听从辅助性T细胞的命令而出动。
++ 巨噬细胞（マクロファージ）：
+  捕捉并消灭细菌等异物，传递抗原和免疫信息；也有着清除衰老或死亡的细胞和细菌的功能。
++ 血小板（血小板けっしょうばん）：
+  聚集在血管的损伤部位，堵塞血管破裂口并止血；体型相比一般的细胞要小。
++ 辅助T细胞（ヘルパーT細胞ティーさいぼう）：
+  接到外敌入侵的消息后，基于敌方情报制定正确攻击战略的司令官。
++ 调节T细胞（制御性T細胞せいぎょせいティーさいぼう）：
+  能抑制T细胞失控，调节以不让免疫异常。
++ 记忆T细胞（メモリーＴ細胞ティーさいぼう）：
+  杀手T细胞的一部分。当同样的敌人出现时会做好再次攻击的准备。
++ 记忆细胞（記憶細胞きおくさいぼう）：
+  提供记忆抗原进行免疫的淋巴球，为同样的细菌和病毒再次入侵做准备。
++ B细胞（抗体产生细胞）（B細胞ビーさいぼう（抗体産生細胞））：
+  针对细菌或病毒等抗原，生产名为抗体的武器作战，是淋巴细胞的一种。
++ 树突状细胞（樹状細胞じゅじょうさいぼう）：
+  具有将入侵体内的细菌及受病毒感染的细胞片段当作抗原递呈，向其他免疫细胞传达的作用。
++ NK细胞（NKナチュラルキラー細胞さいぼう）：
+  巡逻全身，一旦发现癌细胞及被病毒感染的细胞等就会进行攻击。
++ 嗜酸性粒细胞（好酸球こうさんきゅう）：
+  在过敏或感染寄生虫时增殖；与其他白血球一样拥有吞噬能力，不过吞噬能力较弱。
++ 嗜碱性粒细胞（好塩基球こうえんききゅう）：
+  白血球的一种，占白血球总数的不到1%；遇到特定的抗原时会释放组织胺等物质，引起过敏反应；生产将中性粒细胞和嗜酸性粒细胞引到问题部位的物质。
++ Mast细胞/肥大细胞（肥満細胞ひまんさいぼう（マスト細胞））：
+  在大量产生的IgE刺激下发生反应，分泌组织胺及白三烯等化学物质。
++ 单核细胞：
+  占白细胞总数约7%的单核游走细胞。和其他免疫细胞一样，参与身体防御。
++ 癌细胞（がん細胞）：
+  由正常细胞转化而成，在适宜的环境下能够无节制地增殖下去，进而侵犯身体的其他组织与器官，引发多种重大疾病；
+  - 增殖：癌细胞不受细胞增殖次数限制影响，可无限制地自我增殖；
+  - 浸润：癌细胞具有入侵周遭正常细胞的边界的特性；
+  - 转移：癌细胞通过血管或淋巴管转移到体内各处，扩大活动范围。
++ 没有人生来就是强者。——树突状细胞
++ 不管有什么样的苦衷，都不能放弃职责，这就是我们的宿命。——白血球U-1146
++ 工作不仅仅要靠知识，还需要经验和一颗热诚的心。——红血球NT4201
+
+![小红细胞](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/小红细胞.png)
+
+![心脏](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/心脏.png)
+
+![红细胞](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/红细胞.png)
+
+## 我的三体
+
+[中]神游八方
+
+**Ⅰ我的三体 Ⅱ我的三体之罗辑传 Ⅲ我的三体之章北海传**
+
++ 两个公理：
+  第一，生存是文明的第一需要；第二，文明不断增长和扩张，但宇宙中的物质总量保持不变。
+  First, survival is the first necessity of civilization. 
+  Second, as civilization constantly grows and expands, total matter quantity in the universe remains uncharged.
++ 两个名词：
+  猜疑链，技术爆炸。 
+  suspicion chain and technical explosion
+
+叶文洁，汪淼，史强，罗辑♡庄颜
+
+[三体组织 ETO=Earth Trisolaris Organization]：降临派（审判日号），拯救派，幸运派
+
+[三体星球]：恒纪元，乱纪元；杀死科学=>染色、神迹、智子工程（锁死基础科学）
+
+[地球]：面壁计划 Wallface Project - 面壁者 Wallfacers => 雪地计划 Snowfield Project
+VS     破壁计划 Wallbreak Project - 破壁者 Wallbreakers
+弗雷德里克·泰勒（Fredrick Taylor）VS 冯·诺依曼（Von Neumann）
+曼努尔·雷迪亚兹（Manuel Ray diaz） VS 墨子（Mozi）
+比尔·希恩斯（Bill Haynes） VS 亚里士多德（Aristotle）
+罗辑 VS 自己
+
++ 虫子从来就没有被真正战胜过。——史强
+  The bugs have never been truly defeated.
++ 善良的人才懂得欣赏美。——庄颜
+  Only good people know beauty.
++ 无言是最大的轻蔑。——罗辑
+  Your silence is the biggest scorn.
++ 语言只是沉默的标点符号。——章北海父亲
+  Words are just punctuations to our silence.
+
+## 一出好戏
+
+**The Island  [中]黄渤**
+
+马进，小兴，吴珊珊，王根基，张继强，史教授，……
+
++ 饥寒风骨不弃，贫贱气节不移。——史教授
+  Hunger doesn’t make you weak. Poverty doesn’t make you bow.
+
+> + 吴珊珊：我原本已经不相信爱情了，但是我非常感谢这一次的灾难，让我看到了一个男人的责任与担当；让我重新去信任，并且爱上了一个人；让我可以像个小女孩一样，期盼有个英雄，走进我的生活。我决定，努力去争取他
+>  I used to give up on love. But I thank this disaster. It shows me how responsible a man can be. I found back how to trust, and to love, like a little girl, a girl who dreams for a hero to take my hand. I decide, to go for him.
+
+![一出好戏](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/一出好戏.jpg)
+
+## 爆笑虫子
+
+**Larva  [韩]Joo-Gong Meang**
+
+生活枯燥，需要爆笑
+
+Yellow，Red，Pink，Violet，Brown（屎壳郎），Black（独角仙），
+Navy（深海鱼），Green，Blue（苍蝇），Rainbow（蜗牛）
+
+![爆笑虫子](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/爆笑虫子.jpg)
+
+## 大鱼海棠
+
+**Big Fish & Begonia  [中]梁旋、张春**
+
+[如升楼、通天阁、南冥天池]
+灵婆：掌管好人死后变成的鱼。鼠婆：掌管坏人死后变成的老鼠。
+
+椿，湫，鲲
+
++ 死是永生之门。
++ 只要你的心是善良的，对错都是别人的事情。——椿爷爷
++ 我天不怕地不怕，可唯独害怕你受苦。
++ 如果不快乐，活再久又有什么用呢。
++ 我会化作人间的风雨陪在你身边。——湫
++ 真正的忘记是不用努力的。
+
+> + 灵婆：用你身上最美的东西和我交换。眼睛，或者寿命。
+
+![大鱼海棠的椿](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/大鱼海棠的椿.png)
+
+![大鱼海棠的湫](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/大鱼海棠的湫.png)
+
+## 大护法
+
+**DAHUFA  [中]不思凡**
+
+大护法<乌钢杖>，太子[弈卫国]，欧阳吉安，欧阳鸣，庖卯，彩，罗丹
+[花生国] 花生人（蚁猴子）：隐婆，小姜
+
++ 生命这么短暂，你们却不珍惜。
++ 行色秋将晚，交情老更深。——大护法
++ 能成对手的，一定是知己。——彩
+
+## 机器人总动员
+
+**WALL·E  [美]安德鲁·斯坦顿**
+
+瓦力 Wall.E♡伊娃 Eve， 自动驾驶 Auto， 微生物清洁工 M-O
+
++ 我不想“生存”，我想“生活”！——“真理号”船长
+  I don’t want to survive. I want to live!—— Axiom Captain
+
+![机器人总动员的瓦力](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/机器人总动员的瓦力.jpg)
+
+![机器人总动员的Auto](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/机器人总动员的Auto.jpg)
+
+## 我的英雄学院
+
+**僕のヒーローアカデミア My Hero Academia  [日]堀越耕平**
+
+架空-现实，挫折-真实。个性=超常能力
+雄英高中：校训：Plus Ultra!（不懈进取，永无止境）
+英雄科A B、普通科C D E、支援科F G H、经营科I J K。
+始终力争登顶的人VS甘于人后的人。
+
++ [雄英高中 英雄科 1-A班]
+
+| 学号 | 中文名                   | 日语原名          | 个性                                 |
+| ---- | ------------------------ | ----------------- | ------------------------------------ |
+| 01   | 青山优雅                 | あおやま ゆが     | 内维尔镭射 ネビルレーザー            |
+| 02   | 芦户三奈                 | あしど みな       | 酸液                                 |
+| 03   | 蛙吹梅雨  Froppy绿动精灵 | あすい つゆ       | 蛙                                   |
+| 04   | 饭田天哉                 | いいだ てんや     | 引擎 エンジン：爆裂冲刺              |
+| 05   | 丽日御茶子  Uravity轻灵  | うららか おちゃこ | 无重力                               |
+| 06   | 尾白猿夫                 | おじろ ましらお   | 尾巴                                 |
+| 07   | 上鸣电气                 | かみなり でんき   | 带电                                 |
+| 08   | 切岛锐儿郎               | きりしま えいじろ | 硬化                                 |
+| 09   | 口田甲司                 | こだ こじ         | 生物音                               |
+| 10   | 砂藤力道                 | さと りきど       | 砂糖兴奋剂                           |
+| 11   | 障子目藏                 | しょうじ めぞう   | 复制腕                               |
+| 12   | 耳郎响香                 | じろう きょうか   | 耳机插孔 イヤホンジャック            |
+| 13   | 濑吕范太                 | せろ はんた       | 胶带                                 |
+| 14   | 常暗踏阴                 | とこやみ ふみかげ | 黑影 ダークシャドウ                  |
+| 15   | 轰焦冻                   | とどろき しょうと | 半冷半燃                             |
+| 16   | 叶隐透                   | はがくれ とおる   | 透明化                               |
+| 17   | 爆豪胜己                 | ばくごう かつき   | 爆破                                 |
+| 18   | 绿谷出久  でく木偶       | みどりや いずく   | One For•All:  DELAWARE DETROTT SMASH |
+| 19   | 峰田实                   | みねた みのる     | 超粘性葡萄 もぎもぎ                  |
+| 20   | 八百万百                 | やおよろず もも   | 创造                                 |
+
++ [雄英高中 英雄科 1-B班]
+物间宁人（ものま ねいと）<复制>
+拳藤一佳（けんどう いつか）<大拳>
+铁哲彻铁（てつてつ てつてつ）<钢铁 スティール>
+塩yán崎茨（しおざき いばら）<荆棘 ツル> ……
+
++ [雄英高中 普通科 1-C班]
+心操人使（しんそ ひとし）<洗脑> ……
+
++ [雄英高中 支援科 1-H班]
+发目明（はつめ めい）<准心> ……
+
++ [雄英“三巨头” BIG3]：
+通形未吏生/通行百万（とあがた ミリオ）<穿透>
+天喰cān环（おまじき たまき）<再现>
+波动螺卷（はとう ねじれ）<波动>
+
++ [英雄公告牌日本榜单-原排名]：
+
+| 排名  | 称号       | 英雄名                  | 本名     | 个性        |
+| ----- | ---------- | ----------------------- | -------- | ----------- |
+| NO.1  | 和平的象征 | 欧尔麦特/ All Might     | 八木俊典 | One For All |
+| NO.2  | 烈焰英雄   | 安德瓦                  | 轰炎司   | 地狱烈焰    |
+| NO.3  | 羽翼英雄   | 霍克斯                  |          | 刚翼        |
+| NO.4  |            | 潮爆牛王                | 袴田维   | 纤维大师    |
+| NO.5  | 忍者英雄   | 纸锋射手                | 艾基修特 | 纸肢        |
+| NO.7  |            | 密林神威 シンリンカムイ | 西屋森儿 | 树木        |
+| NO.9  | 龙骑英雄   | 龙九                    |          | 龙          |
+| NO.10 |            | 黑帮虎鲸                |          | 虎鲸        |
+| NO.23 |            | 山岭女侠                | 岳山优   | 巨大化      |
+| NO.32 | 英雄组合   | 曼德勒猫”               | 送崎信乃 | 心灵感应    |
+|       |            | 北美短毛猫              | 土川流子 | 土流        |
+|       |            | 布偶猫                  | 知床知子 | 搜索        |
+|       |            | 虎                      | 茶虎柔   | 软体        |
+
+Texas Smash 德克萨斯粉碎，
+Detroit Smash 底特律粉碎，
+Missouri Smash 密苏里粉碎，
+Carolina Smash 卡罗来纳粉碎，
+New Hampshire Smash 新罕布什尔粉碎，
+Oklahoma Smash 俄克拉荷马粉碎，
+United states of Smash 合众粉碎
+
+格兰特里诺（グラントリノ）<喷射 ジェット>
+
++ [雄英高中 英雄教师]
+相泽消太（あいざわ しょうた）<抹消> 英雄名：“Eraser Head”
+布雷森特·麦克（プレゼント・マイク）<超级噪音> 本名：山田阳射
+恢复女郎（リカバリーガールー）<治愈>
+13号（13 ごう）<黑洞 ブラックホホール>
+根津校长（ねブ）<高性能头脑 ハイスペック>
+午夜（）<睡眠香>
+水泥司（）<水泥>
+神射手（ホーミング）<自动追踪>
+空灵鬼魂 Ectoplasm<分身 ぶんしん>
+布拉德·金（）<操血>
+
++ [士杰高中 英雄科]
+夜岚稻佐（）<旋风>
+现见凯米（）<幻惑>
+肉仓精儿（）<精肉>
+毛原长昌（）<伸毛>
+
++ [敌联盟]
+
+| 中文名        | 日文名          | 本名       | 个性            |
+| ------------- | --------------- | ---------- | --------------- |
+| ALL FOR ONE   |                 |            | ALL FOR ONE     |
+| 死柄木弔diào  | しがらき とむら | 志村转弘   | 崩坏            |
+| 黑雾          | くろぎり        |            | 传送门          |
+| 荼毘          | だび            |            | 冥火            |
+|               | とが ひみこ     | 渡我被身子 | 变身 へん しん  |
+| 图怀斯/TWICE  | トゥワイス      | 分倍河原仁 | 2倍             |
+| 爆肌          |                 | 马斯库拉   | 肌肉增幅        |
+| Mr.压缩       |                 | 迫压广     | 压缩            |
+| 编织者 斯宾纳 |                 | 伊口秀一   | 编织            |
+| 翻车鱼/狂血者 |                 |            | 齿刃            |
+| 芥气          |                 |            | 毒气            |
+| 脑无          |                 |            | 超再生/冲击吸收 |
+|               |                 | 治崎廻huí  | 翻修 Overhaul   |
+
+“英雄杀手”斯坦因<凝血 ざょう けつ：定身时间递增 O<A<AB<B> 本名：赤黑血染
+
++ 专家时时刻刻都要奋不顾身。
++ 英雄原本应该以服务活动为主。
++ 因为运气好而获得的东西，和被人承认后转让给你的东西，这两者从一开始就有着本质区别。
++ 成为英雄的大前提，在于自我牺牲的精神啊。
++ 所谓英雄，乃是无论何时都能将绝境逐渐打碎的人。
++ 所谓英雄，就是打破危机之人。
++ 在感到恐惧与不安的时候，才更要用笑容去面对。
++ （越是害怕、越是不安的时候，就越要用微笑去面对。）
++ 喜欢多管闲事的这一点，也是英雄的本质之一。
++ 英雄是有很多要守护的东西，所以，才不能输。
++ 光告诉答案算不上是教育。对错并不重要，重要的是自己思考、得出的答案。——欧尔麦特
++ 拿破仑·波拿马：真正的英雄，是能够跨越人生不幸的强者。冲向更遥远的彼方！——普雷森特·麦克
++ 人……生来就不是平等的。
++ 英雄就是赌上姓名，去漂亮事的职业。——绿谷出久
++ 你们的力量不是伤害别人而存在的。而是为了拯救别人才存在的。——13号
++ 只要能变得更强，供自己选择的可能性也就越多；要是只关注自己想做的方面，就会增长不了见识。——丽日御茶子
++ 所谓英雄，就是必须给求救的人们带去安心的人。——潮爆牛王
++ 人类会在面临死亡时显露出自己的本质。——斯坦因
++ 战斗讲究的就是如何将自己的强项发挥到极致。——水泥司
++ 所谓墙壁，就是为了跨越而存在的。不懈进取，永无止境！——峰田实
++ 无论做什么都不要忘了自己的原点。——相泽消太
++ 救人这种行为总是会有风险，因此才会被称为英雄。——障子目藏
++ 守护这种行为，产生代价的那一刻起，英雄就不再是英雄了。——斯宾纳
++ 一个人需要救助时，他肯定心里很害怕；不光是救人性命，连心也一起救助，这样才算是真正的英雄。
+  无论内心有多害怕，都要笑着说“我没事”；这世上，笑着的人才是最强的。——志村菜奈
++ 爱因斯坦：常识就是18岁前形成的偏见。——动力装载
++ 英雄即一腔热血，怀着热忱的心为人们带来希望和感动。——夜岚稻佐
++ 少年眼中亮起的光，是英雄的不熄之火。
+
+> + 绿谷出久：（在思考之前，身体就率先行动起来了。）
+
+![我的英雄学院](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/我的英雄学院.png)
+
+## 谁的青春不迷茫
+
+**Yesterday Once More  [中]姚婷婷**
+
+林天娇；姐=弟：林子傲，高翔，陆田甜，欧小洋，黄韬，李涛
+
++ 成功的秘诀，就是不要把时间浪费在无聊的琐事上。
+  The secret to success it not to waste your time on pointless distractions.
++ 要真正的面对自我才能自由。
+  True freedom comes from facing yourself.
++ 宇宙那么大，地球这么小，我们总会遇见的。——林天娇
+  Even though the universe is huge, and our world is pretty small. 
+  We’ll see each other again. -- Lin Tianjiao
++ 越是沉重，越要飞翔。
+  The heavier you burden, the sooner you have to put it down.
++ 每个人要走的路都不一样，没有人在意你的俯视。——高翔
+  Everybody takes a different path in life, and nobody cares about your spite. -- Gao Xiang
++ 林天娇：有的时候一个人说真话，是因为他谁都不在乎。
+  Lin: Sometimes people only speak the truth because they don’t care about other people.
++ 高翔：有的时候一个人说假话，只是想获得别人的认同。
+  Gao: And sometimes people lie because they want other people’s approval.
+
+![谁的青春不迷茫](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/谁的青春不迷茫.png)
+
+## 陈翔六点半
+
+[中]陈翔
+
+**短视频**
+
++ 成功的时候，我陪你风生水起；落魄的时候，我陪你东山再起；我会一直陪在你身边，不离不弃。
++ 一个英雄救了我，我会感激他；可你因为选择救我而成为了英雄，所以我爱上了你。——冷檬
++ 聚是一团火，散是满天星。
++ 人什么都能丢，就是不能都上进心。——润土
++ 只要你一直跑一直跑，总能追上我的。
++ 间歇性励志，报复性堕落。——米线儿
++ 唯有贫穷，才能不劳而获。——妹爷
++ 不思进取进取就会落后，落后就要挨打。——毛台
++ 托尔斯泰：我们平等的相爱，因为我们互相了解，互相尊重。
++ 再度相逢，不念过往，眼前人才是余生。
++ 纵有疾风起，人生不言弃。
++ 那些轻松赢到的东西，都已在暗中标好了代价。远离赌博，珍爱生活。
++ 一梦天堂，一念地狱。
++ 离别不说再见，青春永不散场。
++ 没有人，能真正让时光停止。对所爱的一切，不谈永恒，只谈珍惜。
++ 最纯粹的勇敢，并非从不流泪，而是含着眼泪努力奔跑。
++ 失望是一点点累积的，TA的离开，是个很长的决定，只是真正离开的那次，关门声最小。
++ 有时，面子最难让人放下……却最没用。
++ 骗人者，人反骗之；欺人者，人恒欺之。
++ 别让一次欲言又止，带来一生遗憾……
++ 生命同等重要，请不要让别人为你的任性买单。
++ 生活不易，对自己好点。
+
+**电影：**
+
+### 陈翔六点半之铁头无敌
+
+邵氏武馆：惩恶扬善 匡扶正义 VS 奇迹要债公司
+
+“小正大”价值观：小人物、正能量、大情怀。
+
++ 做人，无论如何，也要有自己的底线。
++ 有些人，忙于生活；有些人，甘于平凡；有些人，还在寻找方向；
+  有些人，还没准备好，就长大了；有些人，还没活明白，就老了。——老废
++ 功夫，不是用来打架的。——扫地陈
+
+### 陈翔六点半之重楼别
+
++ 没有梦想的人，是没有尊严的。——邓浩
++ 可以不喜欢，但必须尊重。
++ 生活没有定好的剧本，有时会因为爱，放弃一些坚持；也是因为爱，才有了开始的勇气。——段晓蓝
+
+### 陈翔六点半之民间高手
+
++ 年轻的时候，以为人生很长，其实人生很短。最棒的是不后悔，最难的是不遗憾。
++ 人生就像打球一样，输了就再来一局。——杨国强
++ 想不负此生，首先就得不负身边人。——杨双喜
++ 人生无感，只要你愿意为爱而战。
+
+## 昨日青空
+
+**Crystal Sky Of Yesterday  [中]口袋巧克力**
+
+[兰汐 1999年]
+屠小意，姚哲恬，齐景轩，花生
+
++ 成年后的我们，总能演好别人，唯独丢了自己。
++ 年少的我们，以为只要说过了永远，就一定能够永远；
+  就像我们以为说过了再见，就一定能够再见。——屠小意
+
+## 头号玩家
+
+**Ready Player One  [美]史蒂文·斯皮尔伯格**
+
+Artifacts 装备，Easter egg 彩蛋，波动拳 Hadouken。[绿洲 the OASIS]
+
+帕西法尔/韦德•沃兹（Parvizal/Wade Watts）♡阿尔忒密斯/萨曼莎（Art3mis/Samantha），
+艾奇/海伦（Aech/Helen），大东/敏郎（Daito/Toshiro），修/周（Sho/Xo），
+阿诺克/詹姆斯·哈利迪（Anorak/James Halliday），
+馆长/奥格登·莫罗（Curator/Ogden Morron），
+诺兰·索伦托（Nolan Sorreno），艾洛克（I-ROk）
+
++ 想象力有多狂野，世界就有多大。
+  The limits of reality are your own imagination.
++ 重点不是赢，而是在于探索游戏的乐趣。——帕西法尔
+  It’s not about winning. It’s about playing. -- Parvizal
++ 只要还有朋友在，人生就算不上失败。——艾洛克
+  No man is a failure who has friends. -- I-ROk
++ 现实世界，才是真实的。——詹姆斯·哈利迪
+  Reality is real. -- James Halliday
+
+![头号玩家](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/头号玩家.jpg)
+
+## 水形物语
+
+**The Shape of Water  [美]吉尔莫·德尔·托罗**
+
+pee 小便，poo 大便，blood 血，dummy 装聋作哑，Betty 贝蒂
+
+艾丽莎·埃斯波西托 Elisa Esposito♡人鱼，泽尔达 Zelda Fuller，吉尔斯 Giles，
+罗伯特·霍夫斯泰特博士 Dr. Robert Hoffstetler，
+霍尔特将军 General Hoyt，理查德·思特里克兰德 Richard Strickland
+
++ 如果我们袖手旁观，也枉称为人。——艾丽莎
+  If we do nothing, neither are we. -- Elisa
++ 一个优秀的男人不会把事情搞砸。——霍尔特将军
+  A man has the decency not to fuck up. -- General Hoyt
++ 时间之河，不过是从前往后。Time is but a river flowing from our past.
++ 生活就是一场意外沉船。Life is but the shipwreck of our plans.
++ 人生有幸与你为友。Glad to have you as a friend.
++ 描绘不出你的形状，我只觉得你环绕着我。
+  你的存在用爱意填满了我的眼睛。
+  你无处不在，击溃了我的心。
+  Uable to perceive the shape of you. I find you all around me. 
+  Your presence fills my eyes with your love. 
+  It humbles my heart. For you are everywhere.
++ 爱的前提，是理解、是信任，是懂得。不被善待的人往往最能识别善良。
+
+![水形物语](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/水形物语.png)

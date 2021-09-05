@@ -1,0 +1,14 @@
+## original settings
+.DS_Store
+Thumbs.db
+db.json
+*.log
+.deploy*/
+node_modules/
+public/
+
+## ignore other repositories
+.git/
+cdn/
+images/
+
