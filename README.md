@@ -2,10 +2,10 @@
 
 It's my personal website.
 
-| Platform | Repository URL                                | Website                   |
-| -------- | --------------------------------------------- | ------------------------- |
-| Github   | htthttps://github.com/sstian/sstian.github.io | https://sstian.github.io/ |
-| Gitee    | https://gitee.com/sstian/sstian               | https://sstian.gitee.io/  |
+| Platform | Repository URL                             | Website                   |
+| -------- | ------------------------------------------ | ------------------------- |
+| Github   | https://github.com/sstian/sstian.github.io | https://sstian.github.io/ |
+| Gitee    | https://gitee.com/sstian/sstian            | https://sstian.gitee.io/  |
 
 ## Layout
 
@@ -103,6 +103,38 @@ deploy:
 ```cmd
 hexo clean
 hexo g -d <=> hexo d -g <=> hexo generate –deploy <=> hexo deploy --generate
+```
+
+## 推送仓库
+
+### 一系列操作
+
+```cmd
+git add --all
+git commit -m "xxx"
+git push
+```
+
+### 推送文件到多个仓库
+
+更改 `E:\rulebook\website\.git\config` 文件：
+加入`url = git@gitee.com:sstian/website.git` 
+
+```
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = git@github.com:sstian/website.git
+	url = git@gitee.com:sstian/website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
 ```
 
 ## Reference
