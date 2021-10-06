@@ -7,8 +7,6 @@ db.json
 node_modules/
 public/
 
-## ignore other repositories
+## ignore others
 .git/
-cdn/
-images/
-
+blogimg_original/

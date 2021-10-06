@@ -14,16 +14,34 @@ https://sstian/gitee.io
 + max title number is 20, in every article post with markdown
 + max tag number is 3, in every article, in order to good reading experience
 
-## Format
+## Post Article
 
-Article
+Markdown style:
+```markdown
+## 影视名
+
+**原版名/外文名**
+
+[国籍] 作者……
+
+人物：
++ 名言警句。
+
+> 其它内容
 ```
-## <titile>
 
-**<foreign name>**
+e.g.
+```markdown
+## 你好世界
 
-[<nation>] <director>
+**HELLO WORLD，ハロー・ワールド**
 
+[日] 伊藤智彦
+
+一行琉璃：
++ 被人阅读，才是书的夙愿吧。
+
+> 一行琉璃，二度救赎，三千世界，四亭八当。
 ```
 
 ## 配置环境
@@ -74,8 +92,10 @@ tags:
 ```yaml
 deploy:
   type: git
-  repo: git@github.com:sstian/sstian.github.io.git
-  branch: main
+  repo: 
+    - git@github.com:sstian/sstian.github.io.git
+    - git@gitee.com:sstian/sstian.git
+  branch: master
 ```
 
 ### 部署

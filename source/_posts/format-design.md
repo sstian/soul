@@ -2,7 +2,8 @@
 title: 格式设计
 categories: Collection
 tags:
-  - Format Design
+  - Format
+  - Standard
 abbrlink: 952b
 date: 2020-12-30 12:30:00
 ---
@@ -21,7 +22,7 @@ date: 2020-12-30 12:30:00
 
 ### 表格
 
-参考正文
+参考[正文](#正文)
 
 ### 流程图
 
@@ -58,7 +59,7 @@ Visio绘制
 + app.icon: 24 x 24 p, 32位深
 + main.bmp: 26 x 26, 32位深，带透明度信息
 
-### MFC CSocket事件
+### MFC CSocket 事件
 
 AsyncSelect(FD_READ);
 
