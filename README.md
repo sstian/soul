@@ -2,17 +2,15 @@
 
 It's my personal website.
 
-Github url: https://github.com/sstian
-Gitee  url: https://github.com/sstian
-
-Website: 
-https://sstian/github.io
-https://sstian/gitee.io
+| Platform | Repository URL                                | Website                   |
+| -------- | --------------------------------------------- | ------------------------- |
+| Github   | htthttps://github.com/sstian/sstian.github.io | https://sstian.github.io/ |
+| Gitee    | https://gitee.com/sstian/sstian               | https://sstian.gitee.io/  |
 
 ## Layout
 
-+ max title number is 20, in every article post with markdown
-+ max tag number is 3, in every article, in order to good reading experience
++ max title number is **20**, in every article post with markdown
++ max tag number is **3**, in every article, in order to good reading experience
 
 ## Post Article
 
