@@ -93,6 +93,8 @@ BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
 
 MDN Web Docs  https://developer.mozilla.org/zh-CN/
 
+Cheat Sheet : All Cheat Sheets in one page  http://www.cheat-sheets.org/
+
 ### 开发
 
 Qt Downloads  http://download.qt.io/

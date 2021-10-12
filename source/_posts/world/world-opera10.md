@@ -9,7 +9,7 @@ date: 2020-10-20 13:14:00
 
 ## 你好世界
 
-**HELLO WORLD (ハロー・ワールド)**
+**HELLO WORLD 、ハロー・ワールド**
 
 [日] 伊藤智彦
 
@@ -263,10 +263,11 @@ Wade Mcclusky:
 
 格兰特：穿越了异世界的人。
 
-**深澄真/葛叶真**：界 -> 探索，强化
+**深澄真/葛叶真** <界 -> 探索，强化>：
+
 + 遇到死亡，是会悲伤的。
 
-巴：上位龙，蜃，1340级
+巴（上位龙，蜃，1340级）：
 + 战士需要的，是拥有我们足够仰仗的实力。
 
 澪：黑蜘蛛，1500级
@@ -279,4 +280,49 @@ Wade Mcclusky:
 陈爱芳，林言，雨瞳
 
 程诺：
-+ 所有的一切，终有定数，不是你的，终将逝去。——程诺
++ 所有的一切，终有定数，不是你的，终将逝去。
+
+## 全球风暴
+
+**Geostorm**
+
+[美] 迪安·德夫林
+
+Dutch Body 荷兰男孩（气象卫星网络 satellite net）
+
+麦克斯·劳森 Max Lawson：
++ 风雨无阻，使命必达。（邮政部门）
+  Neither rain nor snow nor gloom of neight. (Postal Service)
+
+汉娜·罗森 Hannah Lawson：
++ 你无法改变过去。同一个地球，同一群人类。我们同呼吸共命运，就能活下来。
+  You can undo the past. One planet, one people. We share one future... We will survive.
+
+## 失控玩家
+
+**FREE GUY**
+
+[美] 肖恩·利维
+
+米莉/燃烧弹女孩 Millie/Molotovgirl：
++ 荡秋千的时候，在荡起与回落的那一刻，当你享受那种失重感的时候，你会感觉你是自由的。
+  When I was on the little swing -- that split second between rising and failing, when you're totally weightless, it feels like you're free.
+
+盖 Guy：
++ 像坠入爱河，感觉是自由的。
+  In love. Free.
+
+巴迪 Buddy：
++ 即使我不是真实存在的，起码这一刻我是真实的。就在这里就在此刻，这一刻是真实的。
+  Even if I'm not real, this moment is. Right here, right now, this moment is real.
+
+## 我和我的祖国
+
+**My People，My Country**
+
+[中] 陈凯歌、张一白、管虎、徐峥、宁浩、文牧野(等)
+
+**《前夜》《相遇》《夺冠》《回归》《北京你好》《白昼流星》《护航》**
+
++ 无名永远不等于不被人知道。
+  Unamed doesn't mean being unknow.
