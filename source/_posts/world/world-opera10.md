@@ -326,3 +326,12 @@ Dutch Body 荷兰男孩（气象卫星网络 satellite net）
 
 + 无名永远不等于不被人知道。
   Unamed doesn't mean being unknow.
+
+## 飞越疯人院
+
+**One Flew Over the Cuckoo's Nest**
+
+[美] 米洛斯·福曼
+
+~~麦克·墨菲 McMurphy~~：
++ 走开，你在吸我的氧气。
