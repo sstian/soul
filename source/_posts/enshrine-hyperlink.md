@@ -7,13 +7,13 @@ abbrlink: 35c
 date: 2020-12-20 12:20:00
 ---
 
-## Enshrine Hyperlink
+# Enshrine Hyperlink
 
 类别
 
 名称  网址
 
-### 柔术
+## 柔术
 
 超柔安娜Anna McNulty https://mulpix.com/instagram/annaemcnulty.html
 
@@ -31,23 +31,23 @@ Sakaku Complex - Anime, manga and games, observed from Japan  https://www.sankak
 
 小苹果  http://cp7sa.top/
 
-### 程序员
+## 程序员
 
-Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/
+### C/C++
 
-程序员的自我修养 A Programmer Prepares-Leo Hui  https://leohxj.gitbooks.io/a-programmer-prepares/index.html
+C语言中文网：C语言程序设计门户网站（入门教程、编程软件）  http://c.biancheng.net/
 
 The C++ Resources Network  http://www.cplusplus.com/
 
 C++ reference  http://en.cppreference.com/w/
 
-Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://www.zedwood.com/
+值得推荐的C/C++框架和库|EZLippi-浮生志  https://www.ezlippi.com/blog/2014/12/c-open-project.html
 
-C语言中文网：C语言程序设计门户网站（入门教程、编程软件）  http://c.biancheng.net/
+fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
-伯乐在线  http://www.jobbole.com/
+网易云课堂-鑫路历程 VS2015 C语言|C++语法与数据结构|MFC|Linux  https://study.163.com/course/introduction.htm?courseId=1392001
 
-鳥哥的 Linux 私房菜  http://linux.vbird.org/
+### Graphics
 
 OpenGL-The Industry Standard for High Performance Graphics  https://www.opengl.org/
 
@@ -55,11 +55,7 @@ OpenCV library  http://opencv.org/
 
 OpenCV中文网站  http://www.opencv.org.cn/
 
-值得推荐的C/C++框架和库|EZLippi-浮生志  https://www.ezlippi.com/blog/2014/12/c-open-project.html
-
-fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
-
-网易云课堂-鑫路历程 VS2015 C语言|C++语法与数据结构|MFC|Linux  https://study.163.com/course/introduction.htm?courseId=1392001
+### Website
 
 博客园-开发者的网上家园  https://www.cnblogs.com/
 
@@ -69,33 +65,57 @@ fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
 酷勤网-在线教程-Qt参考文档  http://www.kuqin.com/qtdocument/index.html
 
-Cocos Creator开源游戏、插件、教程、视频汇总 - Cocos中文社区  http://forum.cocos.com/t/creator/44782
-
 廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git  https://www.liaoxuefeng.com/
 
-CS-Notes  https://cyc2018.github.io/CS-Notes/#/
-
-Learn Git Branching  https://learngitbranching.js.org/
-
-Michael Kerrisk - man7.org  http://man7.org/
-
-Linux 命令搜索引擎  https://wangchujiang.com/linux-command/
-
-谷粒-Chrome插件英雄榜  https://zhaoolee.com/ChromeAppHeroes/
-
-算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
-
-labuladong独家算法教程  https://labuladong.gitbook.io/algo/
-
-turnoff.us - geek comic site  http://turnoff.us/
+### Front End
 
 BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
 
 MDN Web Docs  https://developer.mozilla.org/zh-CN/
 
+CodePen: Online Code Editor and  Web Developer Community  https://codepen.io/
+
+### Algorithm
+
+算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
+
+labuladong独家算法教程  https://labuladong.gitbook.io/algo/
+
+### Tutorials
+
+Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://www.zedwood.com/
+
+伯乐在线  http://www.jobbole.com/
+
+CS-Notes  https://cyc2018.github.io/CS-Notes/#/
+
+学习Java语言的在线教程 - CodeGym  https://codegym.cc/zh/
+
+### Linux
+
+鳥哥的 Linux 私房菜  http://linux.vbird.org/
+
+Linux 命令搜索引擎  https://wangchujiang.com/linux-command/
+
+Michael Kerrisk - man7.org  http://man7.org/
+
+### Other
+
+Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/
+
+程序员的自我修养 A Programmer Prepares-Leo Hui  https://leohxj.gitbooks.io/a-programmer-prepares/index.html
+
+Cocos Creator开源游戏、插件、教程、视频汇总 - Cocos中文社区  http://forum.cocos.com/t/creator/44782
+
+Learn Git Branhing  https://learngitbranching.js.org/
+
+谷粒-Chrome插件英雄榜  https://zhaoolee.com/ChromeAppHeroes/
+
+turnoff.us - geek comic site  http://turnoff.us/
+
 Cheat Sheet : All Cheat Sheets in one page  http://www.cheat-sheets.org/
 
-### 开发
+## 开发
 
 Qt Downloads  http://download.qt.io/
 
@@ -103,7 +123,7 @@ EasyX Library for C++  http://www.easyx.cn/
 
 Spring Framework  https://repo.spring.io/release/org/springframework/spring/
 
-### 素材
+## 素材
 
 堆糖图片  https://www.duitang.com/
 
@@ -143,7 +163,7 @@ Font Awesome  https://fontawesome.com/
 
 黄蜂网 - 可商用设计素材  https://woofeng.cn/
 
-### 壁纸
+## 壁纸
 
 MOTA桌面壁纸  http://www.motaen.com/
 
@@ -155,7 +175,7 @@ WallpaperMaiden - High Quality Wallpapers  http://www.wallpapermaiden.com/
 
 Alpha Coders - Your Source For Wallpapers, Art, Photography, Gifs and More!  https://alphacoders.com/
 
-### 音乐
+## 音乐
 
 无损音乐下载  http://www.51ape.com/
 
@@ -163,11 +183,11 @@ Alpha Coders - Your Source For Wallpapers, Art, Photography, Gifs and More!  htt
 
 超高无损音乐  https://www.sq688.com/
 
-### 影视
+## 影视
 
 在线之家 - 在线观看最新美剧|最新韩剧|天天美剧|人人美剧  https://www.zxzjs.com/
 
-### 游戏
+## 游戏
 
 TapTap全球手游  https://www.taptap.com/
 
@@ -179,7 +199,7 @@ TapTap全球手游  https://www.taptap.com/
 
 小霸王  https://www.yikm.net/
 
-### 助手
+## 助手
 
 文字云TAGUL - WORD CLOUD ART  https://tagul.com/
 
@@ -219,7 +239,7 @@ VisuAlgo - 数据结构和算法动态可视化  https://visualgo.net/zh
 
 IP.cn - IP 地址查询 | 地理位置 | 手机归属地  | DNS查询  https://ip.cn/
 
-### 工具
+## 工具
 
 U启动  http://www.uqidong.com/
 
@@ -229,7 +249,7 @@ GeoGebra | 免费的数学应用软件 (图形计算器/3D计算器/几何/增�
 
 唧唧-哔哩哔哩唧唧-bilibili视频|弹幕在线下载  http://www.jijidown.com/
 
-### 应用
+## 应用
 
 COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
 
@@ -243,7 +263,7 @@ SourceForge - Download, Develop and Publish Free Open Source Software  https://s
 
 PotPlayer  https://daumpotplayer.com/
 
-### 二次元
+## 二次元
 
 超能部-二次元社团原创联盟  http://www.chaonengbu.com/
 
@@ -259,7 +279,7 @@ AGE动漫 - 在线动画 动漫下载  https://donghua.agefans.com/
 
 绝对领域 - 绅士从这里开始-J站  https://www.jdlingyu.mobi/
 
-### 游戏王
+## 游戏王
 
 YGO-Engine 游戏王进阶平台  http://www.ygo-sem.cn/index.html
 
@@ -271,7 +291,7 @@ OurOcg 共享精彩决斗生活  http://www.ourocg.cn/
 
 炼沙的网易相册-游戏王卡牌  http://photo.163.com/sniahc/timeline/
 
-### 学术
+## 学术
 
 中国知网  http://www.cnki.net/
 
@@ -279,16 +299,16 @@ OurOcg 共享精彩决斗生活  http://www.ourocg.cn/
 
 百度学术-论文助手-论文查重  http://xueshu.baidu.com/u/biye/?tag=check&upload=1&site=index_links
 
-### 恋爱
+## 恋爱
 
 小鲸恋爱班-教你如何谈恋爱  http://www.whaleclass.com/
 
-### 破解
+## 破解
 
 素材vip平台-千图|零图|90设计|千库 [账号&密码：425029502]  http://svip.sinqe.cn/
 
 艺卡云-VIP-爱奇艺|腾讯|优酷|乐视  http://www.aiqiyi.pw/
 
-### 娱乐
+## 娱乐
 
 GeekPrank Hacker Typer - Online Hakcer Simulator  https://geekprank.com/hacker/
