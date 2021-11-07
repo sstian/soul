@@ -6,7 +6,7 @@ cover: true
 top: true
 summary: 伟大的领导始于塑造性格
 toc: false
-categories: Mindset
+categories: Reading
 tags:
   - Highly Effective
   - Habits

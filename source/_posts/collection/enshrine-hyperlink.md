@@ -2,7 +2,8 @@
 title: Enshrine Hyperlink
 categories: Collection
 tags:
-  - Enshrine Hyperlink
+  - Enshrine
+  - Hyperlink
 abbrlink: 35c
 date: 2020-12-20 12:20:00
 ---
@@ -114,6 +115,10 @@ Learn Git Branhing  https://learngitbranching.js.org/
 turnoff.us - geek comic site  http://turnoff.us/
 
 Cheat Sheet : All Cheat Sheets in one page  http://www.cheat-sheets.org/
+
+Swagger | API Documentation & Design Tools for Teams  https://swagger.io/
+
+  - Swagger Editor  https://editor.swagger.io/
 
 ## 开发
 
