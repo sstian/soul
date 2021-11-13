@@ -112,13 +112,13 @@ D = Durability 持久性：数据的修改是永久的。
 
 > MSIL=Microsoft Intermediate Language 微软中间语言
 
-| 执行方式          | 编程语言                                      | 特点               |
-| ----------------- | --------------------------------------------- | ------------------ |
-| 编译执行          | Ada, C, C++, Rust, Go                         | 执行快；难以跨平台 |
-| 字节码：编译+解释 | Java                                          |                    |
-|                   | Clojure, Scala, Jython, JRuby, Groovy, Kotlin | 编译成Java字节码   |
-|                   | Ruby, PHP, Perl, Python                       | 创建自己的字节码   |
-|                   | C#, VB.NET                                    | MSIL               |
+| 执行方式             | 编程语言                                      | 特点               |
+| -------------------- | --------------------------------------------- | ------------------ |
+| 1. 编译执行          | Ada, C, C++, Rust, Go                         | 执行快；难以跨平台 |
+| 2. 字节码：编译+解释 | Java                                          |                    |
+|                      | Clojure, Scala, Jython, JRuby, Groovy, Kotlin | 编译成Java字节码   |
+|                      | Ruby, PHP, Perl, Python                       | 创建自己的字节码   |
+|                      | C#, VB.NET                                    | MSIL               |
 
 #### 面向对象圣经
 
