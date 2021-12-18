@@ -68,6 +68,10 @@ OpenCV中文网站  http://www.opencv.org.cn/
 
 廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git  https://www.liaoxuefeng.com/
 
+菜鸟教程 - 学的不仅是技术，更是梦想！  https://www.runoob.com/
+
+网道 - 互联网开发文档  https://www.wangdoc.com/
+
 ### Front End
 
 BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
@@ -121,6 +125,8 @@ Swagger | API Documentation & Design Tools for Teams  https://swagger.io/
   - Swagger Editor  https://editor.swagger.io/
 
 draw.io/diagrams.net  https://app.diagrams.net/
+
+Programming Idioms  https://www.programming-idioms.org/
 
 ## 开发
 
@@ -255,6 +261,8 @@ PPSSPP吧导航  https://tieba.baidu.com/p/3652287279?red_tag=2448979608
 GeoGebra | 免费的数学应用软件 (图形计算器/3D计算器/几何/增强现实等)  https://www.geogebra.org/
 
 唧唧-哔哩哔哩唧唧-bilibili视频|弹幕在线下载  http://www.jijidown.com/
+
+KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 
 ## 应用
 

@@ -352,3 +352,16 @@ Dutch Body 荷兰男孩（气象卫星网络 satellite net）
 
 杜子野：
 + 十个项目九个凉，商业投资很正常。
+
+## 火锅英雄
+
+**Chongqing Hot Pot**
+
+[中] 杨庆
+
+许东：
++ 胆大骑龙骑虎，胆小骑老母鸡。
+
+于小慧：
++ 你不是一个失败者，你是我心中的英雄。
+  You are not a loser. You are my hero.
