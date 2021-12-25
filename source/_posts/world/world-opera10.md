@@ -365,3 +365,22 @@ Dutch Body 荷兰男孩（气象卫星网络 satellite net）
 于小慧：
 + 你不是一个失败者，你是我心中的英雄。
   You are not a loser. You are my hero.
+
+## 红海行动
+
+**OPERATION RED SEA**
+
+[中] 林超贤
+
++ 勇者无惧，强者无敌。CONQUER FEAR, CONQUER ALL.
+
+政委：
++ “直解沙场为国死，何须马革裹尸还”
+
+顾顺：
++ 就算再有经验，压力也还是会在的，不要害怕它，压力会让你更专注。
+
+罗伯特·卡帕 (1913-154，20世纪最著名的战地摄影记者之一)：
++ 如果你的照片不够好，那表示你还离得不够近。
+  If your photographs aren't GOOD enough, you aren't close enough.
+
