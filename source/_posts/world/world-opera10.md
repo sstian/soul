@@ -429,6 +429,10 @@ Dutch Body 荷兰男孩（气象卫星网络 satellite net）
 
 ## 英雄联盟：双城之战
 
+**Arcane: League of Legends**
+
+[美] 拳头游戏
+
 城市：皮尔特沃夫，地下城祖安。
 暴走萝莉·金克丝（爆爆），未来守护者·杰斯，皮城女警·凯特琳
 
@@ -449,3 +453,87 @@ Dutch Body 荷兰男孩（气象卫星网络 satellite net）
 博士：
 + 有了天才的头脑就免不了要忍受孤独。
 
+## 长津湖
+
+**The Battle at Lake Changjin**
+
+[中] 陈凯歌、徐克、林超贤
+
+毛泽东：
++ 尊严，只能在战场上取得。
+  Pride, can only be earned on the battlefield.
++ 打得一拳开，免得百拳来。
+  Throw out one punch now to avoid a hundred punches in the futrue.
+
+宋时轮：
++ 抗美援朝，保家卫国。
+  Resist U.S. aggression and aid Korea! Defend our country!
+
+~~雷睢生~~：
+
++ 让敌人瞧得起你，那才叫硬气。
+  You're only touth enough when your enemies take you seriously.
++ 枪口永远不要对着自己人。
+  Never point the gun at your own people.
++ 一个找死的混蛋，永远成不了英雄。
+  A fool who risks his neck will never be a hero!
+
+梅生：
++ 伤亡不值得夸耀，挺住就是一切。
+  We shouldn't brag about this. The most import thing is to hang on.
+
+伍仟里：
++ 军人不能把枪放地上。
+  A soldier should never put his gun on the ground.
++ 战场上要冷静，有些枪必须开，有些枪可以不开。
+  You must stay calm on the battlefield! Some shots must be fired. Some shots can be saved.
+
+爱德华 Edward：
++ 打仗时没有必胜的信念，是致命的。
+  It's a fatal mistake to fight war without the will to win it, period!
+
+~~毛岸英~~：
+
++ 上了战场就是英雄。
+  You are a hero, if you've been on the battlefield.
+
+谈子为：
++ 没有冻不死的英雄，更没有打不死的英雄，只有军人的荣耀！
+  There aren't any heroes who will never freeze to death, let alone ones who will never be killed. A soldier only lives for honor and glory.
+
+杨根生：
++ 不相信有完不成的任务，不相信有克服不了的困难，不相信有战胜不了的敌人。
+  I don't believe in missions impossible to complete. 
+  I don't believe in difficulties impossible to overcome. 
+  I don't believe in enemies impossible to defeat.
+
+美国军官：
++ 面对有如此决心的敌人，我们永远无法战胜他们。
+  Fighting against men with such strong will like this, we were not ordained to win.
+
+## 开端
+
+**RESET**
+
+[中] 东阳正午阳光
+
++ 人心的冷漠是导致一切的开端。
++ 网络暴力是压倒骆驼的最后一根稻草。
++ 最深的崩溃最无声。
++ 死亡不是终点，遗忘才是。
++ （卢笛）书包里的是童年，（马国强）编织袋里的是爱，（焦向荣）行李箱里的是家。
++ 旭日东升去爬山，落日映红去坐车！
+
+**肖鹤云**：
++ 救人不能光凭心智，得思考。
++ 死亡就是一瞬间的事情。
++ 吃饱了才有力气拯救世界。
+
+**李诗情**：
++ 做最好的准备、最坏的打算。
+
+卢笛：
++ 拯救世界的机会就是留给有准备的人。
+
+钥匙男/快乐一哥：
++ 生活就是一面镜子，你笑它也笑，你哭它也哭。
