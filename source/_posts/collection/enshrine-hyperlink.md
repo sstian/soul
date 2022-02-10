@@ -24,7 +24,7 @@ date: 2020-12-20 12:20:00
 
 Flexbible nude girls  http://nudeflexiblegirls.com/
 
-Yuni-DeviantArt	https://www.deviantart.com/yuni
+DeviantArt - The Largest Online Art Gallery and Community  https://www.deviantart.com/
 
 ZLATA / GODDESS OF FLEXIBILITY  http://www.zlata.de/
 
@@ -104,6 +104,26 @@ Linux 命令搜索引擎  https://wangchujiang.com/linux-command/
 
 Michael Kerrisk - man7.org  http://man7.org/
 
+The GNU Operating System and the Free Software Movement https://www.gnu.org/
+
+- Index of /gnu/wget https://ftp.gnu.org/gnu/wget/
+
+### Draw
+
+draw.io/diagrams.net  https://app.diagrams.net/
+
+Balsamiq Wireframes for Desktop  https://balsamiq.com/wireframes/
+
+### Document
+
+Swagger | API Documentation & Design Tools for Teams  https://swagger.io/
+
+  - Swagger Editor  https://editor.swagger.io/
+
+Shields.io: Quality metadata badges for open source projects  https://shields.io/
+
+Carbon | Create and share beautiful images of your source code  https://carbon.now.sh/
+
 ### Other
 
 Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/
@@ -120,19 +140,9 @@ turnoff.us - geek comic site  http://turnoff.us/
 
 Cheat Sheet : All Cheat Sheets in one page  http://www.cheat-sheets.org/
 
-Swagger | API Documentation & Design Tools for Teams  https://swagger.io/
-
-  - Swagger Editor  https://editor.swagger.io/
-
 Programming Idioms  https://www.programming-idioms.org/
 
 Developer Roadmaps  https://roadmap.sh/
-
-### Draw
-
-draw.io/diagrams.net  https://app.diagrams.net/
-
-Balsamiq Wireframes for Desktop  https://balsamiq.com/wireframes/
 
 ## 开发
 
