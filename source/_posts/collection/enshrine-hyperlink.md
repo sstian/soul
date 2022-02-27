@@ -96,6 +96,8 @@ CS-Notes  https://cyc2018.github.io/CS-Notes/#/
 
 学习Java语言的在线教程 - CodeGym  https://codegym.cc/zh/
 
+W3Schools Online Web Tutorials  https://www.w3schools.com/
+
 ### Linux
 
 鳥哥的 Linux 私房菜  http://linux.vbird.org/

@@ -86,7 +86,11 @@ tags:
 ```
 
 ### 配置git
-
+全局用户设置
+```cmd
+git config --global user.email "sstian@snowflake.com"
+git config --global user.name "sstian"
+```
 /_config.yml
 ```yaml
 deploy:
