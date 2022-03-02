@@ -48,7 +48,7 @@ fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
 网易云课堂-鑫路历程 VS2015 C语言|C++语法与数据结构|MFC|Linux  https://study.163.com/course/introduction.htm?courseId=1392001
 
-### Graphics
+### 图形
 
 OpenGL-The Industry Standard for High Performance Graphics  https://www.opengl.org/
 
@@ -56,7 +56,7 @@ OpenCV library  http://opencv.org/
 
 OpenCV中文网站  http://www.opencv.org.cn/
 
-### Website
+### 网站
 
 博客园-开发者的网上家园  https://www.cnblogs.com/
 
@@ -72,7 +72,7 @@ OpenCV中文网站  http://www.opencv.org.cn/
 
 网道 - 互联网开发文档  https://www.wangdoc.com/
 
-### Frontend
+### 前端
 
 BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
 
@@ -80,13 +80,13 @@ MDN Web Docs  https://developer.mozilla.org/zh-CN/
 
 CodePen: Online Code Editor and  Web Developer Community  https://codepen.io/
 
-### Algorithm
+### 算法
 
 算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
 
 labuladong独家算法教程  https://labuladong.gitbook.io/algo/
 
-### Tutorials
+### 教程
 
 Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://www.zedwood.com/
 
@@ -110,13 +110,13 @@ The GNU Operating System and the Free Software Movement https://www.gnu.org/
 
 - Index of /gnu/wget https://ftp.gnu.org/gnu/wget/
 
-### Draw
+### 画图
 
 draw.io/diagrams.net  https://app.diagrams.net/
 
 Balsamiq Wireframes for Desktop  https://balsamiq.com/wireframes/
 
-### Document
+### 文档
 
 Swagger | API Documentation & Design Tools for Teams  https://swagger.io/
 
@@ -126,7 +126,7 @@ Shields.io: Quality metadata badges for open source projects  https://shields.io
 
 Carbon | Create and share beautiful images of your source code  https://carbon.now.sh/
 
-### Other
+### 其它
 
 Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/
 
@@ -148,11 +148,17 @@ Developer Roadmaps  https://roadmap.sh/
 
 ## 开发
 
+### 软件包
+
 Qt Downloads  http://download.qt.io/
 
 EasyX Library for C++  http://www.easyx.cn/
 
+### Spring生态圈
+
 Spring Framework  https://repo.spring.io/release/org/springframework/spring/
+
+Spring Boot Admin Reference Guide  https://codecentric.github.io/spring-boot-admin/2.6.2/
 
 ## 素材
 
