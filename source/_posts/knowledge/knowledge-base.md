@@ -1,9 +1,10 @@
 ---
 title: 小知识
-date: 2022-03-02 19:37:25
 categories: Knowlege
 tags:
   - Base
+abbrlink: 495e
+date: 2022-03-02 19:37:25
 ---
 
 ## [锂电池](https://mp.weixin.qq.com/s/7doSdoxBzfw3HHBqUS_8uw)
