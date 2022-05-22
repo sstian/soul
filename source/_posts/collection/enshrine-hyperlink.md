@@ -218,7 +218,7 @@ TapTap全球手游  https://www.taptap.com/
 
 小霸王  https://www.yikm.net/
 
-## 助手
+## 助手网站
 
 文字云TAGUL - WORD CLOUD ART  https://tagul.com/
 
@@ -258,7 +258,13 @@ VisuAlgo - 数据结构和算法动态可视化  https://visualgo.net/zh
 
 IP.cn - IP 地址查询 | 地理位置 | 手机归属地  | DNS查询  https://ip.cn/
 
-## 工具
+FlowCV - Free Online Resume Builder and Resume Templates  https://flowcv.io/
+
+## 工具软件
+
+COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
+
+PotPlayer  https://daumpotplayer.com/
 
 U启动  http://www.uqidong.com/
 
@@ -272,9 +278,7 @@ KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 
 OneMark - 用 Markdown 重新认识 OneNote  https://onemark.neuxlab.cn/
 
-## 应用
-
-COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
+## 应用商店
 
 zd423 - 软件分享平台领跑者  http://www.zdfans.com/
 
@@ -283,8 +287,6 @@ Softpedia - Free Downloads Encyclopedia  http://www.softpedia.com/
 SourceForge - Download, Develop and Publish Free Open Source Software  https://sourceforge.net/
 
 胡萝卜周博客 - 软件分享真正领跑者 | 一直被模仿，从未被超越！  http://www.carrotchou.blog/
-
-PotPlayer  https://daumpotplayer.com/
 
 ## 二次元
 
