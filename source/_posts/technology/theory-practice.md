@@ -2,7 +2,8 @@
 title: 技术琐话
 categories: Technology
 tags:
- - TheoryPractice
+  - TheoryPractice
+abbrlink: f477
 date: 2022-05-22 12:32:55
 ---
 

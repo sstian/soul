@@ -107,6 +107,7 @@ deploy:
   repo: 
     - git@github.com:sstian/sstian.github.io.git
     - git@gitee.com:sstian/sstian.git
+    - git@101.132.142.119:/home/git/blog.git
   branch: master
 
 # 搜索
