@@ -30,6 +30,10 @@ fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
 网易云课堂-鑫路历程 VS2015 C语言|C++语法与数据结构|MFC|Linux  https://study.163.com/course/introduction.htm?courseId=1392001
 
+### Golang
+
+GOPROXY.IO - 一个全球代理 为 Go 模块而生  https://proxy.golang.com.cn/zh/
+
 ### 图形
 
 OpenGL-The Industry Standard for High Performance Graphics  https://www.opengl.org/
@@ -66,7 +70,25 @@ CodePen: Online Code Editor and  Web Developer Community  https://codepen.io/
 
 算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
 
+VisuAlgo - 数据结构和算法动态可视化  https://visualgo.net/zh
+
 labuladong独家算法教程  https://labuladong.gitbook.io/algo/
+
+### 数据
+
+JSON Hero - JSON Viewer  https://jsonhero.io/
+
+HexEd.it - Hex编辑器  https://hexed.it/
+
+### 网络
+
+https://www2.tkn.tu-berlin.de/teaching/rn/animations/
+
++ 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/)
++ 排队和丢失  https://www2.tkn.tu-berlin.de/teaching/rn/animations/queue/
++ 滑动窗口可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/
++ 流量控制可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/flow/
++ CSMA/CA  https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/
 
 ### 教程
 
@@ -254,11 +276,11 @@ Aspiring Minds (在线笔试)  https://amcatglobal.aspiringminds.cn/
 
 花火Hanabi-在线数据短视频工具-数可视  https://hanabi.data-viz.cn/index?lang=zh-CN
 
-VisuAlgo - 数据结构和算法动态可视化  https://visualgo.net/zh
-
 IP.cn - IP 地址查询 | 地理位置 | 手机归属地  | DNS查询  https://ip.cn/
 
 FlowCV - Free Online Resume Builder and Resume Templates  https://flowcv.io/
+
+Firefox Monitor - 邮箱账号外泄查询  https://monitor.firefox.com/
 
 ## 工具软件
 
