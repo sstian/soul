@@ -569,6 +569,7 @@ Dutch Body 荷兰男孩（气象卫星网络 satellite net）
 WC = Water Closet 洗手间，toilet 厕所、盥洗室
 
 + 自己心里头的鬼，只有靠自己才能赶走。
++ 疾如风，徐如林，侵略如火，不动如山。
 
 阿笠博士：
 + （福尔摩斯）冷静沉着，处事慎重。
@@ -611,6 +612,8 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 + 福尔摩斯：如果可以确实地让你毁灭，为了公众的利益，我很乐意迎接死亡。
 + 一个人杀另外一个人或许要有动机，但是在情急之下救个人，是根本不会考虑到那么多的吧。
 + 人讲的话就像刀刃，要是用错了就会变成棘手的凶器。
++ 弗朗兹贝肯鲍尔（德国足球界皇帝）：不是强的人就一定会赢，唯有赢才能称为强者。
++ 破解诈骗案件最简单最有效的方法，就是千万不要一个人慌慌张张地决定，一定要找其他人商量。因为在跟别人说明事情原委的同时，自己也会重新整理情况，同时也可以冷静下来。
 
 米婶：
 + 不管什么人死了，就一定会有一个人伤心难过。
@@ -619,6 +622,7 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 + 人类本来就是一种多疑又善妒的动物。一看到太完美的人，就会不自觉地想要找她碴。
 + 工藤：一旦将所有的不可能去除之后，就算事实再怎么难以置信，都是千真万确的事实。
 + 就是因为寿命有限才更显得可贵，就因为有限人才会努力。
++ 就是因为是人做的才叫犯罪，而且，没有什么是不可能办得到的？！
 
 盐田平八郎：
 + 愚蠢的人只会不停地争执，即使自己的丑态表露无遗，还是浑然未觉。
@@ -641,6 +645,7 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 + 还没有努力过，就想靠别人帮忙是不对。
 + 要隐藏叶子最好藏在森林里。
 + 方言是加在语言上的一种装饰。
++ 当恶魔流下眼泪的时候，也是他失去魔力的时候。
 
 间宫大太太：
 + 时间这东西，的确是很可怕的，不管喜怒哀乐，都会随着时间一起消逝。
@@ -674,6 +679,8 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 
 赤井秀一：
 + 工藤：犯人再凶恶也不能一杀了之。
++ （黑衣组织）像影子一样悄悄地潜入，又像雾一样消失无踪。
++ Fear of death is worse than death itself. 对于死亡的恐惧比死亡更让人难以承受。
 
 贝尔摩德：
 + A secretmakes a woman woman. 越是有秘密的女人越有魅力。
@@ -721,6 +728,12 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 圆谷光彦：
 + 职业侦探的潜伏守则就是要变成周围风景的一部分。
 
+释莲和尚：
++ 语言是一把利刃，要是使用不当的话，是会变成可怕的凶器的。一定要多从对方的角度去想，每一句话都要经过思考，不管对方是什么样的人都一样。
+
+越水七槻guī：
++ 在确认真的死之前，坚信对方一定还活着，这才能够称得上是名侦探中的名侦探。
+
 ### 剧场版
 
 | 序号 | 名称                                                         | 日本首映时间  |
@@ -744,7 +757,7 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 | 17   | 名侦探柯南：绝海的侦探（絶海の探偵，Private Eye in the Distant Sea） | 2013年4月20日 |
 | 18   | 名侦探柯南：异次元的狙击手（異次元の狙撃手，Dimensional Sniper） | 2014年4月19日 |
 | 19   | 名侦探柯南：业火的向日葵（業火の向日葵，Sunflowers of Inferno） | 2015年4月18日 |
-| 20   | 名侦探柯南：纯黑的噩梦（純黒の悪夢，The Darkest Nightmare）  | 2016年4月16日 |
+| 20   | **名侦探柯南：纯黑的噩梦（純黒の悪夢，The Darkest Nightmare）**  | 2016年4月16日 |
 | 21   | 名侦探柯南：唐红的恋歌（から紅の恋歌，The Crimson Love Letter） | 2017年4月15日 |
 | 22   | 名侦探柯南：零的执行人（ゼロの執行人，Zero the Enforcer）    | 2018年4月13日 |
 | 23   | 名侦探柯南：绀青之拳（紺青の拳，The Fist of Blue Sapphire）  | 2019年4月12日 |
@@ -771,3 +784,33 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 ### NOTTV_SP
 
 逃亡者·毛利小五郎
+
+## 从你的全世界路过
+
+**I Belonged to You**
+
+[中] 导演：张一白，编剧：张嘉佳
+
+陈末：
++ 我希望有个如你一样的人，如山间清爽的风，如古城温暖的光，只要最后是你就好。
+  I want to have someone like you, like the gentle breeze through the hills, like the warm sunshine in and old town, as long as it's you in the end.
++ 我要告诉她，相爱这件事情，就是永远在一起。
+  I want to tell her that, being in love... means staying together forevev.
++ 记住，所有人的坚强，都是温柔生的茧。
+  Remember this: strength, in anybody, is gentleness grown callous.
++ 爱情，就是因为爱，搞出了好多事情。
+  Love... It's the beginning... of all kinds of stories.
++ 有的爱情自然发生，有的爱情无故消失，你看得见，但无法改变。
+  Some love happens naturally. Some disappear without a cause. Thought you can see it happening, there's nothing you can do.
++ 人生的改变，往往是一夜之间。
+  LIves often change overnight.
+
+~~茅十八~~：
++ 探索宇宙的真理已经很累了，我没有时间说假话。
+  I'm too busy exploring the truth about the universe. I don't have time... for lying.
+
+幺鸡：
++ 再多失望，也不要绝望。
+  No amount of disappointment should lead to desapair.
++ 当你全力以赴，打算对一个人好的时候，你就变成了傻子、聋子，眼里除了他，什么人都没有，就连伤害，都变成了一场恋爱的检测。你还傻不兮兮地鼓励自己、安慰自己，要坚强。
+  When you have made up your mind... to do anything and everything for someone, you will become a fool, deaf, blind to anything... but that person. Even the pain... becomes a test for love, and let you tell yourself, with a sense of ridiculous innocence, to be strong.
