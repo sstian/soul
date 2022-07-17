@@ -569,7 +569,7 @@ Dutch Body 荷兰男孩（气象卫星网络 satellite net）
 WC = Water Closet 洗手间，toilet 厕所、盥洗室
 
 + 自己心里头的鬼，只有靠自己才能赶走。
-+ 疾如风，徐如林，侵略如火，不动如山。
++ 其疾如风，其徐如林，侵略如火，不动如山，难知如阴，动如雷霆。
 
 阿笠博士：
 + （福尔摩斯）冷静沉着，处事慎重。
@@ -614,6 +614,7 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 + 人讲的话就像刀刃，要是用错了就会变成棘手的凶器。
 + 弗朗兹贝肯鲍尔（德国足球界皇帝）：不是强的人就一定会赢，唯有赢才能称为强者。
 + 破解诈骗案件最简单最有效的方法，就是千万不要一个人慌慌张张地决定，一定要找其他人商量。因为在跟别人说明事情原委的同时，自己也会重新整理情况，同时也可以冷静下来。
++ 这个世上没有任何一条性命应该被他人轻易夺去。
 
 米婶：
 + 不管什么人死了，就一定会有一个人伤心难过。
@@ -734,6 +735,10 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 越水七槻guī：
 + 在确认真的死之前，坚信对方一定还活着，这才能够称得上是名侦探中的名侦探。
 
+梅野：
++ 向日葵的花语：我的眼中只有你。
++ 人非要等到失去了，才会明白什么才是最重要的。
+
 ### 剧场版
 
 | 序号 | 名称                                                         | 日本首映时间  |
@@ -814,3 +819,17 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
   No amount of disappointment should lead to desapair.
 + 当你全力以赴，打算对一个人好的时候，你就变成了傻子、聋子，眼里除了他，什么人都没有，就连伤害，都变成了一场恋爱的检测。你还傻不兮兮地鼓励自己、安慰自己，要坚强。
   When you have made up your mind... to do anything and everything for someone, you will become a fool, deaf, blind to anything... but that person. Even the pain... becomes a test for love, and let you tell yourself, with a sense of ridiculous innocence, to be strong.
+
+  ## 楚门的世界
+
+  **The Truman Show**
+
+  [美] 彼得·威尔
+
+克里斯托夫 Christof：
++ 每个人都会接受眼前的事实。
+  We accept the reality of the world with which we are presented.
+
+楚门·伯班克 Truman Burbank：
++ 以防我再也看不到你们了，在这里先预祝你们午安和晚安。
+  In case I don't see you, good afternoon, good evevning, and good night.
