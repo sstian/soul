@@ -824,11 +824,11 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 + 当你全力以赴，打算对一个人好的时候，你就变成了傻子、聋子，眼里除了他，什么人都没有，就连伤害，都变成了一场恋爱的检测。你还傻不兮兮地鼓励自己、安慰自己，要坚强。
   When you have made up your mind... to do anything and everything for someone, you will become a fool, deaf, blind to anything... but that person. Even the pain... becomes a test for love, and let you tell yourself, with a sense of ridiculous innocence, to be strong.
 
-  ## 楚门的世界
+## 楚门的世界
 
-  **The Truman Show**
+**The Truman Show**
 
-  [美] 彼得·威尔
+[美] 彼得·威尔
 
 克里斯托夫 Christof：
 + 每个人都会接受眼前的事实。
@@ -837,3 +837,31 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 楚门·伯班克 Truman Burbank：
 + 以防我再也看不到你们了，在这里先预祝你们午安和晚安。
   In case I don't see you, good afternoon, good evevning, and good night.
+
+## 遇见你
+
+**Almost Love**
+
+[中] 落落
+
++ 所有的经历都是生活中的一部分。
+
+余骄阳：
++ 周灿是最好的爱人，下一次我还会跑着去见他。
++ 世界上最好的旅途，不是走进爱人的心里、走向他的每一步，而是和我们所爱的人、走过每一步。
+
+周灿：
++ 我没觉得是结束，我觉得是刚开始。
+
+余骄阳：你眼睛平时也这么亮嘛。
+周灿：因为我在看着你啊。
+
+> 当几乎所有人都认为“垃圾桶”“吊车尾”的她在满嘴“跑火车”、不相信她时，只有初来乍到的他说：“如果她说的是真的呢”。
+当他落下绘画比赛的资格证而无法继续参赛时，外面台风天，大雨狠狠地下、大风狠狠地刮，出乎意料地她顶着垃圾桶来给他送资格证到来的瞬间，他爱了，我感动了。
+
+> 从高中、大学、工作、同居，到撑不下去而分开，爱情长跑，相恋八年；最后男主结婚了，新娘却不是她。
+沉默内敛的他带给她阳光灿烂的明天，积极阳光的她引导他去追求自己的梦想。
+她的视角，叙说着他们的故事；他的不言，让彼此相爱的两人渐行渐远。
+生命中的遗憾，生活上的琐碎，是要两人共同承担。
+爱情，不是你看我、我看你，而是我们携手同行、朝着同一个方向。
+
