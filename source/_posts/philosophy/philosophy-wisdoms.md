@@ -23,7 +23,7 @@ date: 2019-09-09 00:09:00
 + Darlington 勋爵（王尔德(Oscar Wilde)《温夫人的扇子》(Lady Windermere`s fan)）：
   我们大家都活在沟里，只是，有些人，会从沟里，抬头看天上的星星。
   We are all in the gutter, but some of us are looking at the stars.
-+ 弗朗西斯·培根[英国哲学家]：
++ 弗朗西斯·培根 [英国哲学家]：
   读史使人明智，读诗使人灵秀，数学使人周密，科学使人深刻，伦理学使人庄重，逻辑修辞之学使人善辩。
   Francis Bacon [British philosopher]: Histories make men wise; poems witty; the mathematics subtle; natural philosophy deep; moral grave; logic and rhetoric able to contend.
 + 马未都： 一个人不接受批评永远不会成长。
@@ -36,6 +36,7 @@ date: 2019-09-09 00:09:00
 + 尤雨溪：程序员能力的提升往往都发生在尝试解决一个从没解决过的问题之后进行反思的过程中。
 + 周阳：高手都是自己练出来，绝非教出来的。
 + 吴兰阶：痛恨绿林兵，假称青地白日，黑暗沉沉埋赤子；光复黄安城，试看碧云紫气，苍生济济拥红军。
++ 张天禹 [尚硅谷-React]：我们是前端人员，做的最多的事是：在合适的时候发出合适的请求，把合适的数据展示到合适的位置。
 
 ## 白岩松：
 

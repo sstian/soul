@@ -120,6 +120,8 @@ draw.io/diagrams.net  https://app.diagrams.net/
 
 Balsamiq Wireframes for Desktop  https://balsamiq.com/wireframes/
 
+ASCIIFlow - Infinite ASCII diagrams  https://asciiflow.com/
+
 ### 文档
 
 Swagger | API Documentation & Design Tools for Teams  https://swagger.io/
@@ -164,6 +166,10 @@ Spring Framework  https://repo.spring.io/release/org/springframework/spring/
 
 Spring Boot Admin Reference Guide  https://codecentric.github.io/spring-boot-admin/2.6.2/
 
+### 编辑器
+
+Notepad++  https://github.com/notepad-plus-plus/notepad-plus-plus
+
 ## 素材
 
 堆糖图片  https://www.duitang.com/
@@ -204,6 +210,8 @@ Font Awesome  https://fontawesome.com/
 
 黄蜂网 - 可商用设计素材  https://woofeng.cn/
 
+Mixkit - Awesome free assets for your next video project  https://mixkit.co/
+
 ## 壁纸
 
 MOTA桌面壁纸  http://www.motaen.com/
@@ -228,6 +236,14 @@ Alpha Coders - Your Source For Wallpapers, Art, Photography, Gifs and More!  htt
 
 在线之家 - 在线观看最新美剧|最新韩剧|天天美剧|人人美剧  https://www.zxzjs.com/
 
+影猫の仓库 - 电影网站目录  https://ymck.me/
+
+voflix HD - 最新好看的电影电视剧免费在线观看  https://www.voflix.com/
+
+电影天堂 - 免费迅雷电影下载  https://dytt8.net/
+
+热播之家 - 全网视频VIP解析|VIP视频免费在线观看  https://rebozj.com/
+
 ## 游戏
 
 TapTap全球手游  https://www.taptap.com/
@@ -246,11 +262,11 @@ TapTap全球手游  https://www.taptap.com/
 
 911查询-国内最大的实用查询工具网站  https://www.911cha.com/
 
-GPSspg查询网 — 地址|经纬度|IP|电话|基站|邮编|LBS|数据API|查询  http://www.gpsspg.com/
+GPSspg查询网 - 地址|经纬度|IP|电话|基站|邮编|LBS|数据API|查询  http://www.gpsspg.com/
 
 SHOOTER伪射手 - 字幕下载  http://assrt.net/
 
-字幕库 -- 字幕下载网站  https://www.zimuku.cn/
+字幕库 - 字幕下载网站  https://www.zimuku.cn/
 
 威锋网-果粉大本营  https://www.feng.com/
 
@@ -299,6 +315,8 @@ GeoGebra | 免费的数学应用软件 (图形计算器/3D计算器/几何/增�
 KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 
 OneMark - 用 Markdown 重新认识 OneNote  https://onemark.neuxlab.cn/
+
+软仓丨RuanCang.Net - 免费的设计软件分享网站  https://www.ruancang.net/
 
 ## 应用商店
 
