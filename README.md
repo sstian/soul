@@ -143,6 +143,53 @@ git push
 	merge = refs/heads/master
 ```
 
+## 构建自动化
+
+1. 配置系统环境变量
+可通过界面将以下路径加到环境变量中
+$PATH = D:\Program\Git\bin;$PATH
+```cmd
+D:\Program\Git\bin>dir /b
+bash.exe
+git.exe
+sh.exe
+```
+2. 编写脚本
+build.sh
+```bash
+#!/bin/bash
+
+# Exit immediately if a simple command exits with a non-zero status
+set -e
+
+echo "start building..."
+
+echo "git pushing changes..."
+echo -e "\n>> git add --all"           && git add --all
+echo -e "\n>> git commit -m 'deploy'"  && git commit -m "deploy"
+echo -e "\n>> git push"                && git push
+
+echo "hexo deploying webpage..."
+echo -e "\n>> hexo clean"    && hexo clean
+echo -e "\n>> hexo generate" && hexo generate
+echo -e "\n>> hexo deploy"   && hexo deploy
+
+echo "build completely!"
+```
+
+3. 设置脚本命令
+package.json
+```json
+"scripts": {
+	"build": "bash build.sh"
+}
+```
+4. 执行命令
+in the terminal of command or powershell
+```powershell
+npm run build
+```
+
 ## Reference
 
 Hexo 文档  https://hexo.io/zh-cn/docs/
