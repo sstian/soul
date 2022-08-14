@@ -329,16 +329,35 @@ X教授 Professor X: 查尔斯·弗朗西斯·泽维尔 Charles Francis Xavier <
 
 ## 小黄人大眼萌
 
-**Minions  [美]凯尔·巴尔达、皮艾尔·柯芬**
+[美]皮艾尔·柯芬
+
+### 1 小黄人大眼萌
+
+**Minions**
 
 凯文 Kevin，斯图尔特 Stuart，鲍勃 Bob，
 斯嘉丽·杀人狂 Scarlet Overkill，赫布·杀人狂 Herb Overkill
 
-+ 你们都走的不只是英格兰，还有我的心。——斯嘉丽·杀人狂
+斯嘉丽·杀人狂：
++ 你们偷走的不只是英格兰，还有我的心。
 
 ![小黄人大眼萌](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/小黄人大眼萌.png)
 
 ![旋转车轮](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/旋转车轮.png)
+
+### 2 小黄人大眼萌：神偷奶爸前传
+
+**Minions: The Rise of Gru**
+
+Master Chow：
++ 找到你内心的野兽。
+  find your inner beast.
+
+Wild Knuckles：
++ 永远保持在角色里。
+
+Gru：
++ 你一个人不会做成什么事，找到你的跟班，永远不要让他们走。
 
 ## 大侦探皮卡丘
 
