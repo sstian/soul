@@ -15,4 +15,4 @@ echo -e "\n>> hexo clean"    && hexo clean
 echo -e "\n>> hexo generate" && hexo generate
 echo -e "\n>> hexo deploy"   && hexo deploy
 
-echo "build completely!"
+echo -e "\nbuild completely!"

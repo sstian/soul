@@ -54,10 +54,10 @@ Visio绘制
 
 界面单个图标尺寸：
 
-+ Large Images: 分辨率 32 x 32 p, 32位深
-+ Small Images: 分辨率 16 x 16 p, 32位深
-+ app.icon: 24 x 24 p, 32位深
-+ main.bmp: 26 x 26, 32位深，带透明度信息
+- Large Images: 分辨率 32 x 32 p, 32位深
+- Small Images: 分辨率 16 x 16 p, 32位深
+- app.icon: 24 x 24 p, 32位深
+- main.bmp: 26 x 26, 32位深，带透明度信息
 
 ### MFC CSocket 事件
 

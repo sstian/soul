@@ -20,14 +20,14 @@ Spring 5+ / Spring Boot 2.0+ 新的Web开发技术栈
 
 WebFlux 优势：
 
-+ 非阻塞式：在有限资源下，提高系统吞吐量和伸缩性，**支持高并发**
-+ 函数式编程：实现路由请求
-+ 响应式编程：Reactor = Java 8 Stream + Java 9 Reactive Stream
+- 非阻塞式：在有限资源下，提高系统吞吐量和伸缩性，**支持高并发**
+- 函数式编程：实现路由请求
+- 响应式编程：Reactor = Java 8 Stream + Java 9 Reactive Stream
 
 应用扩展：
 
-+ 垂直扩展：异步方式
-+ 水平扩展：增加结点，需要更多资源
+- 垂直扩展：异步方式
+- 水平扩展：增加结点，需要更多资源
 
 ![Spring-Boot-Reactor](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/Spring-Boot-Reactor.png)
 
@@ -208,21 +208,21 @@ System.out.println("new cat: " + catFunction.apply("Black Cat"));
 
 1. 基本特征：
 
-+ **数据源**：流的来源，可以是集合，数组，I/O channel， 产生器generator 等。
+- **数据源**：流的来源，可以是集合，数组，I/O channel， 产生器generator 等。
 
-+ **元素**：特定类型的对象，形成一个队列；不存储元素，而是按需计算。
+- **元素**：特定类型的对象，形成一个队列；不存储元素，而是按需计算。
 
-+ **聚合操作**：数据处理，中间操作、终止操作等。
+- **聚合操作**：数据处理，中间操作、终止操作等。
 
-+ 内部迭代：通过访问者模式（Visitor）实现，关注数据，可以并行
+- 内部迭代：通过访问者模式（Visitor）实现，关注数据，可以并行
 
   > 外部迭代：先前遍历集合，通过Iterator或For-Each的串行方式定义循环，显示地在集合外部进行迭代。
 
 2. Steam类型：
 
-+ **stream()** / sequential() - 创建串行流
+- **stream()** / sequential() - 创建串行流
 
-+ **parallelStream()** - 创建并行流；方便并行操作，不需要用户管理多线程
+- **parallelStream()** - 创建并行流；方便并行操作，不需要用户管理多线程
 
   > 并行流使用线程池：ForkJoinPool.commonPool
   >
@@ -232,7 +232,7 @@ System.out.println("new cat: " + catFunction.apply("Black Cat"));
 
 3. Stream使用：
 
-+ 创建stream
+- 创建stream
 
 | 类型      | 相关方法                               |
 | --------- | -------------------------------------- |
@@ -242,9 +242,9 @@ System.out.println("new cat: " + catFunction.apply("Black Cat"));
 |           | Random.ints/longs/doubles              |
 | 自己创建  | Stream.generate/iterate()              |
 
-+ 中间操作：返回Stream的操作
-  + 无状态操作：当前操作跟其它元素的前后没有依赖关系；一般输入为一个元素。
-  + 有状态操作：结果需要依赖于其它元素；一般输入为两个元素。
+- 中间操作：返回Stream的操作
+  - 无状态操作：当前操作跟其它元素的前后没有依赖关系；一般输入为一个元素。
+  - 有状态操作：结果需要依赖于其它元素；一般输入为两个元素。
 
 | 中间操作   | 相关方法               | 说明                |
 | ---------- | ---------------------- | ------------------- |
@@ -257,9 +257,9 @@ System.out.println("new cat: " + catFunction.apply("Black Cat"));
 |            | sorted                 | 元素排序            |
 |            | limit / skip           | 限流 / 跳过指定元素 |
 
-+ 终止操作
-  + 非短路操作：
-  + 短路操作：不需要所有结果计算完就可以结束流的操作。
+- 终止操作
+  - 非短路操作：
+  - 短路操作：不需要所有结果计算完就可以结束流的操作。
 
 
 | 终止操作   | 相关方法                        |                            |
@@ -384,31 +384,31 @@ try {
 
 #### 数据信号
 
-+ 元素值
+- 元素值
 
-+ 完成信号：数据流结束
+- 完成信号：数据流结束
 
-+ 错误信号：终止数据流，传递错误信息给订阅者
+- 错误信号：终止数据流，传递错误信息给订阅者
 
 #### 数据流的发布者
 
-+ **Mono**：返回0-1个元素
+- **Mono**：返回0-1个元素
 
 ![mono](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/mono.png)
 
-+ **Flux**：返回0-N个元素
+- **Flux**：返回0-N个元素
 
 ![flux](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/flux.png)
 
 #### 操作符
 
-+ map
+- map
 
 `public final <V> Flux<V> map(Function<? super T,? extends V> mapper)`
 
 ![mapForFlux](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/mapForFlux.png)
 
-+ flatmap
+- flatmap
 
 `public final <R> Flux<R> flatMap(Function<? super T,? extends Publisher<? extends R>> mapper)`
 
@@ -416,7 +416,7 @@ try {
 
 ![flatMapForFlux](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/flatMapForFlux.png)
 
-+ zip
+- zip
 
 `public static <I,O> Flux<O> zip(Function<? super Object[],? extends O> combinator,int prefetch,  Publisher<? extends I>... sources)`
 
@@ -424,7 +424,7 @@ try {
 
 ![zipIterableSourcesForFlux](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/zipIterableSourcesForFlux.png)
 
-+ zipwith
+- zipwith
 
 `public final <T2> Flux<Tuple2<T,T2>> zipWith(Publisher<? extends T2> source2)`
 
@@ -432,7 +432,7 @@ try {
 
 ![zipWithOtherForFlux](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/zipWithOtherForFlux.png)
 
-+ subscribeOn
+- subscribeOn
 
 `public final Flux<T> subscribeOn(Scheduler scheduler)`
 
@@ -440,7 +440,7 @@ try {
 
 ![subscribeOnForFlux](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/subscribeOnForFlux.png)
 
-+ subscribe
+- subscribe
 
 `public final Disposable subscribe(Consumer<? super T> consumer)`
 
@@ -448,7 +448,7 @@ try {
 
 ![subscribeWithOnNextForFlux](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/subscribeWithOnNextForFlux.png)
 
-+ more ......
+- more ......
 
 ### 实现方式
 
@@ -458,13 +458,13 @@ try {
 
 ### Import Dependency
 
-+ Gradle
+- Gradle
 
 ```groovy
 implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '2.4.1'
 ```
 
-+ Maven
+- Maven
 
 ```groovy
 <dependency>
@@ -717,7 +717,7 @@ spring-boot-gradle-webflux
 
 ## References
 
-+ [Web on Reactive Stack](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
-+ [Reactor Exception handling](https://www.cnblogs.com/flydean/p/13967746.html)
-+ [Socket IO 5](https://blog.csdn.net/u010313909/article/details/80764954)
-+ [reactor-core 3.4.6](https://projectreactor.io/docs/core/release/api/overview-summary.html)
+- [Web on Reactive Stack](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html)
+- [Reactor Exception handling](https://www.cnblogs.com/flydean/p/13967746.html)
+- [Socket IO 5](https://blog.csdn.net/u010313909/article/details/80764954)
+- [reactor-core 3.4.6](https://projectreactor.io/docs/core/release/api/overview-summary.html)
