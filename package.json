@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "build": "bash build.sh",
-    "hexo-build": "hexo clean && hexo generate && hexo deploy"
+    "build:hexo": "hexo clean && hexo generate && hexo deploy"
   },
   "hexo": {
     "version": "5.3.0"
