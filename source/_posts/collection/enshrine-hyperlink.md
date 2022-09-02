@@ -170,8 +170,6 @@ Qt Downloads  http://download.qt.io/
 
 EasyX Library for C++  http://www.easyx.cn/
 
-NCH 软件 - 在线下载免费软件  https://www.nchsoftware.com/cn/
-
 ### Spring生态圈
 
 Spring Framework  https://repo.spring.io/release/org/springframework/spring/
@@ -181,6 +179,13 @@ Spring Boot Admin Reference Guide  https://codecentric.github.io/spring-boot-adm
 ### 编辑器
 
 Notepad++  https://github.com/notepad-plus-plus/notepad-plus-plus
+
+## 设计
+
+稿定设计 - 做图做视频必备|在线设计神器|海量版权素材模板  https://www.gaoding.com/
+
+- 稿定抠图  https://koutu.gaoding.com/
+- 在线PS  https://ps.gaoding.com/#/
 
 ## 素材
 
@@ -329,6 +334,8 @@ KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 OneMark - 用 Markdown 重新认识 OneNote  https://onemark.neuxlab.cn/
 
 软仓丨RuanCang.Net - 免费的设计软件分享网站  https://www.ruancang.net/
+
+NCH 软件 - 在线下载免费软件  https://www.nchsoftware.com/cn/
 
 ## 应用商店
 
