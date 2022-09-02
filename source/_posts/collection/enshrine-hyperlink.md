@@ -66,6 +66,16 @@ MDN Web Docs  https://developer.mozilla.org/zh-CN/
 
 CodePen: Online Code Editor and  Web Developer Community  https://codepen.io/
 
+Cool Backgrounds  https://coolbackgrounds.io/
+
+Neumorphism/Soft UI CSS shadow generator  https://neumorphism.io/
+
+Universe of UI elements  https://uiverse.io/
+
+Collect UI - Daily inspiration collected from daily ui archive and beyond  https://collectui.com/
+
+Noun Project: Free Icons &amp; Stock Photos for Everything  https://thenounproject.com/
+
 ### 算法
 
 算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
@@ -159,6 +169,8 @@ Developer Roadmaps  https://roadmap.sh/
 Qt Downloads  http://download.qt.io/
 
 EasyX Library for C++  http://www.easyx.cn/
+
+NCH 软件 - 在线下载免费软件  https://www.nchsoftware.com/cn/
 
 ### Spring生态圈
 
