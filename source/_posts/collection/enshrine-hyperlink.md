@@ -76,6 +76,24 @@ Collect UI - Daily inspiration collected from daily ui archive and beyond  https
 
 Noun Project: Free Icons &amp; Stock Photos for Everything  https://thenounproject.com/
 
+React - A JavaScript library for building user interfaces  https://reactjs.org/
+
+React 官方中文文档 - 用于构建用户界面的 JavaScript 库  https://react.docschina.org/
+
+Babel - The compiler for next generation JavaScript  https://babeljs.io/
+
+Babel 中文网 - Babel 下一代 JavaScript 语法的编译器  https://www.babeljs.cn/
+
+BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务  https://www.bootcdn.cn/
+
+印记中文 - 深入挖掘国外前端新领域，为国内 Web 前端开发人员提供优质文档！  https://docschina.org/
+
+W3C中国 - [万维网联盟（W3C=World Wide Web Consortium）](http://www.w3.org/)  https://www.chinaw3c.org/
+
+npm - Take your JavaScript development up a notch  https://www.npmjs.com/
+
+jQuery API 中文文档 | jQuery API 中文在线手册  https://jquery.cuishifeng.cn/
+
 ### 算法
 
 算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
@@ -94,11 +112,11 @@ HexEd.it - Hex编辑器  https://hexed.it/
 
 https://www2.tkn.tu-berlin.de/teaching/rn/animations/
 
-+ 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/)
-+ 排队和丢失  https://www2.tkn.tu-berlin.de/teaching/rn/animations/queue/
-+ 滑动窗口可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/
-+ 流量控制可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/flow/
-+ CSMA/CA  https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/
+- 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/)
+- 排队和丢失  https://www2.tkn.tu-berlin.de/teaching/rn/animations/queue/
+- 滑动窗口可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/
+- 流量控制可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/flow/
+- CSMA/CA  https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/
 
 ### 教程
 
@@ -337,9 +355,7 @@ KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 
 OneMark - 用 Markdown 重新认识 OneNote  https://onemark.neuxlab.cn/
 
-软仓丨RuanCang.Net - 免费的设计软件分享网站  https://www.ruancang.net/
-
-NCH 软件 - 在线下载免费软件  https://www.nchsoftware.com/cn/
+Google Chrome 浏览器  https://www.google.cn/intl/zh-CN/chrome/
 
 ## 应用商店
 
@@ -350,6 +366,10 @@ Softpedia - Free Downloads Encyclopedia  http://www.softpedia.com/
 SourceForge - Download, Develop and Publish Free Open Source Software  https://sourceforge.net/
 
 胡萝卜周博客 - 软件分享真正领跑者 | 一直被模仿，从未被超越！  http://www.carrotchou.blog/
+
+软仓丨RuanCang.Net - 免费的设计软件分享网站  https://www.ruancang.net/
+
+NCH 软件 - 在线下载免费软件  https://www.nchsoftware.com/cn/
 
 ## 二次元
 

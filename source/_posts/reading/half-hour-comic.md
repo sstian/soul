@@ -571,6 +571,12 @@ date: 2021-02-03 00:42:00
 
 ![半小时漫画青春期：生理篇](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/半小时漫画青春期：生理篇.png)
 
+## 半小时漫画青春期：心理篇
+
+- 猫生病就叫“有猫（毛）病”，秃了的猫患的是“没猫（毛）病”。
+
+![半小时漫画青春期：心理篇](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/半小时漫画青春期：心理篇.png)
+
 ## 半小时漫画三国演义
 
 说书唱戏劝人方，
