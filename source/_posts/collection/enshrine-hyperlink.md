@@ -192,6 +192,10 @@ Qt Downloads  http://download.qt.io/
 
 EasyX Library for C++  http://www.easyx.cn/
 
+NSIS (Nullsoft Scriptable Install System)  https://nsis.sourceforge.io/
+
+HM NIS EDIT: A Free NSIS Editor/IDE  https://hmne.sourceforge.net/
+
 ### Spring生态圈
 
 Spring Framework  https://repo.spring.io/release/org/springframework/spring/
