@@ -886,3 +886,33 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 - 我们赚观众的眼泪，把嗓子喊哑，也不比杀一个货真价实的汉奸来得实惠！
 - 等你亲眼见到一个汉奸、一个出卖国家和同胞尊严的人，你就会知道杀人一点都不难！我们只怕杀得不够多、不够快！
 - 要，就一起干一票大的！引刀成一快，不负少年头！
+
+## 独行月球
+
+**Moon Man**
+
+[中] 张迟昱
+
+独孤月：
+- 哭音相随野鹤飞，芳流百代笑九泉。说走就走。
+  Let the sound of crying follow the wild crane's flight. Let your legacy live on forever as you smile from above.
+
+经纪人：
+- 他这下漂移，一下子就漂进了我的心里。
+  That turn around drift，drifted him into my heart.
+
+葫芦丝儿：
+- 太阳不落，白昼永存。
+  The sun never sets and the day lasts forever.
+- 这个世界上有这样一种人：普普通通是他的人设，碌碌无为是他的日常。但是在关键时刻，他们总能挺身而出，逆向而行。
+  There's a type of person in this world - They never stand out in a crowd. Their lives are mundane and ordinary. But in moments that matter, they are the ones who step up, and carry the world on their shoulders.
+
+
+《回家之路》Music：
+- 我的肩膀背得起银河的重量,却背不起一滴你想念的泪光。
+  My shoulders can carry the weight of the Milky Way, but not the weight of you missing me with tears in your eyes.
+
+
+
+
+
