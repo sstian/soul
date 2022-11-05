@@ -149,6 +149,37 @@ https://space.bilibili.com/12820125
 
 - 我们的征途是星辰大海。
 
+### 电影
+
+**万万没想到（Surprise）**
+
+唐僧：
+- 这世间所有的遗憾，都是没有好好说声再见。
+  All the regrets we have are because we didn't have time to say goodbye.
+- 藏了多少并不重要，重要的是学会放下，有舍才有得。你，悟到了吗？
+  It's not important how much food I have stashed. What's important is, you need to learn how to let go. You can only get things if you let go. Can you dig it?
+- 曲终未必人散，有情自会重逢。
+  The play's over but the audience may not just say goodbye, and people with true love are destined to reunite.
+
+孙悟空：
+- 你普渡天下众生，我荡尽世间不平。
+  You job is to deliver all living creatures from suffering. My job is to eradicate all injustice in the world.
+
+小美：
+- 人就是很奇怪，不喜欢别人骗自己，却喜欢自己骗自己。
+  People are weird. We don't like to be lied to, but we love to lie to ourselves.
+
+王大锤：
+- 做英雄真好，壮志凌云，胸怀四海，一夫当关，万民敬仰。
+  It's so good to be a hero. You have soaring aspiration and the whole world in your heart. You're the guardian of us and all the people admire you.
+- 成功果然是靠百分之一的汗水，加百分之九十九的天才啊。
+  Success is 1% perspiration and 99% genius.
+
+小美：你看我干嘛看花啊。
+  Why don't you look at me? Just look at the flowers.
+王大锤：花都一样，但你每刻都不一样。
+  Flowers all look the same. But you're different at 'every moment.
+
 ## 小明和他的小伙伴们
 
 **Crazy Kids**
