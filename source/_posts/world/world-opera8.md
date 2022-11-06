@@ -9,7 +9,9 @@ date: 2020-08-20 13:14:00
 
 ## 鬼灭之刃
 
-**きめつのやいば  [日]吾峠qiǎ呼世晴**
+**きめつのやいば**
+
+[日] 吾峠qiǎ呼世晴
 
 全集中呼吸法：日之呼吸，水、雷、炎、岩、风。日轮刀，空隙之线，斑纹，通透世界。
 
@@ -57,7 +59,9 @@ date: 2020-08-20 13:14:00
 
 ## 少年的你
 
-**Better Days  [中]曾国祥**
+**Better Days**
+
+[中] 曾国祥
 
 陈念，“小北”刘北山
 
@@ -66,7 +70,9 @@ date: 2020-08-20 13:14:00
 
 ## 大约在冬季
 
-**Somewhere Winter  [中]导演：王维明、编剧：饶雪漫**
+**Somewhere Winter**
+
+[中] 导演：王维明、编剧：饶雪漫
 
 安然[四川|北京]，齐啸[台北]，于枫，孙瑶瑶，齐一天，于小念，叶雨宸，齐秦
 
@@ -80,7 +86,9 @@ date: 2020-08-20 13:14:00
 
 ## Freebird Games
 
-**(RPG)  [加拿大]Kan Reives Gao**
+**(RPG)**
+
+[加拿大] Kan Reives Gao
 
 https://freebirdgames.com/
 
@@ -110,7 +118,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 火柴人
 
-**Stick Figure  [美]Alan Becker**
+**Stick Figure**
+
+[美] Alan Becker
 
 七色战队：
 0号叛逆黑（The Chosen One 天选之子）
@@ -127,7 +137,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 环形使者
 
-**Looper  [美]莱恩·约翰逊**
+**Looper**
+
+[美] 莱恩·约翰逊
 
 环形使者。封环：自己杀死30年后的自己。漏环：漏掉目标。唤雨师 Rainmaker
 
@@ -139,7 +151,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ### 误杀
 
-**Sheep Without A Shepherd  [中]柯汶利**
+**Sheep Without A Shepherd**
+
+[中] 柯汶利
 
 蒙太奇 Montage：视频剪辑加音效。
 
@@ -155,7 +169,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ### 误杀2
 
-**Fireflies in the Sun  [中]戴墨**
+**Fireflies in the Sun**
+
+[中] 戴墨
 
 - 人，越往高处走，能掌控的事情就越少。——宋主任
 - 死不可怕，可怕的是，没有为自己的生命而奋斗。
@@ -167,7 +183,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 白夜行
 
-**Into The White Night  [日]深川荣洋**
+**Into The White Night**
+
+[日] 深川荣洋
 
 桐原亮司，西本雪穗，笹垣润三，川岛江利子，筱冢一成
 
@@ -178,12 +196,14 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 请回答1988
 
-**응답하라 1988  [韩]CJ E&M**
+**응답하라 1988**
+
+[韩] CJ E&M
 
 01 手拉手 02 你对我的一个误解 03 有钱没罪 没钱有罪 04 can`t help～ing 05 过冬准备 
 06 初雪来临 07 致你 08 温暖的一句话 09 所谓越界 10 回忆 
 11 三个预言 12 所谓爱一个人 13 超人回来了 14 你不要担心 15 爱情与友情之间 
-16 人生真是个谜啊1 17 人生真是个谜啊2 18 再见初恋 19 你尽力了 20再见 我的青春 再见 双门洞
+16 人生真是个谜啊1 17 人生真是个谜啊2 18 再见初恋 19 你尽力了 20 再见 我的青春 再见 双门洞
 
 [韩国 首尔 道峰区 双门洞 双门高中+双门女高]
 成东镒yì，李一花，成宝拉，“特功袋”成德善，成余晖；
@@ -296,7 +316,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 元气少女缘结神
 
-**神様はじめました  [日]铃木JULIETTA**
+**神様はじめました**
+
+[日] 铃木JULIETTA
 
 小姐姐 => 美女 => 仙女 => 天女
 花婿（はな むこ）：新郎。花嫁（はな よめ）：新娘。
@@ -361,7 +383,7 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 英雄之城
 
-[中]新华通讯社
+[中] 新华通讯社
 
 新华社武汉战“疫”纪录片，新冠病毒，2020年3月26日
 
@@ -372,7 +394,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 异度侵入
 
-**ID:INVADED イド：インヴェイデッド  [中]舞城王太郎**
+**ID:INVADED イド：インヴェイデッド**
+
+[中] 舞城王太郎
 
 井：利用“思想粒子（杀意）”构建的虚拟世界，是人类的潜意识世界。
 稚产灵：检测出空气中的思想粒子的装置。
@@ -391,7 +415,9 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 疯狂的外星人
 
-**Crazy Alien  [中]宁浩**
+**Crazy Alien**
+
+[中] 宁浩
 
 耿浩，大飞，John Stockton，Captain Zach Andrews，奇卡 Chika（外星人）
 
@@ -402,7 +428,7 @@ Colin Reeds, Sofia Reeds, Asher, Faye
 
 ## 火星异种
 
-[日]原作：贵家悠，漫画：橘贤一
+[日] 原作：贵家悠，漫画：橘贤一
 
 **Ⅰ火星异种（テラフォーマーズ Terra Formars）**
 **Ⅱ火星异种·复仇（テラフォーマーズ リベンジ TERRA FROMARS Revenge）**
@@ -440,7 +466,9 @@ U-NASA=United-National Aeronoutics and Space Administration 联合国航空航�
 
 ## 惊天魔盗团
 
-**Now You See Me  [美]路易斯·莱特里尔 / 朱浩伟**
+**Now You See Me**
+
+[美] 路易斯·莱特里尔 / 朱浩伟
 
 **惊天魔盗团（Now You See Me）**
 **惊天魔盗团2（Now You See Me 2）**
@@ -494,7 +522,9 @@ U-NASA=United-National Aeronoutics and Space Administration 联合国航空航�
 
 ## 天气之子
 
-**天気の子 Weathering With You  [中]新海诚**
+**天気の子 Weathering With You**
+
+[中] 新海诚
 
 人柱：把人绑在柱子上活埋用来向神明祭献祈求平安，现引义为牺牲者。
 
@@ -507,7 +537,9 @@ U-NASA=United-National Aeronoutics and Space Administration 联合国航空航�
 
 ## 只有神知道的世界
 
-**神のみぞ知るセカイ The World God Only Knows  [日]若木民喜**
+**神のみぞ知るセカイ The World God Only Knows**
+
+[日] 若木民喜
 
 **Ⅰ只有神知道的世界（神のみぞ知るセカイ The World God Only Knows）**
 **Ⅱ只有神知道的世界Ⅱ（神のみぞ知るセカイⅡ）**
@@ -563,7 +595,9 @@ U-NASA=United-National Aeronoutics and Space Administration 联合国航空航�
 
 ## 异界
 
-**Koma  [俄]尼基塔·阿格诺夫**
+**Koma**
+
+[俄] 尼基塔·阿格诺夫
 
 幻影，清除者
 

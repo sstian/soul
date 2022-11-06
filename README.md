@@ -2,10 +2,11 @@
 
 It's my personal website.
 
-| Platform | Repository URL                             | Website                   |
-| -------- | ------------------------------------------ | ------------------------- |
-| Github   | https://github.com/sstian/sstian.github.io | https://sstian.github.io/ |
-| Gitee    | https://gitee.com/sstian/sstian            | https://sstian.gitee.io/  |
+| Platform   | Repository URL                             | Website                   |
+| ---------- | ------------------------------------------ | ------------------------- |
+| Github     | https://github.com/sstian/sstian.github.io | https://sstian.github.io/ |
+| Gitee      | https://gitee.com/sstian/sstian            | https://sstian.gitee.io/  |
+| Aliyun ECS | /home/git/blog.git                         | https://www.sstian.top/   |
 
 ## Layout
 
@@ -18,12 +19,12 @@ Markdown style:
 ```markdown
 ## 影视名
 
-**原版名/外文名、其它名字**
+**原版名/外文名，其它名字**
 
 [国籍] 作者1、作者2、……
 
 人物名 原始名：
-+ 名言警句。
+- 名言警句。
   原版语言。
 
 > 其它内容
@@ -33,7 +34,7 @@ e.g.
 ```markdown
 ## 你好世界
 
-**HELLO WORLD、ハロー・ワールド**
+**HELLO WORLD，ハロー・ワールド**
 
 [日] 伊藤智彦
 
@@ -98,7 +99,7 @@ deploy:
   repo: 
     - git@github.com:sstian/sstian.github.io.git
     - git@gitee.com:sstian/sstian.git
-	- git@101.132.142.119:/home/git/blog.git
+		- git@101.132.142.119:/home/git/blog.git
   branch: master
 ```
 
