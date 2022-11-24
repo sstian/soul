@@ -164,6 +164,10 @@ Carbon | Create and share beautiful images of your source code  https://carbon.n
 
 开放API-2.0  https://api.apiopen.top/
 
+Hitokoto - 一言：一句话服务  https://hitokoto.cn/
+
+- https://v1.hitokoto.cn/
+
 ### 其它
 
 Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/

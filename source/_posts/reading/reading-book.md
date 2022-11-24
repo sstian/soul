@@ -887,7 +887,6 @@ BCPL = Basic Combined Programming Language
 | 并集     | ∪        | +        | OR       | 或       | 并联     | 或门     |
 | 补集     |          | 1-       | NOT      | 非       | 反相     | 反相器   |
 
-
 ### 14 反馈与触发器
 
 - 振荡器 oscillator：在不需要人干涉的情况下，可以完全自发地工作。
