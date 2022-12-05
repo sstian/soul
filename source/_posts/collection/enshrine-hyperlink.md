@@ -108,6 +108,8 @@ JSON Hero - JSON Viewer  https://jsonhero.io/
 
 HexEd.it - Hex编辑器  https://hexed.it/
 
+regex101: build, test, and debug regex  https://regex101.com/
+
 ### 网络
 
 https://www2.tkn.tu-berlin.de/teaching/rn/animations/
@@ -199,6 +201,8 @@ EasyX Library for C++  http://www.easyx.cn/
 NSIS (Nullsoft Scriptable Install System)  https://nsis.sourceforge.io/
 
 HM NIS EDIT: A Free NSIS Editor/IDE  https://hmne.sourceforge.net/
+
+Venis: Visual Environment for [Nullsoft Install System](http://nsis.sf.net/) (NSIS)  https://www.spaceblue.com/products/venis/index.html
 
 ### Spring生态圈
 
