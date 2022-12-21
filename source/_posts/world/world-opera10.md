@@ -1004,6 +1004,13 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 
 一 二 三
 
+篮球队员位置：
+- PF = Power Forward 大前锋
+- SF = Small Forward 小前锋
+- C = Center 中锋
+- PG = Point Guard 控球后卫
+- SG = Shooting Guard 得分后卫
+
 黑子哲也：
 - 篮球不是一个人就能大的东西。比赛结束的时候，不管赢了对方多少分……不高兴的话，那就不叫胜利。
 - 对一个不在场的人发脾气也没有意义，眼前的敌人才是一切。

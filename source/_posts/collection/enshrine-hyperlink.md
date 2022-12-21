@@ -18,7 +18,7 @@ date: 2020-12-20 12:20:00
 
 ### C/C++
 
-C语言中文网：C语言程序设计门户网站（入门教程、编程软件）  http://c.biancheng.net/
+C语言中文网 - C语言程序设计门户网站（入门教程、编程软件）  http://c.biancheng.net/
 
 The C++ Resources Network  http://www.cplusplus.com/
 
@@ -44,13 +44,13 @@ OpenCV中文网站  http://www.opencv.org.cn/
 
 ### 网站
 
-博客园-开发者的网上家园  https://www.cnblogs.com/
+博客园 - 开发者的网上家园  https://www.cnblogs.com/
 
-慕课网-程序员的梦工厂  https://www.imooc.com/
+慕课网 - 程序员的梦工厂  https://www.imooc.com/
 
-我要自学网-视频教程|免费教程  http://www.51zxw.net/
+我要自学网 - 视频教程|免费教程  http://www.51zxw.net/
 
-酷勤网-在线教程-Qt参考文档  http://www.kuqin.com/qtdocument/index.html
+酷勤网 - 在线教程-Qt参考文档  http://www.kuqin.com/qtdocument/index.html
 
 廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git  https://www.liaoxuefeng.com/
 
@@ -64,7 +64,7 @@ BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
 
 MDN Web Docs  https://developer.mozilla.org/zh-CN/
 
-CodePen: Online Code Editor and  Web Developer Community  https://codepen.io/
+CodePen - Online Code Editor and  Web Developer Community  https://codepen.io/
 
 Cool Backgrounds  https://coolbackgrounds.io/
 
@@ -74,7 +74,7 @@ Universe of UI elements  https://uiverse.io/
 
 Collect UI - Daily inspiration collected from daily ui archive and beyond  https://collectui.com/
 
-Noun Project: Free Icons &amp; Stock Photos for Everything  https://thenounproject.com/
+Noun Project - Free Icons &amp; Stock Photos for Everything  https://thenounproject.com/
 
 React - A JavaScript library for building user interfaces  https://reactjs.org/
 
@@ -92,7 +92,7 @@ W3C中国 - [万维网联盟（W3C=World Wide Web Consortium）](http://www.w3.o
 
 npm - Take your JavaScript development up a notch  https://www.npmjs.com/
 
-jQuery API 中文文档 | jQuery API 中文在线手册  https://jquery.cuishifeng.cn/
+jQuery API 中文在线手册  https://jquery.cuishifeng.cn/
 
 ### 算法
 
@@ -108,7 +108,7 @@ JSON Hero - JSON Viewer  https://jsonhero.io/
 
 HexEd.it - Hex编辑器  https://hexed.it/
 
-regex101: build, test, and debug regex  https://regex101.com/
+regex101 - build, test, and debug regex  https://regex101.com/
 
 ### 网络
 
@@ -200,9 +200,9 @@ EasyX Library for C++  http://www.easyx.cn/
 
 NSIS (Nullsoft Scriptable Install System)  https://nsis.sourceforge.io/
 
-HM NIS EDIT: A Free NSIS Editor/IDE  https://hmne.sourceforge.net/
+- HM NIS EDIT - A Free NSIS Editor/IDE  https://hmne.sourceforge.net/
 
-Venis: Visual Environment for [Nullsoft Install System](http://nsis.sf.net/) (NSIS)  https://www.spaceblue.com/products/venis/index.html
+- Venis - Visual Environment for [Nullsoft Install System](http://nsis.sf.net/) (NSIS)  https://www.spaceblue.com/products/venis/index.html
 
 ### Spring生态圈
 
@@ -359,15 +359,21 @@ U启动  http://www.uqidong.com/
 
 PPSSPP吧导航  https://tieba.baidu.com/p/3652287279?red_tag=2448979608
 
-GeoGebra | 免费的数学应用软件 (图形计算器/3D计算器/几何/增强现实等)  https://www.geogebra.org/
+GeoGebra - 免费的数学应用软件 (图形计算器/3D计算器/几何/增强现实等)  https://www.geogebra.org/
 
-唧唧-哔哩哔哩唧唧-bilibili视频|弹幕在线下载  http://www.jijidown.com/
+唧唧Down - bilibili视频或弹幕下载  http://www.jijidown.com/
 
 KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 
 OneMark - 用 Markdown 重新认识 OneNote  https://onemark.neuxlab.cn/
 
 Google Chrome 浏览器  https://www.google.cn/intl/zh-CN/chrome/
+
+Github访问加速：
+
+- Watt Toolkit (原名 Steam++)：开源跨平台的多功能Steam工具箱  https://steampp.net/
+
+WinRAR and RAR archivers  https://www.rarlab.com/
 
 ## 应用商店
 

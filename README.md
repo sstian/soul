@@ -86,6 +86,17 @@ tags:
   - Hexo
 ```
 
+### 配置ssh
+```cmd
+# 生成ssh公钥
+ssh-keygen -t rsa -C xxx@xxx(自己的邮箱地址)
+
+# 检测ssh公钥是否配置成功
+C:\Users\Snow-Angel>ssh -t git@gitee.com
+Hi sstian! You've successfully authenticated, but GITEE.COM does not provide shell access.
+Connection to gitee.com closed.
+```
+
 ### 配置git
 全局用户设置
 ```cmd
