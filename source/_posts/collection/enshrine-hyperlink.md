@@ -12,7 +12,7 @@ date: 2020-12-20 12:20:00
 
 类别
 
-名称  网址
+网站名称 - 说明  网址
 
 ## 程序员
 
@@ -92,6 +92,8 @@ W3C中国 - [万维网联盟（W3C=World Wide Web Consortium）](http://www.w3.o
 
 npm - Take your JavaScript development up a notch  https://www.npmjs.com/
 
+Awesome JS Packages - https://awesomejs.dev/
+
 jQuery API 中文在线手册  https://jquery.cuishifeng.cn/
 
 ### 算法
@@ -154,13 +156,13 @@ ASCIIFlow - Infinite ASCII diagrams  https://asciiflow.com/
 
 ### 文档
 
-Swagger | API Documentation & Design Tools for Teams  https://swagger.io/
+Swagger - API Documentation & Design Tools for Teams  https://swagger.io/
 
   - Swagger Editor  https://editor.swagger.io/
 
-Shields.io: Quality metadata badges for open source projects  https://shields.io/
+Shields.io - Quality metadata badges for open source projects  https://shields.io/
 
-Carbon | Create and share beautiful images of your source code  https://carbon.now.sh/
+Carbon - Create and share beautiful images of your source code  https://carbon.now.sh/
 
 ### API
 
@@ -169,6 +171,11 @@ Carbon | Create and share beautiful images of your source code  https://carbon.n
 Hitokoto - 一言：一句话服务  https://hitokoto.cn/
 
 - https://v1.hitokoto.cn/
+
+现实君：一句话服务  https://uixsj.cn/
+
+- 一言API  https://api.uixsj.cn/hitokoto/
+> https://api.uixsj.cn/hitokoto/get?type=social
 
 ### 其它
 
@@ -404,6 +411,8 @@ AGE动漫 - 在线动画 动漫下载  https://donghua.agefans.com/
 萌娘资源站-动漫头像、动漫壁纸下载  http://moe.005.tv/
 
 绝对领域 - 绅士从这里开始-J站  https://www.jdlingyu.mobi/
+
+瑶华映画 - 真实美少女目录  https://www.acg45.com/
 
 ## 游戏王
 
