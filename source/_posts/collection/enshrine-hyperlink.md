@@ -12,13 +12,15 @@ date: 2020-12-20 12:20:00
 
 类别
 
-网站名称 - 说明  网址
+网站名称 - 自带说明：附加说明  网址
 
 ## 程序员
 
 ### C/C++
 
 C语言中文网 - C语言程序设计门户网站（入门教程、编程软件）  http://c.biancheng.net/
+
+The GNU C Reference Manual  https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html
 
 The C++ Resources Network  http://www.cplusplus.com/
 
@@ -57,6 +59,8 @@ OpenCV中文网站  http://www.opencv.org.cn/
 菜鸟教程 - 学的不仅是技术，更是梦想！  https://www.runoob.com/
 
 网道 - 互联网开发文档  https://www.wangdoc.com/
+
+Compiler Explorer：多语言交互式汇编  https://godbolt.org/
 
 ### 前端
 
@@ -242,8 +246,6 @@ Notepad++  https://github.com/notepad-plus-plus/notepad-plus-plus
 
 爱给网-影视和游戏素材  http://www.aigei.com/
 
-唯美女生|一双发现美的眼睛！  https://www.vmgirls.com/
-
 娇秀网-让你的美变的有价值  http://www.jiaoshow.com/
 
 Iconfont-阿里巴巴矢量图标库  http://www.iconfont.cn/
@@ -398,21 +400,27 @@ NCH 软件 - 在线下载免费软件  https://www.nchsoftware.com/cn/
 
 ## 二次元
 
-超能部-二次元社团原创联盟  http://www.chaonengbu.com/
+超能部：二次元社团原创联盟  http://www.chaonengbu.com/
 
-半次元-第一中文cos绘画小说社区  https://bcy.net/
+半次元：第一中文cos绘画小说社区  https://bcy.net/
 
 二次元虫洞  http://www.2cycd.com/
 
-ACG调查小队 - 动漫资源分享、互动小站  https://acg12.com/
+次元岛：一站式Cosplay作品发布平台  http://ciyuandao.com/
 
-AGE动漫 - 在线动画 动漫下载  https://donghua.agefans.com/
+ACG调查小队：动漫资源分享、互动小站  https://acg12.com/
 
-萌娘资源站-动漫头像、动漫壁纸下载  http://moe.005.tv/
+AGE动漫：在线动画 动漫下载  https://donghua.agefans.com/
 
-绝对领域 - 绅士从这里开始-J站  https://www.jdlingyu.mobi/
+萌娘资源站：动漫头像、动漫壁纸下载  http://moe.005.tv/
 
-瑶华映画 - 真实美少女目录  https://www.acg45.com/
+绝对领域：绅士从这里开始-J站  https://www.jdlingyu.mobi/
+
+瑶华映画：真实美少女目录  https://www.acg45.com/
+
+唯美女生：一双发现美的眼睛！  https://www.vmgirls.com/
+
+爱美女：美女写真  https://www.2meinv.com/
 
 ## 游戏王
 
