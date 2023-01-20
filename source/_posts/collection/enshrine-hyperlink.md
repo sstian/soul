@@ -60,8 +60,6 @@ OpenCV中文网站  http://www.opencv.org.cn/
 
 网道 - 互联网开发文档  https://www.wangdoc.com/
 
-Compiler Explorer：多语言交互式汇编  https://godbolt.org/
-
 ### 前端
 
 BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
@@ -80,9 +78,15 @@ Collect UI - Daily inspiration collected from daily ui archive and beyond  https
 
 Noun Project - Free Icons &amp; Stock Photos for Everything  https://thenounproject.com/
 
+Lordicon - Animated Icon：动态图标库  https://lordicon.com/
+
 React - A JavaScript library for building user interfaces  https://reactjs.org/
 
-React 官方中文文档 - 用于构建用户界面的 JavaScript 库  https://react.docschina.org/
+React 中文网 - 用于构建用户界面的 JavaScript 库  https://react.docschina.org/
+
+Vue.js - The Progressive JavaScript Framework  https://vuejs.org/
+
+Vue.js 中文网- 渐进式 JavaScript 框架  https://cn.vuejs.org/
 
 Babel - The compiler for next generation JavaScript  https://babeljs.io/
 
@@ -115,6 +119,8 @@ JSON Hero - JSON Viewer  https://jsonhero.io/
 HexEd.it - Hex编辑器  https://hexed.it/
 
 regex101 - build, test, and debug regex  https://regex101.com/
+
+Compiler Explorer：多语言交互式汇编  https://godbolt.org/
 
 ### 网络
 
