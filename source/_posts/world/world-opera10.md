@@ -1110,3 +1110,31 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 
 周三粥：
 - 离开了知识的海洋，我无法呼吸。
+
+## 新·奥特曼
+
+**シン・ウルトラマン，Shin Ultraman**
+
+[日] 樋口真嗣
+
+jolly roger 海盗旗/骷髅旗，roger that 收到
+
+~~奥特曼~~/神永新二：
+- 奥特曼不是一个全能神。他和你一样，也是一个生命体。
+  Ultraman is not an omnipotent god. Like you, he is a living organism.
+
+浅见弘子：
+- 人类是群居动物，要相互帮助才能生存。
+  Huamns are social animals. We depend on each other to survive.
+
+美菲拉斯 Mefilas：
+- “趁热打铁”。
+  "Strike while the iron is hot."
+- “有备而来”。
+  "Better safe than sorry"
+- “为了目的而不择手段”。
+  "The ends justify the means."
+- “卷土重来”。
+  "If at first you don't succeed, try try again."
+- 外物的干涉应该遵守自然规律。
+  Any interference with other planets is limited to the use of living creatures.

@@ -89,7 +89,7 @@ tags:
 ### 配置ssh
 ```cmd
 # 生成ssh公钥
-ssh-keygen -t rsa -C xxx@xxx(自己的邮箱地址)
+ssh-keygen -t rsa -C st.tian@foxmail.com
 
 # 检测ssh公钥是否配置成功
 C:\Users\Snow-Angel>ssh -t git@gitee.com

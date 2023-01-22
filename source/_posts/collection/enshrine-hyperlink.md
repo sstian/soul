@@ -364,6 +364,8 @@ FlowCV - Free Online Resume Builder and Resume Templates  https://flowcv.io/
 
 Firefox Monitor - 邮箱账号外泄查询  https://monitor.firefox.com/
 
+贝贝工具站：可解析Bilibili视频  https://xbeibeix.com/
+
 ## 工具软件
 
 COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
