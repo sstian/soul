@@ -1138,3 +1138,19 @@ jolly roger 海盗旗/骷髅旗，roger that 收到
   "If at first you don't succeed, try try again."
 - 外物的干涉应该遵守自然规律。
   Any interference with other planets is limited to the use of living creatures.
+
+## 荒蛮故事
+
+**（西班牙语）Relatos salvajes，（英语）Wild Tales**
+
+[阿根廷] 达米安·斯兹弗隆
+
+Simón：
+- 给罪犯工作的人就是在犯罪。
+  People who work for criminals are criminals too.
+
+侍应：
+- 时间会冲淡一切的。
+  Time heals all wounds.
+- 如果你一直在乎别人的看法，你就毁了。
+  If you spend your time worrying about what other people think, you're screwed, kiddo.
