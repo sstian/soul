@@ -104,6 +104,8 @@ Awesome JS Packages - https://awesomejs.dev/
 
 jQuery API 中文在线手册  https://jquery.cuishifeng.cn/
 
+Can I use... Support tables for HTML5, CSS3, etc  https://caniuse.com/
+
 ### 算法
 
 算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
@@ -481,3 +483,5 @@ Sakaku Complex - Anime, manga and games, observed from Japan  https://www.sankak
 ## 娱乐
 
 GeekPrank Hacker Typer - Online Hakcer Simulator  https://geekprank.com/hacker/
+
+ARK Starmap | Roberts Space Industries  https://robertsspaceindustries.com/starmap
