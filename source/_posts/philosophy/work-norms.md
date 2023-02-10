@@ -1,9 +1,10 @@
 ---
 title: work-norms 工作规范
 categories: Philosophy
-date: 2020-07-20 09:00:00
 tags:
   - Norms
+abbrlink: 327e
+date: 2020-07-20 09:00:00
 ---
 
 覃光辉 Toby: 
