@@ -4,6 +4,7 @@
 set -e
 
 echo "start building..."
+start_time=`date +%s`
 
 echo "git pushing changes..."
 echo -e "\n>> git add --all"           && git add --all
@@ -16,3 +17,6 @@ echo -e "\n>> hexo generate" && hexo generate
 echo -e "\n>> hexo deploy"   && hexo deploy
 
 echo -e "\nbuild completely!"
+end_time=`date +%s`
+elapsed_time=`expr $end_time - $start_time`
+echo "elasped time=$elapsed_time seconds"
