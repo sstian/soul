@@ -1173,7 +1173,7 @@ ACM = Association for Computing Machinery 美国计算机协会
 - 1925年，AT&T成立了贝尔电话实验室公司（1925-1984），后改称为AT&T贝尔实验室（1984-1996）。
 - 1996年，因为AT&T被拆分为多个部分，旗下贝尔实验室被纳入朗讯科技，改名为贝尔创新实验室（1996-2006）。
 - 2006年，朗讯与阿尔卡特合并，成立了阿尔卡特-朗讯公司。
-- 2016年，NOKIA阿尔卡特-朗讯公司被诺基亚收购，改名为诺基亚贝尔实验室。
+- 2016年，阿尔卡特-朗讯公司被诺基亚收购，改名为诺基亚贝尔实验室。
 
 编程语言发展历史：
 
@@ -1184,7 +1184,7 @@ ACM = Association for Computing Machinery 美国计算机协会
 | 1952 | Autocode       | Alick Glennie 阿利克·格伦尼                                  | 一些人认为这是第一种编译式计算机编程语言                     |
 | 1957 | FORTRAN        | John Backus 约翰·巴科斯                                      | FORTRAN是一种通用的编译命令式编程语言，特别适用于数值计算和科学计算 |
 | 1958 | IAL (ALGOL 58) | Alan Perlis 艾伦·佩利, John Backus 约翰·巴科斯, etc.         | ALGOL58被创建为一种算法语言，也是Java和C等编程语言的前身     |
-| 1958 | LISP           | John McCarthy                                                | 为人工智能研究设计的，今天，它可以与Python和Ruby一起使用     |
+| 1958 | LISP           | John McCarthy 约翰·麦卡锡                                    | 为人工智能研究设计的，今天，它可以与Python和Ruby一起使用     |
 | 1959 | COBOL          | Grace Hopper 格蕾丝·霍波                                     | COBOL是一种可以在所有类型的计算机上运行的语言                |
 | 1960 | ALGOL 60       | Peter Naur 彼得·诺尔, Alan Perlis 艾伦·佩利, John Backus 约翰·巴科斯, John McCarth 约翰·麦卡锡, etc. | ALGOL60虽然没有被广泛地商用，但是其对后来的语言发展产生了深远的影响 |
 | 1964 | BASIC          | John Kemeny 约翰·凯梅尼, Thomas Kurtz 托马斯·库尔茨          | BASIC为没有强大技术和数学背景的学生开发，使他们能够继续使用计算机 |
@@ -1228,7 +1228,7 @@ ACM = Association for Computing Machinery 美国计算机协会
 
 莫里斯·威尔克斯（Maurice Wilkes）：
 *1967年图灵奖获得者。存储程序式计算机设计者，发明了第一台采用冯·诺依曼架构的计算机EDSAC。*
-- 我急识到从那时起，我生命中的大部分时间都将花在寻找自己程序中的错误上。
+- 我意识到从那时起，我生命中的大部分时间都将花在寻找自己程序中的错误上。
 
 理查德·汉明（Richard Hamming）：
 *1968年图灵奖获得者。纠错码发明者，提出了汉明码、汉明距离和汉明重量。*
