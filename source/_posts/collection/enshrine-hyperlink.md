@@ -106,6 +106,8 @@ jQuery API 中文在线手册  https://jquery.cuishifeng.cn/
 
 Can I use... Support tables for HTML5, CSS3, etc  https://caniuse.com/
 
+Flex Cheatsheet  https://yoksel.github.io/flex-cheatsheet/
+
 ### 算法
 
 算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
@@ -123,6 +125,8 @@ HexEd.it - Hex编辑器  https://hexed.it/
 regex101 - build, test, and debug regex  https://regex101.com/
 
 Compiler Explorer：多语言交互式汇编  https://godbolt.org/
+
+中国地图数据  https://geojson.cn/
 
 ### 网络
 
@@ -188,6 +192,10 @@ Hitokoto - 一言：一句话服务  https://hitokoto.cn/
 
 - 一言API  https://api.uixsj.cn/hitokoto/
 > https://api.uixsj.cn/hitokoto/get?type=social
+
+### 博客
+
+Hexo：快速、简洁且高效的博客框架  https://hexo.io/zh-cn/
 
 ### 其它
 
@@ -312,6 +320,8 @@ voflix HD - 最新好看的电影电视剧免费在线观看  https://www.voflix
 
 热播之家 - 全网视频VIP解析|VIP视频免费在线观看  https://rebozj.com/
 
+4KHDR世界  https://www.4khdr.cn/
+
 ## 游戏
 
 TapTap全球手游  https://www.taptap.com/
@@ -367,6 +377,8 @@ FlowCV - Free Online Resume Builder and Resume Templates  https://flowcv.io/
 Firefox Monitor - 邮箱账号外泄查询  https://monitor.firefox.com/
 
 贝贝工具站：可解析Bilibili视频  https://xbeibeix.com/
+
+TTSMaker - 在线免费文字转语音  https://ttsmaker.com/zh-cn
 
 ## 工具软件
 
