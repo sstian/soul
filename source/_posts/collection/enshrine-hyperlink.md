@@ -434,6 +434,8 @@ ACG调查小队：动漫资源分享、互动小站  https://acg12.com/
 
 AGE动漫：在线动画 动漫下载  https://donghua.agefans.com/
 
+爱恋动漫BT下载  http://www.kisssub.org/
+
 萌娘资源站：动漫头像、动漫壁纸下载  http://moe.005.tv/
 
 绝对领域：绅士从这里开始-J站  https://www.jdlingyu.mobi/
@@ -497,3 +499,7 @@ Sakaku Complex - Anime, manga and games, observed from Japan  https://www.sankak
 GeekPrank Hacker Typer - Online Hakcer Simulator  https://geekprank.com/hacker/
 
 ARK Starmap | Roberts Space Industries  https://robertsspaceindustries.com/starmap
+
+## 生活
+
+How To Cook - 程序员做饭指南  https://cook.aiurs.co/

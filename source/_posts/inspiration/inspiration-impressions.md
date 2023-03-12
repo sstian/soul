@@ -85,3 +85,4 @@ tags:
 - 一种良好设计的思想：干净 clean，轻量 lightweight，有效 effective。
 - 写代码，真开心；查问题，真难受。
 - DevOps = Development + Operations：快速开发，稳定运行。敏捷，迭代。开发运维自动化。
+- 练就了一身屠龙之术，要么无处施展，要么灭个小虫。
