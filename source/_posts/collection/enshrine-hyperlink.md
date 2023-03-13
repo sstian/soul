@@ -380,6 +380,8 @@ Firefox Monitor - 邮箱账号外泄查询  https://monitor.firefox.com/
 
 TTSMaker - 在线免费文字转语音  https://ttsmaker.com/zh-cn
 
+PikPak - 极速秒存的私密云盘  https://mypikpak.com/
+
 ## 工具软件
 
 COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
