@@ -795,7 +795,7 @@ wear many hats 戴很多帽子；身兼数职
 
 ## 编码：隐匿在计算机软硬件背后的语言
 
-**Code:The Hidden Language of Computer Hardware and Software**
+**Code: The Hidden Language of Computer Hardware and Software**
 
 [美] Charles Petzold 著，左飞、薛佟佟 译
 
