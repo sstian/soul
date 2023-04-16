@@ -1,10 +1,11 @@
 ---
 title: UNIX编程艺术
-date: 2022-12-11 14:55:57
 tags:
-   - Book
-   - UNIX
-   - Art
+  - Book
+  - UNIX
+  - Art
+abbrlink: 49a6
+date: 2022-12-11 14:55:57
 ---
 
 ## UNIX编程艺术

@@ -2,11 +2,11 @@
 
 It's my personal website.
 
-| Platform   | Repository URL                             | Website                   |
-| ---------- | ------------------------------------------ | ------------------------- |
-| Github     | https://github.com/sstian/sstian.github.io | https://sstian.github.io/ |
-| Gitee      | https://gitee.com/sstian/sstian            | https://sstian.gitee.io/  |
-| Aliyun ECS | /home/git/blog.git                         | https://www.sstian.top/   |
+| Platform   | Username | Repository URL                             | Website                   |
+| ---------- | -------- | ------------------------------------------ | ------------------------- |
+| Github     | sstian   | https://github.com/sstian/sstian.github.io | https://sstian.github.io/ |
+| Gitee      | sstian   | https://gitee.com/sstian/sstian            | https://sstian.gitee.io/  |
+| Aliyun ECS |          | /home/git/blog.git                         | https://www.sstian.top/   |
 
 ## Layout
 
