@@ -1,8 +1,9 @@
 ---
 title: code-computer
-date: 2022-10-30 12:30:00
 tags:
   - Book
+abbrlink: '1748'
+date: 2022-10-30 12:30:00
 ---
 
 ## 编码：隐匿在计算机软硬件背后的语言

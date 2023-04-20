@@ -1,8 +1,9 @@
 ---
 title: turing-universe
-date: 2023-02-12 20:00:00
 tags:
   - Books
+abbrlink: 434e
+date: 2023-02-12 20:00:00
 ---
 
 ## 图灵宇宙：原初纪元——计算机科学发展简史
