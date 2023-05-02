@@ -1,5 +1,5 @@
 ---
-title: code-computer
+title: 编码：隐匿在计算机软硬件背后的语言
 tags:
   - Book
 abbrlink: '1748'
@@ -265,7 +265,7 @@ BCPL = Basic Combined Programming Language
 
 - CP/M（Control Program for Micros）是20世纪70年代中期最重要的8位微处理器操作系统。
 - 文件系统是磁盘存储的一种方法，就是把数据组织成文件 file。文件是相关数据的集合，占用磁盘上一个或多个扇区。文件存储在磁盘中不一定要占据连续的扇区空间。
-- 只读存储器（ROM = Read-Only Memory）在CP/M计算机中使用得并不多，只需要用它来存放一小段称为引导程序（bootstrap loader)，操作系统的其余部分可以通过这段代码的自举操作被高效地引导。开机启动时，磁盘上最开始的128字节的扇区内容，会首先由引导程序加载到内存并运行，这个扇区包含有特定的代码，可以把CP/M中的其余部分加载到内存中，整个过程称为操作系统的引导（booting）。
+- 只读存储器（ROM = Read-Only Memory）在CP/M计算机中使用得并不多，只需要用它来存放一小段称为引导程序(bootstrap loader)，操作系统的其余部分可以通过这段代码的自举操作被高效地引导。开机启动时，磁盘上最开始的128字节的扇区内容，会首先由引导程序加载到内存并运行，这个扇区包含有特定的代码，可以把CP/M中的其余部分加载到内存中，整个过程称为操作系统的引导（booting）。
 - CP/M的三个组成部分：
   - 控制台命令处理程序 CCP = Console Command Processor
   - 基本磁盘操作系统 BDOS = Basic Disk Operating System

@@ -6,6 +6,9 @@ tags:
   - Hyperlink
 abbrlink: 35c
 date: 2020-12-20 12:20:00
+img: https://cdn.jsdelivr.net/gh/sstian/images/blogimg/galaxy-background.jpg
+cover: true
+summary: 收藏链接
 ---
 
 # Enshrine Hyperlink
@@ -13,6 +16,30 @@ date: 2020-12-20 12:20:00
 类别
 
 网站名称 - 自带说明：附加说明  网址
+
+## 开发
+
+### 软件包
+
+Qt Downloads  http://download.qt.io/
+
+EasyX Library for C++  http://www.easyx.cn/
+
+NSIS (Nullsoft Scriptable Install System)  https://nsis.sourceforge.io/
+
+- HM NIS EDIT - A Free NSIS Editor/IDE  https://hmne.sourceforge.net/
+
+- Venis - Visual Environment for [Nullsoft Install System](http://nsis.sf.net/) (NSIS)  https://www.spaceblue.com/products/venis/index.html
+
+### Spring生态圈
+
+Spring Framework  https://repo.spring.io/release/org/springframework/spring/
+
+Spring Boot Admin Reference Guide  https://codecentric.github.io/spring-boot-admin/2.6.2/
+
+### 编辑器
+
+Notepad++  https://github.com/notepad-plus-plus/notepad-plus-plus
 
 ## 程序员
 
@@ -217,30 +244,6 @@ Programming Idioms  https://www.programming-idioms.org/
 
 Developer Roadmaps  https://roadmap.sh/
 
-## 开发
-
-### 软件包
-
-Qt Downloads  http://download.qt.io/
-
-EasyX Library for C++  http://www.easyx.cn/
-
-NSIS (Nullsoft Scriptable Install System)  https://nsis.sourceforge.io/
-
-- HM NIS EDIT - A Free NSIS Editor/IDE  https://hmne.sourceforge.net/
-
-- Venis - Visual Environment for [Nullsoft Install System](http://nsis.sf.net/) (NSIS)  https://www.spaceblue.com/products/venis/index.html
-
-### Spring生态圈
-
-Spring Framework  https://repo.spring.io/release/org/springframework/spring/
-
-Spring Boot Admin Reference Guide  https://codecentric.github.io/spring-boot-admin/2.6.2/
-
-### 编辑器
-
-Notepad++  https://github.com/notepad-plus-plus/notepad-plus-plus
-
 ## 设计
 
 稿定设计 - 做图做视频必备|在线设计神器|海量版权素材模板  https://www.gaoding.com/
@@ -314,11 +317,11 @@ Alpha Coders - Your Source For Wallpapers, Art, Photography, Gifs and More!  htt
 
 影猫の仓库 - 电影网站目录  https://ymck.me/
 
-voflix HD - 最新好看的电影电视剧免费在线观看  https://www.voflix.com/
+voflix HD - 最新好看的电影电视剧免费在线观看  https://www.voflix.me/
 
 电影天堂 - 免费迅雷电影下载  https://dytt8.net/
 
-热播之家 - 全网视频VIP解析|VIP视频免费在线观看  https://rebozj.com/
+热播之家 - 全网视频VIP解析|VIP视频免费在线观看  https://rebozj.pro/
 
 4KHDR世界  https://www.4khdr.cn/
 

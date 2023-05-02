@@ -1,5 +1,5 @@
 ---
-title: turing-universe
+title: 图灵宇宙：原初纪元——计算机科学发展简史
 tags:
   - Books
 abbrlink: 434e
