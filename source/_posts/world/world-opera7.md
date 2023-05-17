@@ -87,22 +87,50 @@ the Fountain of Youth 不老泉，Shipwreck Cove 沉船湾
 
 ## 流浪地球
 
-**The Wandering Earth  [中]郭帆**
+**The Wandering Earth**
+
+[中] 郭帆
+
+**《流浪地球》《流浪地球2》**
 
 Jupiter 木星
 
-刘培强，韩子昂，刘启，韩朵朵，蒂姆，王磊，李一一
-
-- 同归于尽总好过坐以待毙。——王磊
-  Kamikaze is better than waiting to die. – Wang Lei
-- 希望是我们唯一回家的方向。——韩朵朵
-  Hope the way to guide us home. – Han Duoduo
-- 生死如常。——老何
-  Life and Death is normal. – Lao He
-- 没有人的文明，毫无意义。——刘培强
-  An civilization without lives is meaningless. – Liu Peishun
 - 道路千万条，安全第一条，行车不规范，亲人两行泪。
   Routes are countless. Safety is foremost. Unregulated driving. Loved ones end up in tears.
+
+刘培强 | ~~马兆~~：
+- 没有人的文明，毫无意义。
+  An civilization without lives is meaningless.
+
+王磊：
+- 同归于尽总好过坐以待毙。
+  Kamikaze is better than waiting to die. 
+
+韩朵朵：
+- 希望是我们唯一回家的方向。
+  Hope the way to guide us home.
+
+老何：
+- 生死如常。
+  Life and Death is normal.
+
+周喆直：
+- 天亮前的夜，最难熬。
+  The hour before dawn is the darkest.
+- 危难当前，唯有责任。团结是需要代价的。
+  In times of crisis, duty above all. Unity comes with a cost.
+- 人类啊，把最精密的保密系统，都用在了彼此毁灭之上。
+  Humans. We used the most sophisticated safeguards on mutual destruction.
+
+```
+刘培强：人类能活下来吗？
+MOSS：从历史上看，文明的命运，取决于人类的选择。
+刘培强：我选择希望。
+
+Liu Peiqiang: Will mankind survive?
+Moss: Looking throuth human history, the fates of civilizaitons have always been dictated by the choices men make.
+Liu Peiqiang: I choose hope.
+```
 
 ![流浪地球](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/流浪地球.jpg)
 
