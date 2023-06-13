@@ -244,6 +244,8 @@ Programming Idioms  https://www.programming-idioms.org/
 
 Developer Roadmaps  https://roadmap.sh/
 
+酷壳 - CoolShell | 陈皓 “左耳朵耗子”  https://coolshell.cn/
+
 ## 设计
 
 稿定设计 - 做图做视频必备|在线设计神器|海量版权素材模板  https://www.gaoding.com/
