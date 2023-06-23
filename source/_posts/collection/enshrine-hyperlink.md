@@ -393,6 +393,8 @@ COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
 
 PotPlayer  https://daumpotplayer.com/
 
+LAV Filters - Open-Source DirectShow Media Splitter and Decoders  https://github.com/Nevcairiel/LAVFilters
+
 U启动  http://www.uqidong.com/
 
 PPSSPP吧导航  https://tieba.baidu.com/p/3652287279?red_tag=2448979608
