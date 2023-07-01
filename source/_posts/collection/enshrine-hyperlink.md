@@ -387,6 +387,10 @@ TTSMaker - 在线免费文字转语音  https://ttsmaker.com/zh-cn
 
 PikPak - 极速秒存的私密云盘  https://mypikpak.com/
 
+在线繁体字转换工具 - 新华字典 | 汉语词典 | 成语大全 | 周公解梦 | 实用工具  http://www.aies.cn/
+
+在线工具 - wetools.com微工具  https://www.wetools.com/
+
 ## 工具软件
 
 COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/

@@ -136,14 +136,26 @@ Liu Peiqiang: I choose hope.
 
 ## 爱宠大机密
 
-**The Secret Life of Pets  [美]亚罗·切尼、克里斯·雷纳德**
+**The Secret Life of Pets**
+
+**《爱宠大机密》[美] 亚罗·切尼、克里斯·雷纳德**
+**《爱宠大机密2》[美] 克里斯·雷纳德、乔纳森·德尔·瓦尔**
 
 麦克（杰克罗素梗），小白/雪球 Snowball（兔子），杜克（纽芬兰犬），啾啾（博美犬），
 冰冰（虎斑猫），大毛（八哥犬），巴弟（腊肠犬），小绿豆（虎皮鹦鹉），老头（巴吉度猎犬），
-馒头（豚鼠）,提比略（红尾鵟kuáng）,刺青哥（猪）,外星（斯芬克斯猫）,李傲（贵宾犬）
+馒头（豚鼠），提比略（红尾鵟kuáng），刺青哥（猪），外星（斯芬克斯猫），李傲（贵宾犬）
 
-- 自由万岁，永不驯服。——小白
 - 笨到难以沟通，丑到难以下咽。
+- 你永远不知道会发生什么事，但是你有两个选择：要么逃避，要么勇敢面对。
+  You never know what life is gonna throw at you. And you have two choices: run from it, or run at it.
+
+小白：
+- 自由万岁，永不驯服。
+
+鲁斯特：
+- 狗这辈子有两个事情，一个是水盆，一个是尊严。
+- 克服恐惧的第一步，就是假装一点都不害怕。
+
 
 ![爱宠大机密](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/爱宠大机密.png)
 
