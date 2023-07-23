@@ -1,5 +1,6 @@
 ---
 title: 编码：隐匿在计算机软硬件背后的语言
+categories: Reading
 tags:
   - Book
 abbrlink: '1748'
