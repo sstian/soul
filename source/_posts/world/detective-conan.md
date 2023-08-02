@@ -3,6 +3,7 @@ title: 名侦探柯南
 categories: World
 tags:
   - Opera
+abbrlink: 94d0
 date: 2021-08-09 20:00:00
 ---
 
