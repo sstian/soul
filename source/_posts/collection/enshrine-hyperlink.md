@@ -421,6 +421,8 @@ Github访问加速：
 
 WinRAR and RAR archivers  https://www.rarlab.com/
 
+Diagram Designer: Simple vector graphics editor  http://meesoft.com/DiagramDesigner/
+
 ## 应用商店
 
 zd423 - 软件分享平台领跑者  http://www.zdfans.com/
