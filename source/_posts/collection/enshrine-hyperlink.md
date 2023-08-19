@@ -315,15 +315,17 @@ Alpha Coders - Your Source For Wallpapers, Art, Photography, Gifs and More!  htt
 
 ## 影视
 
-在线之家 - 在线观看最新美剧|最新韩剧|天天美剧|人人美剧  https://www.zxzjs.com/
-
 影猫の仓库 - 电影网站目录  https://ymck.me/
+
+热播之家 - 全网视频VIP解析|VIP视频免费在线观看  https://rebozj.pro/
 
 voflix HD - 最新好看的电影电视剧免费在线观看  https://www.voflix.me/
 
+在线之家 - 在线观看最新美剧|最新韩剧|天天美剧|人人美剧  https://www.zxzjs.com/
+
 电影天堂 - 免费迅雷电影下载  https://dytt8.net/
 
-热播之家 - 全网视频VIP解析|VIP视频免费在线观看  https://rebozj.pro/
+电影天堂 - 高清电影下载  https://www.dygod.net/
 
 4KHDR世界  https://www.4khdr.cn/
 

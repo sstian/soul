@@ -1059,6 +1059,8 @@ Season 2
 Season 3: 02 游戏测试 PLAYTESET
 Season 4: 01 卡利斯特号星舰 U.S.S.Callister 06 黑色博物馆 Black Museum
 
+一杆进洞 Hole-in-one
+
 简·卡洛 Jane Callow: 
 - 我了解人性，我们就喜欢看别人出丑，忍不住要幸灾乐祸。
   I know people. We love humiliation. We can't not laugh.
@@ -1097,3 +1099,15 @@ Coach 教练：
   See, it's like eating chilies. You acclimatize fast. First time you had a jalapeno, bet you spat it out, too hot. But persevere and it becomes addictive. Soon, a jalapeno's not enough. You work your way up, red-hot chilies, bird's-eye chilies, till you get to them Scotch bonnet devils. Dawson's craving was just the same.
 - 亲不敬，熟生蔑。
   Familiarity breeding contempt is the problem.
+
+特伦特 Trent / 马修 Matthew：
+- 人们渴望别人注意，不喜欢被排除在外，会觉得没存在感。
+  People want to be noticed. They don't like to be shut out. It makes them feel invisible.
+- 沉默是很压抑的。被关在真空空间里，就会胡思乱想，不是吗？
+  Silence can be oppressive. You think weird shit in a vacuum, huh?
+- 单独待久了就会崩溃。
+  Too much time in solitary and they'd just wig out.
+
+哈利 Harry：
+- 让你退缩不前的是对于刺激的恐惧，说到底你唯一担心的就是状态的转换。但这其实伤不到你，因为这就是状态改变而已。
+  It's the fear of the shock that holds you back. Ultimately the only thing you've worried about is the transition from one state to another, and that can't hurt you, because it's... it's just a state change.
