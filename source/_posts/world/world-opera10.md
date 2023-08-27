@@ -1111,3 +1111,18 @@ Coach 教练：
 哈利 Harry：
 - 让你退缩不前的是对于刺激的恐惧，说到底你唯一担心的就是状态的转换。但这其实伤不到你，因为这就是状态改变而已。
   It's the fear of the shock that holds you back. Ultimately the only thing you've worried about is the transition from one state to another, and that can't hurt you, because it's... it's just a state change.
+
+## 消失的她
+
+**Lost in the stars**
+
+[中] 导演：崔睿、刘翔，编剧：陈思诚、顾舒怡
+
+曼德拉效应：不断地用细节和暗示让你形成习惯性的记忆。
+Mandela Effect: By feeding people details and hints continuously,a memory can be formed out of habit.
+
+沈曼/陈麦：
+- 没有创造者会丢掉自己的创作工具，就像没有人会改变自己的读书嗜好是一样的。
+  Because no artist would throw away their instrument of creation. Just like how people never change their reading habits. It's the same.
+- 一个人最难改，也最容易忽略的，就是习惯。
+  For a person, the hardest thing to change, and the easiest thing to ignore, is old habit.
