@@ -552,3 +552,19 @@ AED = Automated External Defibrillator，自动体外除颤器
   - 确定工作流程
   - 制作样片
 
+## 最终幻想系列
+
+**Final Fantasy**
+
+[中] 宸诩想要勤更新
+https://www.bilibili.com/video/BV1254y1a7NL/
+
+《最终幻想VII》
+
+- 人不能一味地活在过去，也不能活在别人的阴影下。踏出那一步，你就是自己的英雄。
+
+安吉尔·修雷（アンジール·ヒューレー，Angeal Hewley）：
+- 要成为英雄一定要带着梦想，还有荣誉。
+
+扎克斯·菲尔（Zack Fair）：
+- 你是我存在过的证明。
