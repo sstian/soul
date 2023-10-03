@@ -1,10 +1,11 @@
 ---
 title: 中华文化
 categories: Literature
-date: 2023-09-28 15:21:33
 tags:
- - Chinese
- - Culrure
+  - Chinese
+  - Culrure
+abbrlink: 784a
+date: 2023-09-28 15:21:33
 ---
 
 ## 三字经

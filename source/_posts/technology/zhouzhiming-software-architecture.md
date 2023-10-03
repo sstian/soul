@@ -1,11 +1,12 @@
 ---
 title: 周志明的软件架构课
 categories: Technology
-date: 2023-09-26 21:54:23
 tags:
   - 周志明
   - 软件架构
   - 极客时间
+abbrlink: b5d6
+date: 2023-09-26 21:54:23
 ---
 
 ## 周志明的软件架构课

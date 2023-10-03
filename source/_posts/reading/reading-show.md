@@ -556,11 +556,10 @@ AED = Automated External Defibrillator，自动体外除颤器
 
 **Final Fantasy**
 
-[中] 宸诩想要勤更新
-https://www.bilibili.com/video/BV1254y1a7NL/
+### 动画电影
+[日] 史克威尔艾尼克斯
 
-《最终幻想VII》
-
+**《最终幻想7：圣子降临》（Final Fantasy VII: Advent Children）**
 - 人不能一味地活在过去，也不能活在别人的阴影下。踏出那一步，你就是自己的英雄。
 
 安吉尔·修雷（アンジール·ヒューレー，Angeal Hewley）：
@@ -568,3 +567,19 @@ https://www.bilibili.com/video/BV1254y1a7NL/
 
 扎克斯·菲尔（Zack Fair）：
 - 你是我存在过的证明。
+
+**《最终幻想15：王者之剑》（Kingsglaive Final Fantasy XV）**
+路西斯王国 VS 尼福海姆帝国
+露娜弗蕾亚·诺克斯·芙尔雷 公主 [戴涅布莱王国]：
+- 不是一切奇迹都要靠魔法。我不害怕死亡，我所怕的是——什么也不做，因而失去一切。
+- 真正的力量，是无法被那些寻求它的人发现的，它会找到配得上拥有它的人。
+
+尼克斯·尤里克：
+- 我的荣耀在于塑造未来。
+
+### 游戏解说
+[中] 宸诩想要勤更新
+https://www.bilibili.com/video/BV1254y1a7NL/
+
+- 或许斩断过去，才能得到真正自由。
+
