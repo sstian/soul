@@ -307,3 +307,4 @@ Ruby代码简洁、优雅、富有表现力。
 
 - 基础不牢，地动山摇。
 - Joel Spolsky：抽象只能节省你的工作时间，不能节省你的学习时间。
+- Lisp大佬Richard P. Gabriel：Worse is better。软件设计有四个目标：简单性，正确性，一致性，完整性。

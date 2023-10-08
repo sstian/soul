@@ -41,7 +41,7 @@ Spring Boot Admin Reference Guide  https://codecentric.github.io/spring-boot-adm
 
 Notepad++  https://github.com/notepad-plus-plus/notepad-plus-plus
 
-## 程序员
+## 编程语言
 
 ### C/C++
 
@@ -62,6 +62,8 @@ fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 ### Golang
 
 GOPROXY.IO - 一个全球代理 为 Go 模块而生  https://proxy.golang.com.cn/zh/
+
+## 程序员
 
 ### 图形
 
@@ -399,6 +401,10 @@ PikPak - 极速秒存的私密云盘  https://mypikpak.com/
 
 Convertio - 文件转换器  https://convertio.co/zh/
 
+深言达意：据意找词找句  https://www.shenyandayi.com/
+
+TinyWow - Free AI Writing, PDF, Image, Video, File etc. Online Tools  https://tinywow.com/
+
 ## 工具软件
 
 COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
@@ -428,6 +434,8 @@ Github访问加速：
 WinRAR and RAR archivers  https://www.rarlab.com/
 
 Diagram Designer: Simple vector graphics editor  http://meesoft.com/DiagramDesigner/
+
+Vizard录屏  https://vizard.video/
 
 ## 应用商店
 
