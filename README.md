@@ -205,4 +205,6 @@ npm run build
 ## Reference
 
 Hexo 文档  https://hexo.io/zh-cn/docs/
+hexo+github搭建博客(超级详细版，精细入微)  https://blog.csdn.net/victoryxa/article/details/103733655?spm=1001.2014.3001.5506 
+
 
