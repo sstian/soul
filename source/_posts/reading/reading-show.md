@@ -586,7 +586,8 @@ AED = Automated External Defibrillator，自动体外除颤器
 https://www.bilibili.com/video/BV1254y1a7NL/
 
 - 或许斩断过去，才能得到真正自由。
+- 天下没有不散的筵席，分别总是充满伤感的。
 
-《最终幻想 战略版/狮子战争》（Final Fantasy Tactics）
+《最终幻想战略版：狮子战争》（Final Fantasy Tactics）
 - 未经他人苦，莫劝他人善。
 - 真正的“自由”与“平等”都是靠自己争取来的。失去了人的尊严还以为得到了自由的人，不过是披着皇帝的新衣罢了。
