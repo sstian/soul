@@ -1,11 +1,12 @@
 ---
 title: 陈皓 左耳听风
-date: 2023-10-20 20:05:12
 categories: Technology
 tags:
   - 陈皓
   - 左耳听风
   - 极客时间
+abbrlink: '9e53'
+date: 2023-10-20 20:05:12
 ---
 
 ## 左耳听风
