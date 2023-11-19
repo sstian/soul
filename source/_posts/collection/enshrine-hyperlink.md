@@ -63,6 +63,12 @@ fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
 GOPROXY.IO - 一个全球代理 为 Go 模块而生  https://proxy.golang.com.cn/zh/
 
+### JavaScript
+
+ECMAScript® Language Specification  https://tc39.es/ecma262/
+
+ES6 入门教程 - 阮一峰  https://es6.ruanyifeng.com/
+
 ## 程序员
 
 ### 图形
@@ -87,7 +93,7 @@ OpenCV中文网站  http://www.opencv.org.cn/
 
 菜鸟教程 - 学的不仅是技术，更是梦想！  https://www.runoob.com/
 
-网道 - 互联网开发文档  https://www.wangdoc.com/
+网道 - 互联网开发文档：HTML+JavaScript+TypeScript+C+Bash+SSH  https://www.wangdoc.com/
 
 ### 前端
 
@@ -496,6 +502,8 @@ OurOcg 共享精彩决斗生活  http://www.ourocg.cn/
 万方数据 知识服务平台  http://www.wanfangdata.com.cn/
 
 百度学术-论文助手-论文查重  http://xueshu.baidu.com/u/biye/?tag=check&upload=1&site=index_links
+
+中华诗词  https://www.shi-ci.com/
 
 ## 恋爱
 

@@ -86,16 +86,15 @@ Working software over comprehensive documentation
 Customer collaboration over contract negotiation
 Responding to change over following a plan
 
-
-
-
 **敏捷开发**：
 是一种以人为核心，迭代，循序渐进的开发方法，适用于小团队和小项目，具有“小步快跑”的思想。
 
 **敏捷方法**：
 - **极限编程 XP = Extreme Programming**
+“Extreme”（极限）是指，对比传统的项目开发方式，XP强调把它列出的每个方法和思想做到极限、做到最好；其它XP所不提倡的，则一概忽略（如开发前期的整体设计等）。一个严格实施XP的项目，其开发过程应该是平稳的、高效的和快速的，能够做到一周40小时工作制而不拖延项目进度。
   - 4个价值观：
   沟通 Communication，简单 Simplicity，反馈 Feedback，勇气 Courage。
+  任何一个软件项目都可以从四个方面入手进行改善：加强交流；从简单做起；寻求反馈；勇于实事求是。
   - 5个原则：
   快速反馈，简单性假设，逐步修改，提倡更改，优质工作。
   - 12个最佳实践：

@@ -1126,3 +1126,24 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
   Because no artist would throw away their instrument of creation. Just like how people never change their reading habits. It's the same.
 - 一个人最难改，也最容易忽略的，就是习惯。
   For a person, the hardest thing to change, and the easiest thing to ignore, is old habit.
+
+
+## 疯狂元素城
+
+**Elemental**
+
+[美] 彼得·孙
+
+四大元素：水、火、土、气。
+
+炉小焰 Ember：
+- 冷静冷静，客客气气。似烛光般温柔。
+  Take breath. Make connection. Calm as a candle.
+- 要报答那么重要的牺牲，就唯有牺牲自己一生去还。
+  The only way to repay a sacrifice so big... is by sacrificing your life too.
+
+渡阿波 Wade：
+- 为何你自己的人生，要由别人做主？
+  Why does anyone get to tell you what you can do in your life? 
+- 有些话不说，就未必再有机会。
+  You don't have forever to say what you need to say.
