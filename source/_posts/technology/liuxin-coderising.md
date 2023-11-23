@@ -159,6 +159,696 @@ D = Durability 持久性：数据的修改是永久的。
 - 大部分人只会抱怨项目很无趣、没有挑战，遇到问题也只会安于现状。只有少数人会发现工作中的“痛点”，并且真正动手解决它，给公司带来价值。这是提高自己，让自己和别人区分开来的重要方法。
 - 源码之前，了无秘密。
 - 软件的复杂性，尤其是复杂在细节上。
+- 只要思考就有进步。
+- 所谓编程，就是把自然语言的需求翻译成计算机语言，让计算机去执行。需要养成面向计算机的思维方式。
+- 抽象大法好，用起来多简单、多友好。
+- 不要被纷繁的现象迷住了双眼，要看透背后的本质，做出适当的抽象。
+- 轻敌是最可怕的。
+- 公平实在是一个稀缺货，不公平才是常态！年轻人不要总是抱怨这个社会，没用的，还是老老实实地奋斗吧。
+- 每个人都要誓死捍卫自己的密码。
+- 最宝贵的东西是数据，外界系统可以变，但是数据不能丢。（数据无价）
+
+好莱坞原则：不要给我们打电话，我们会打给你的（Don't call us, we'll call you）。
+
+### 1. 计算机
+
+速度飞快的CPU，健忘的内存，慢如蜗牛的硬盘，任劳任怨的网卡……
+
+#### 线程
+线程：把一个进程当成资源的容器，在里面运行几个轻量级的进程。线程共享进程的所有资源，如地址空间、全局变量、文件源等。
+
+多个资源加锁，按照资源“大小”比较，从最大的开始加锁。
+资源“大小”：把资源变成一个数来比较，比如，可以用用字符串的hashcode来比较。
+
+#### TCP/IP
+TCP连接是虚拟的，连接的状态信息并不会在路上保存；相反，连接的状态信息是在两端维持的。
+三次握手主要是为了验证客户端和服务器的发信和收信能力没问题，证明连接是通的。
+
+所谓的TCP，无非就是在那些不可靠传输的基础上建立一种可靠的发送办法，基本上就是失败重发。
+比如，滑动窗口，累积确认，分组缓存，流量控制。
+
+| 次序 | 客户端 | 服务器 |
+| ---- | ------ | ------ |
+| 1    | ==>>   | ==>>   |
+| 2    | <<==   | <<==   |
+| 3    | ==>>   | ==>>   |
+
+| 客户端知道的 | 发信 | 收信 |
+| ------------ | ---- | ---- |
+| 客户端       | 2    | 2    |
+| 服务器       | 2    | 2    |
+
+| 服务器知道的 | 发信 | 收信 |
+| ------------ | ---- | ---- |
+| 客户端       | 1    | 3    |
+| 服务器       | 3    | 1    |
+
+> 要想知道自己和对方的发送和接收能力是否正常，只需要自己向对方发信并且接收到对方的回复即可。
+
+#### CPU
+DMA = Direct Memory Access 直接内存访问
+程序都是由顺序、跳转（分支、循环）组成的。
+
+#### 进程
+1. 批处理系统
+
+2. 多道程序
+PCB = Processing Control Block 进程控制块
+MMU = Memory Management Unit 内存管理单元
+静态重定位：直接修改程序的指令。
+动态重定位：指令的地址，加上基址寄存器保存的起始地址。
+
+3. 分时系统
+时间片：CPU运行时间拆分，一个进程运行一段时间让出CPU，让别的进程使用。
+
+对每个程序，不要全部装入内存，要分块装载。比如，先装载最重要的代码指令，在运行中再按需装载其他的。
+页框 Page Frame：物理地址空间的小的内存块，每个为4KB。装载程序时按照页框大小进行。
+
+虚拟内存：程序中的指令使用该空间，CPU的MMU把它们映射为真实的物理地址。
+分页。页 Page：把虚拟地址空间分块，每个为4KB。
+页表：用来映射虚拟页面和物理页面。
+
+分段：一个程序被分成代码段、数据段、堆栈段（运行时堆、用户栈）等。
+
+程序 - 段页式管理
+[分段] -> 逻辑地址：段号 =段表=>基址 | 偏移量
+[分页] -> 虚拟地址：页号 =页表=>页框号 | 偏移量
+       -> 物理地址
+
+进程结束后，内存中的数据会被清理、覆盖。
+
+#### 磁盘
+文件对人类来说是最小的存储单位。
+每个目录也是一个inode，有目录的属性、存放该目录内容的磁盘块号等，在磁盘块中材真正地存放着目录下的内容。
+
+超级块中包含磁盘块总数、每个磁盘块的大小、空闲块的个数、inode个数等重要信息。
+文件系统的种类：NTFS, FAT, Ext2, Ext3, ...
+
+#### I/O设备
+卡：适配器。
+
+I/O设备分类：
+- 分类1：
+  - 块设备：数据存储在固定大小的块中，每个块都有一个地址。如：硬盘、CD-ROM、U盘等。
+  - 字符设备：由一个个字符组成的流，没有地址。如：键盘、鼠标、打印机。
+- 分类2：
+  - 存储设备。如：硬盘。
+  - 传输设备。如网卡、调制解调器。
+  - 人机交互设备。如：键盘、鼠标、显示器。
+
+#### 数据库
+事务日志，两条简单的规则：
+- 在把新数据写入硬盘的数据文件之前，先把对应的日志写入硬盘的日志文件。
+- [提交事务 T1]等的undo日志记录一定要在所有的新数据写入硬盘之后再写入。
+
+数据库实现：查询解释器，查询执行引擎，缓冲区管理，授权管理，事务管理；数据，索引，元数据。
+
+#### Socket
+Socket = (IP, Port)
+
+TCP是两个进程之间的通信。
+TCP的连接必须得通过（client ip, client port, server ip, server port）来确定。
+进程号是一个动态的东西，如果服务器端的进程重启了，进程号就变了。
+
+Bill Joy，天才程序员，主要工作包括BSD UNIX操作系统、实现TCP/IP协议栈、vi编辑器、C Shell、NFS、SPARC处理器、JINI等。
+
+```c
+// Socket client伪代码
+clientfd = socket(...);
+connect(clientfd, serverip, serverport, ...);
+send(clientfd, data);
+receive(clientfd, ...);
+close(clientfd);
+```
+
+```c++
+// 浅浅封装一下
+class Socket {
+  private: 
+    clientfd;
+  public:
+    Socket(serverip, serverport, ...) {
+      this->clientfd = socket(...);
+      connect(this->clientfd, serverip, serverport, ...);
+    }
+    Send(data) {
+      send(this->clientfd, data);
+    }
+    Receive(...) {
+      receive(this->clientfd, ...);
+    }
+    ~Socket() {
+      close(this->clientfd);
+    }
+};
+
+auto mySocket = new Socket(...);
+mySocket->Send(data);
+mySocket->Receive(...);
+```
+
+#### 翻译语言
+机器语言。0 1
+汇编语言。助记符。贴近机器，运行效率高；难以结构化编程。
+高级语言。面向人类
+
+编译的过程：
+源程序 
+-> 词法分析：“大刀向源程序头上砍去”，分成的每个片段叫作Token。
+-> 语法分析：根据上下文无关语法理论，将Token按照语法规则构建成AST，其中的表示式递归定义。AST = Abstract Syntax Tree 抽象语法树
+-> 语义分析：检查标识符的类型及作用域是否正确、运算是否合法、取值范围有没有问题等。
+-> 中间代码生成 
+-> 代码优化 
+-> 代码生成。
+
+#### 进程同步
+多线程并发运行解决共享变量的方法：加锁。
+
+1. 自旋锁：无限循环。
+    不可重入：不能重新进入同一个函数。
+    解决方法：引入计数器，申请时计数器+1，释放时计数器-1，计数器为0才表示真正地释放锁。
+
+2. 信号量 Semaphore：一个整数，基于该整数的两个操作 - wait & signal。
+操作系统在内核实现操作，可以通过屏蔽中断不让程序进行切换，保证原子性。
+
+wait & signal
+```c
+int s;
+
+wait(s) {
+  while(s <= 0) {
+    ;
+  }
+  s--;
+}
+
+signal(s) {
+  s++;
+}
+
+// 互斥使用 - 信号量
+int lock = 1;
+wait(lock);   // => 获得一个互斥锁
+// do some things...
+signal(lock); // => 释放锁
+```
+
+改进的 wait & signal
+解决“忙等待”（wait()函数在s <= 0时一直循环浪费CPU）
+```c
+typeof struct {
+  int value;
+  struct process* list;
+} semaphore;
+
+wait(semaphore* s) {
+  s->value--;
+  if (s->value < 0) {
+    让自己进入阻塞状态，加入等待队列 s->list;
+  }
+}
+
+signal(semaphore* s) {
+  s->value++;
+  if (s->value <= 0) {
+    从等待队列 s->list 中唤醒一个，让它可以继续执行;
+  }
+}
+```
+
+解决生产者和消费者的同步问题 - 信号量
+```c
+// 简化起见，使用“忙等待”版本的信号量
+int lock = 1;
+int empty = 5;  // 初始队列有5个空位
+int full = 0;
+
+// 生产者
+while(true) {
+  // if empty <= 0，表示队列已满，没有空位，需要等待
+  wait(empty);
+  // 加锁
+  wait(lock);
+  做事情
+  // 释放锁
+  signal(lock);
+  // 通知消费者，有东西了
+  signal(full);
+}
+
+// 消费者
+while(true) {
+  // if full <= 0，表示队列空了，需要等待
+  wait(full);
+  // 加锁
+  wait(lock);
+  做事情
+  // 释放锁
+  signal(lock);
+  // 通知生产者，有空位了
+  signal(empty);
+}
+```
+
+解决生产者和消费者的同步问题 - JAVA BlockingQueue
+```java
+// 建立一个队列
+BlockingQueue queue = new LinkedBlockingQueue(5);
+
+// 生产者
+// 如果队列满，则线程自动阻塞，直到有空闲位置
+queue.put(xxx);
+
+// 消费者
+// 如果队列空，则线程自动阻塞，直到有数据
+queue.take();
+```
+
+#### 递归
+递归：一个函数调用了自己。
+每个递归函数必须有一个终止条件，否则会无限递归，导致栈溢出。
+
+尾递归：递归调用是函数体中最后执行的语句，并且它的返回值不属于表达式的一部分。现代编译器据此生成优化的代码，复用栈帧。
+
+每个栈帧表示被调用中的一个函数。
+
+计算n的阶乘 factorial。（未考虑边界条件，如n<=0）
+```c
+// 1. 递归
+int fac(int n) {
+  return (n == 1 ? 1 : n * fac(n-1));
+}
+
+fac(4) = 4 * fac(3) = 4 * 6 = 24
+fac(3) = 3 * fac(2) = 3 * 2 = 6
+fac(2) = 2 * fac(1) = 2 * 1 = 2
+fac(1) = 1
+
+// 2. 尾递归
+int fac(int n, int result) {
+  return (n == 1 ? result : fac(n-1, n * result));
+}
+
+fac(4, 1)
+= fac(3, 4*1)
+= fac(2, 3*4*1)
+= fac(1, 2*3*4*1)
+= fac(1, 24)
+= 24
+
+// 3. 迭代
+int fac(int n) {
+  int result = 1;
+  for(int i = 2; i <= n; ++i) {
+    result *= i;
+  }
+  return result;
+}
+```
+
+### 2. Java
+
+Java是一门静态的强类型的编程语言。
+
+#### Java Class
+classpath：列举所有应该检查的目录。
+ClassLoader：Bootsrap ClassLoader -> Extension ClassLoader -> App ClassLoader
+
+基于堆栈的虚拟机，虚拟机的所有指令都是在对栈进行操作。
+
+#### 持久化
+ORM = Object-Relational Mapping 对象关系映射
+
+轻量级O/R Mapping框架：
+- Hiberante
+- iBatis => MyBatis => MyBatis Plus
+- Spring -> JdbcTemplate
+
+#### JDBC
+JDBC = Java Database Connectivity
+
+所谓应用层的协议，就是你发什么请求、我给你什么响应、消息的格式和次序等。
+
+连接 Connection：接口，用来代表和数据库的连接。
+状态 Statement：接口，用来执行SQL。
+结果集 ResultSet：接口，用来表示SQL返回的结果，提供对数据遍历的方法，比如，next(), getInt(xxx), getString(xxx), ...
+驱动 Driver：接口，
+Connection可以创建Satement，Statement执行查询可以得到ResultSet。
+
+JDBC类之间的关系
+```java
+Connection conn = ...;  // 获取数据库连接
+Statement stmt = conn.createStatement();
+ResultSet rs = stmt.executeQuery("select id, name from users");
+while(rs.next()) {
+  int id = rs.getInt("id");
+  String name = rs.getString("name");
+  ......
+}
+```
+
+#### 分布式事务
+全局事务管理器，负责协调各个数据库的事务提交。
+
+强一致性：让两个数据库保持实时的一致性。
+最终一致性：可以忍受一段时间的不一致，只要最终一致就行。
+
+XA协议：事务管理器 Transaction Manager，局部资源管理器 Local Resource Manager。
+
+幂等性：重复执行，结果一致。
+
+1. 两阶段提交：
+- 预提交阶段 prepare
+- 提交阶段 commit
+
+2. 三阶段提交：
+- canCommit
+- preCommit
+- doCommit
+
+3. 基于消息队列 message queue
+基本可用，最终一致性。
+
+#### 消息队列
+JNDI = Java Naming and Directory Interface Java命名和目录接口
+JMS = Java Message Service Java消息服务
+
+点对点模型 Point to Point
+发布/订阅模型 Publish/Subscribe
+
+JMS代码
+```java
+// 从配置中找到ConnectionFactory和Destination(Queue)
+Context ctx = new InitialContext(properties);
+
+QueueConnectionFactory factory = (QueueConnectionFactory)ctx.lookup("<orderConnFactory>");
+
+Queue orderQueue = (Queue)ctx.lookup("orderQueue");
+Queue deliverQueue = (Queue)ctx.lookup("deliverQueue");
+// 创建Connection和Session
+Connection conn = factory.crateConnection();
+
+QueueSession session = conn.createQueueSession(false, Session.AUTO_ACKNOWLEDGE);
+
+// 创建消息生产者并发送消息
+MessageProducer producer = session.createProducer(orderQueue);
+
+TextMessage msg = session.createTextMessage("hello world");
+
+// 创建消息消费者并接收消息
+MessageConsumer consumer = session.createConsumer(deliverQueue);
+TextMessage deliverMsg = (TextMessage)consumer.receive();
+String text = deliverMsg.getText();
+```
+
+![码农翻身-消息队列-JMS](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/码农翻身-消息队列-JMS.jpg)
+
+#### 动态代理
+动态代理：在运行时动态地生成类，作为一个真实对象的代理来做事情。因为不能修改现有的类。
+
+```java
+// HelloWorld
+public interface IHelloWorld {
+  public void sayHello();
+}
+public class HelloWorld implements IHelloWorld {
+  public void sayHello() {
+    System.out.println("hello world");
+  }
+}
+
+// LoggerHandler
+public class LoggerHandler implements InvocationHander {
+  private Object target;
+
+  public LoggerHandler(Object target) {
+    this.target = target;
+  }
+  public Object invove(Object proxy, Method method, Object[] args) throws Throwable {
+    Logger.startLog();
+    Object result = method.invoke(target, args);
+    Logger.endLog();
+    return result;
+  }
+}
+
+// 使用动态代理增强HelloWorld
+IHelloWorld hw = new HelloWorld();
+LoggerHandler handler = new LoggerHandler(hw);
+IHelloWorld proxy = (IHelloWorld)Proxy.newProxyInstance(
+  Thread.currentThread().getContextClassLoader(),
+  hw.getClass().getInterfaces(),
+  handler
+  );
+proxy.sayHello();
+```
+
+#### 注解
+所谓的注解，有点像加强版的注释。
+
+使用注解，配置靠近代码，容易阅读、容易修改。
+对于需要集中配置的场合，可以使用XML，比如，数据源的配置。
+
+元数据 Metadata：描述数据的数据。可以给其他数据提供描述性信息。
+
+元注解：注解的注解。
+- @Target：表示该注解的应用目标，可以是类、方法、方法参数等。
+- @Retention：表示该注解保留到何时，可以是只在源码中、在.class文件中、在运行时。
+
+注解的定义和使用只是定义了行为语义。
+在运行时通过反射的方式获取应用目标的注解，逻辑处理后，通过反射的方式去执行。
+```java
+// 自定义@Test注解
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Test {
+  boolean ignore() default false;
+}
+
+// 使用@Test注解
+public class CalculatorTest {
+  @Test
+  public void testAdd() {
+    System.out.println("test add method");
+  }
+
+  @Test(ignore=true)
+  public void testSubtract() {
+    System.out.println("test substract method");
+  }
+}
+
+// 获取@Test注解
+public class TestUtil {
+  public static void main(String[] args) throws Exception {
+    CalculatorTest obj = new CalculatorTest();
+    run(obj);
+  }
+  public static void run(Object obj) throws Excpetion {
+    for (Method m : obj.getClass().getMethods()) {
+      Test t = m.getDeclaredAnnotation(Test.class);
+      if (t != null && !t.ignore()) {
+        m.invoe(obj);
+      }
+    }
+  }
+}
+```
+
+#### 泛型
+不用膨胀法，而用擦除法（一个参数化的类型经过擦除后会去除参数）。
+
+#### 日志系统
+Logger
+Appender
+Formatter
+
+正交性：变化被封装在一个维度上，接口可以任意组合。
+
+SLF4J = Simple Logging Facade for Java
+Log4j = Log for Java
+
+应用程序 
+-> 抽象层 (SLF4J API)
+  -> Logback
+  -> 适配层 -> Log4j, JDK java.util.logging, tinylog, ...
+
+SLF4J + Logback
+Apache Common Logging + Log4j
+
+#### 序列化
+~~RMI = Remote Method Invocation 远程方法调用~~
+RPC = Remote Procedure Call 远程过程调用
+
+#### 加锁
+JNI = Java Native Interface Java本地接口
+可以用C语言实现，然后在Java中封装。
+
+1. 互斥锁
+互斥：同一时刻只有获得锁的那个线程才有资格去操作共享资源，其它线程都被阻塞了，被放到一个锁池（Lock Pool）的地方，什么也做不了。
+synchronized - 悲观锁
+```java
+public class Sequence {
+  private int value;
+  public synchronized int next() { 
+    return value++; 
+  }
+}
+```
+2. CAS = Compare and Swap - 乐观锁
+操作系统和硬件保证原子执行。
+如果内存的值被被人修改过，那就再次循环尝试。
+Atomic类：AtomicBoolean, AtomicInteger, AtomicLong, AtomicIntegerArry, AtomicLongArray, AtomicReference, AtomicStampedReference.
+ConcurrentLinkedQueue
+```java
+public class Sequence {
+  private AtomicInteger count = new AtomicInteger(0);
+  public int next {
+    while (true) {
+      int current = count.get();
+      int next = current + 1;
+      if (count.compareAndSet(current, next)) {
+        return next;
+      }
+    }
+  }
+}
+```
+
+#### Spring
+AOP = Aspect Oriented Programming 面向切面编程
+IoC = Inversion of Control 控制反转
+DI = Dependency Injection 依赖注入
+
+CGLib = Code Generation Library
+
+动态生成代理类的两种方法：
+- 使用Java动态代理，要求业务类必须有接口 interface。
+- 使用CGLib，会生成一个业务类的子类来作为代理类，只要业务类没有被标记为final即可。
+
+容器创建对象：
+1. 调用方说：给我一个xxx对象
+2. 容器，创建代理类，设置AOP的代码
+3. 返回xxx的代理对象
+
+### 3. Web
+WSDL = Web Service Description Language Web服务描述语言
+SOAP = Simple Object Access Protocol 简单对象访问协议
+Web服务的描述方式和数据传输方式：
+- WSDL + SOAP。烦琐，都是XML，数据标签冗余。
+- 轻量级的HTTP + JSON
+
+#### HTTPS
+CA = Certificate Authority 认证中心
+
+Hash，哈希/散列
+常见算法：MD5, SHA等
+重要特性：
+- 不可逆性：从Hash值反推出原消息是不可能的。
+- 抗冲突性：给定消息M1，不存在另一条消息M2，使得Hash(M1)=Hash(M2)。
+- 分布均匀性：Hash算法的结果是均匀分布的。
+
+原始信息 --Hash算法--> 消息摘要 --用CA的私钥加密--> 数字签名
+数字证书 = 原始信息 + 数字签名
+
+对称加密 => 非对称加密 => 非对称+对称 => 数字证书
+
+简化版的HTTPS流程（没有包含Pre-Master Secret）：
+浏览器 -- 服务器
+==>> 浏览器发出安全请求（https://xxx.com）
+<<== 服务器发送数字证书（包含服务器的公钥）
+==== 浏览器用预置的CA列表验证证书，如果有问题，则提示风险
+==>> 浏览器生成随机的对称秘钥，用服务器的公钥加密
+==== 服务器用自己的私钥进行解密，得到对称秘钥
+<==> 双方都知道了对称秘钥，用它来加密通信
+
+#### 授权
+1. token -> appid + secrect
+2. 授权码 Authorization Code + token -> appid + secret + code
+
+OAuth = Open Authorization
+认证方式：
+- Resource Owner Password Credential Grant 资源所有者密码凭证许可
+- Implicit Grant 隐式许可
+- Authorization Code Grant 授权码许可
+
+资源所有者，资源服务器，客户端，授权服务器
+
+#### 系统的高可用和负载均衡
+Redis的Java客户端软件Jedis。
+使用Jedis访问缓存：
+
+```java
+// 初始化pool，192.168.0.10为缓存服务器地址
+JedisPool pool = new JedisPool(new JedisPoolConfig(), "192.168.0.10");
+try (Jedis jedis = pool.getResource()) {
+  User user = ...要保存的用户对象...
+  jedis.set(user.getID(), user.toJSONString());
+}
+// 关闭pool
+pool.close();
+```
+
+1. 缓存服务器集群的负载均衡
+- ~~余数算法~~
+对于用户要存储的(key, value)，计算出key的一个整数Hash值，然后用这个Hash值对服务器数据求余数。
+但是在增删缓存服务器时，缓存会失效。
+- 一致性哈希算法
+当增删缓存服务器时，只会影响相邻节点的缓存数据，其它部分的数据与原来保持一致。
+能极大地解决缓存失效问题，把失效的缓存控制在特定的区间。
+- 哈希槽 Hash Slot
+共有16384个槽，每台服务器分管其中一部分。
+分发数据 - CRC16(key)%16384，对key产生一个整数值然后求余
+
+CRC = Cyclic Redundancy Check 循环冗余校验
+
+2. 高可用的Nginx
+Keepalived - 将Nginx集群分成master-slave结构，同一时刻只有一个工作，另一个原地待命，挂掉则接管；对外只提供一个IP地址。
+
+3. 高可用的Tomcat
+把session放到Redis集群中
+
+4. 数据库的读写分离：
+一个master库，多个slave库。
+master库可读可写，slave库只能读、不能写。最后还要将master库的数据尽快复制到slave库，让数据保持一致。
+
+#### 微服务 microservice
+OA = Office Automation 办公自动化
+CRM = Customer Relationship Management 客户关系管理系统
+ERP = Enterprise Resource Planning 企业资源计划
+SOA = Service Oriented Architecture 面向服务架构
+ESB = Enterprise Service Bus 企业服务总线
+SCA = Service Component Architecture 服务组件架构
+BEPL = Business Execution Process Language 业务执行过程语言
+
+不是集成，而是拆分。
+让小组件能完全独立地开发、测试和部署。
+
+#### 框架
+最佳实践：不断寻找好的实现方式，找到以后就把各种经验固化下来。
+框架就像一个模板，里面预置了一些公认的最佳实践。
+框架是一个半成品，是无法独立运行的，必须由开发人员按照它定义的规则，把项目代码放置到指定的地方，由框架整合起来，这才是一个完整的应用程序。
+
+学无止境啊！
+Java SE - 集合、线程、反射、I/O、泛型、注解……
+Java后端 - 系统架构设计、缓存、性能、高可用性、分布式、安全、备份……
+
+#### HTTP Server
+fd = file descriptor 文件描述符，是一个整数
+
+1. 单进程，阻塞式
+2. 多进程
+
+3. select模型
+一个进程最多只能监控1024个socket。
+
+![码农翻身-http_server-select模型](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/码农翻身-http_server-select模型.jpg)
+
+4. epoll模型
+操作系统只会告诉http server那些可以读/写（准备就绪）的socket，
+不需要遍历全部集合，只需要处理那些有变化的、活跃的socket fd。
+
+![码农翻身-http_server-epoll模型](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/码农翻身-http_server-epoll模型.jpg)
 
 ### 4. 代码管理那些事儿
 
