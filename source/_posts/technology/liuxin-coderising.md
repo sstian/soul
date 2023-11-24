@@ -2,11 +2,14 @@
 title: 码农翻身
 categories: Technology
 tags:
-  - coderising
   - 刘欣
+  - coderising
 abbrlink: ce95
 date: 2021-11-10 21:42:59
 ---
+
+刘欣，15年的软件行业从业经验，前IBM系统架构师。
+擅长企业应用架构和设计，领导过多个企业级应用架构设计和开发工作。
 
 ## 半小时漫画计算机
 

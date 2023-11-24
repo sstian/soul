@@ -12,8 +12,7 @@ date: 2022-05-22 12:32:55
 
 计算机科学家 David Wheeler：
 - All problems in computer science can be solved by another level of indirection.
-  计算机科学中的所有问题都可以通过加一层 增加一个中间层/抽象层来解决。
-
+  计算机科学中的所有问题都可以通过增加一个中间层（抽象层）来解决。
 
 ## 低代码 VS 无代码
 
