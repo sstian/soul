@@ -49,18 +49,18 @@ Richard P. Gabriel（The Rise of 'Worse is Better，1991）：
 大型机（Mainframe）-> 多层单体架构（Monolithic）-> 分布式（Distributed）-> 微服务（Microservices）-> 服务网格（Service Mesh）-> 无服务（Serverless）……
 在技术架构上呈现出“从大到小”的发展趋势。
 
-1. 分布式
-Unix 的分布式设计哲学：保持接口与实现的简单性。
-
-远程的服务在哪里（服务发现）、有多少个（负载均衡）、网络出现分区或超时或者服务出错了怎么办（熔断、隔离、降级）、方法的参数与返回结果如何表示（序列化协议）、如何传输（传输协议）、服务权限如何管理（认证、授权）、如何保证通信安全（网络安全层）、如何令调用不同机器的服务能返回相同的结果（分布式数据一致性）等一系列问题。
-
-2. 单体架构
+1. 单体架构
 单体架构风格，潜在的观念是希望系统的每一个部件，甚至每一处代码都尽量可靠，不出、少出错误，致力于构筑一个 7×24 小时不间断的可靠系统。
 优点：易于分层、易于开发、易于部署测试、进程内的高效交互，等等。
 
 技术异构：允许系统的每个模块，自由选择不一样的程序语言、不一样的编程框架等技术栈去实现。
 
 正是随着软件架构的不断演进，我们构建可靠系统的观念，开始从“追求尽量不出错”，转变为了正视“出错是必然”。
+
+2. 分布式
+Unix 的分布式设计哲学：保持接口与实现的简单性。
+
+远程的服务在哪里（服务发现）、有多少个（负载均衡）、网络出现分区或超时或者服务出错了怎么办（熔断、隔离、降级）、方法的参数与返回结果如何表示（序列化协议）、如何传输（传输协议）、服务权限如何管理（认证、授权）、如何保证通信安全（网络安全层）、如何令调用不同机器的服务能返回相同的结果（分布式数据一致性）等一系列问题。
 
 3. SOA
 SOA = Service-Oriented Architecture 面向服务架构：把一个大的单体系统拆分为若干个更小的、不运行在同一个进程的独立服务。
@@ -111,9 +111,9 @@ SOA 架构使用了服务数据对象（Service Data Object，SDO）来访问和
 
 技术架构者的第一职责就是做决策权衡。
 
-5. 云原生 Cloud Native
+5. 云原生 Cloud Native & 服务网格 Service Mesh
 应用代码与基础设施软硬一体，合力应对。
-服务网格”（Service Mesh）的“边车代理模式”（Sidecar Proxy）。
+服务网格（Service Mesh）的“边车代理模式”（Sidecar Proxy）。
 
 微服务基础设施会由系统自动地在服务的资源容器（指 Kubernetes 的 Pod）中注入一个通讯代理服务器（相当于那个挎斗），用类似网络安全里中间人攻击的方式进行流量劫持，在应用毫无感知的情况下，悄悄接管掉应用的所有对外通讯。
 这个代理除了会实现正常的服务调用以外（数据平面通讯），同时还接受来自控制器的指令（控制平面通讯），根据控制平面中的配置，分析数据平面通讯的内容，以实现熔断、认证、度量、监控、负载均衡等各种附加功能。
@@ -142,7 +142,21 @@ FaaS = Function as a Service 函数即服务：无服务中的函数运行在云
 
 把无服务作为技术层面的架构，把微服务视为应用层面的架构。
 
+Kubernetes vs Spring Cloud
+
+|          | Kubernetes              | Spring Cloud          |
+| -------- | ----------------------- | --------------------- |
+| 弹性伸缩 | Autoscaling             | N/A                   |
+| 服务发现 | KubeDNS /CoreDNS        | Spring Cloud Eureka   |
+| 配置中心 | ConfigMap / Secret      | Spring Cloud Config   |
+| 服务网关 | Ingress Controller      | Spring Cloud Zuul     |
+| 负载均衡 | Load Balancer           | Spring Cloud Ribbon   |
+| 服务安全 | RBAC API                | Spring Cloud Security |
+| 跟踪监控 | Metrics API / Dashboard | Spring Cloud Turbine  |
+| 降级熔断 | N/A                     | Spring Cloud Hystrix  |
+
 ### 架构师的视角
+
 架构师是软件系统中技术模型的系统设计者。
 
 1. 进程间通讯（Inter-Process Communication，IPC）
@@ -309,10 +323,10 @@ REST 希望服务器能不负责维护状态，每一次从客户端发送的请
 Richardson 成熟度模型：衡量“服务有多么 REST”。
 由“RESTful Web APIs”和“RESTful Web Services”的作者伦纳德 · 理查德森（Leonard Richardson）提出。
 Richardson 将服务接口按照“REST 的程度”，从低到高分为 0 至 3 共 4 级：
-- The Swamp of Plain Old XML：完全不 REST。
-- Resources：开始引入资源的概念。
-- HTTP Verbs：引入统一接口，映射到 HTTP 协议的方法上。
-- Hypermedia Controls：超文本驱动或 Hypertext as the Engine of Application State（HATEOAS）。
+- Level 0: The Swamp of Plain Old XML：完全不 REST。
+- Level 1: Resources：开始引入资源的概念。
+- Level 2: HTTP Verbs：引入统一接口，映射到 HTTP 协议的方法上。
+- Level 3: Hypermedia Controls：超文本驱动或 Hypertext as the Engine of Application State（HATEOAS）。
 
 所有基于网络的操作逻辑，都可以通过解决“信息在服务端与客户端之间如何流动”这个问题来理解。
 - 面向过程编程时，为什么要以算法和处理过程为中心，输入数据，输出结果？当然是为了符合计算机世界中主流的交互方式。
@@ -386,7 +400,12 @@ Commit Logging 允许 NO-FORCE，但不允许 STEAL。
 Write-Ahead Logging 允许 NO-FORCE，也允许 STEAL。
 增加了回滚日志 Undo Log。当变动数据写入磁盘前，必须先记录 Undo Log，写明修改哪个位置的数据、从什么值改成什么值，以便在事务回滚或者崩溃恢复时，根据 Undo Log 对提前写入的数据变动进行擦除。
 
-数据库按照“是否允许 FORCE 和 STEAL”可以产生四种组合。。。
+数据库按照“是否允许 FORCE 和 STEAL”可以产生四种组合：
+|          | NO-STEAL             | STEAL                        |
+| -------- | -------------------- | ---------------------------- |
+| NO-FORCE | 重做日志             | 重做日志，回滚日志。性能最快 |
+| FORCE    | 不需要日志。性能最慢 | 回滚日志                     |
+
 从优化磁盘 I/O 的角度看，NO-FORCE 加 STEAL 组合的性能是最高的；
 从算法实现与日志的角度看，NO-FORCE 加 STEAL 组合的复杂度是最高的。
 
@@ -459,6 +478,21 @@ Cancel 阶段可能会重复执行，需要满足幂等性。
 SAGA 事务基于数据补偿代替回滚的解决思路。
 
 #### 透明多级分流系统
+
+ISO = International Organization for Standardization 国际标准化组织
+
+ISO七层网络架构：
+
+|      | 层                         | 数据单元        | 功能                                                         |
+| ---- | -------------------------- | --------------- | ------------------------------------------------------------ |
+| 7    | 应用层 Application Layer   | 数据 Data       | 提供为应用软件提供服务的接口，用于与其他应用软件之间的通信。典型协议：HTTP、HTTPS、FTP、Telnet、SSH、SMTP、POP3等。 |
+| 6    | 表达层 Presentation Layer  | 数据 Data       | 把数据转换为能与接收者的系统格式兼容并适合传输的格式。       |
+| 5    | 会话层 Session Layer       | 数据 Data       | 负责在数据传输中设置和维护计算机网络中两台计算机之间的通信连接。 |
+| 4    | 传输层 Transport Layer     | 数据段 Segments | 把传输表头加至数据以形成数据包。传输表头包含了所使用的协议等发送信息。典型协议：TCP、UDP、RDP、SCTP、FCP等。 |
+| 3    | 网络层 Network Layer       | 数据包 Packets  | 决定数据的传输路径选择和转发，将网络表头附加至数据段后以形成报文（即数据包）。典型协议：IPv4/IPv6、IGMP、ICMP、EGP、RIP等。 |
+| 2    | 数据链路层 Data Link Layer | 数据帧 Frame    | 负责点对点的网络寻址、错误侦测和纠错。当表头和表尾被附加至数据包后，就形成数据帧（Frame）。典型协议：WiFi(802.11)、Ethernet(802.3)、PPP等。 |
+| 1    | 物理层 Physical Layer      | 比特流 Bit      | 在局域网上传送数据帧，它负责管理电脑通信设备和网络媒体之间的互通。包括了针脚、电压、线缆规范、集线器、中继器、网卡、主机接口卡等。 |
+
 ##### 设计原则
 第一个原则是尽可能减少单点部件，如果某些单点是无可避免的，则应尽最大限度减少到达单点部件的流量。
 第二个原则是奥卡姆剃刀原则，它更为关键。
@@ -624,6 +658,13 @@ CDN 应用：
 - TinyLFU（Tiny Least Frequently Used）
 - W-TinyLFU（Windows-TinyLFU）
 
+主流的进程内缓存方案：
+|          | ConcurrentHashMap    | Ehcache                                                | Guava  Cache | Caffeine                      |
+| -------- | -------------------- | ------------------------------------------------------ | ------------ | ----------------------------- |
+| 访问性能 | 最高                 | 一般                                                   | 良好         | 优秀，接近于ConcurrentHashMap |
+| 淘汰策略 | 无                   | 支持多种淘汰策略 FIFO, LRU, LFU等                      | LRU          | W-TinyLFU                     |
+| 扩展功能 | 只提供基础的访问接口 | 并发级别控制，失效策略，容量控制，事件通知，统计信息…… | 大致同左     | 大致同左                      |
+
 ##### 分布式缓存
 缓存形式：
 - 复制式缓存
@@ -653,6 +694,8 @@ Redis 集群就是典型的 AP 式，它具有高性能、高可用等特点，�
 Cache Aside 模式，最简单、成本最低。主要内容只有两条：
 - 读数据时，先读缓存，缓存没有的话，再读数据源，然后将数据放入缓存，再响应请求。
 - 写数据时，先写数据源，然后失效（而不是更新）掉缓存。
+
+![软件架构-分布式缓存-多级缓存](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-分布式缓存-多级缓存.jpeg)
 
 #### 安全架构
 安全性：
@@ -704,10 +747,20 @@ header.payload.signature
 
 权衡才是架构设计中最关键的地方。
 
+![软件架构-安全架构-凭证-哈希算法](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-安全架构-凭证-哈希算法.jpeg)
+
 ##### 保密
 加密与解密。
 
 密码加密是为了防止服务器被黑后密码泄露的问题，并不是为了增强传输过程的安全性。
+
+算法类型：
+
+| 类型       | 特点                                                         | 常见实现                  | 主要用途       | 主要局限                           |
+| ---------- | ------------------------------------------------------------ | ------------------------- | -------------- | ---------------------------------- |
+| 哈希摘要   | 不可逆，即不能解密，所以并不是加密算法，只是一些场景把它当作加密算法使用。<br />易变性，输入发生1Bit变动，就可能导致输出结果50%的内容发生改变。<br />无论输入长度多少，输出长度固定（2的N次幂） | MD2/4/5/6、SHA0/1/256/512 | 摘要           | 无法解密                           |
+| 对称加密   | 加密是指加密和解密是一样的密钥设计难度相对较小，执行速度相对较快加密明文长度不受限制 | DES、AES、RC4、IDEA       | 加密           | 要解决如何把密钥安全地传递给解密者 |
+| 非对称加密 | 加密和解密使用的是不同的密钥明文长度不能超过公钥长度         | RSA、BCDSA、EIGamal       | 签名、传递秘钥 | 加密明文长度受限                   |
 
 ##### 传输
 摘要的意义就是在源信息不泄露的前提下辨别其真伪。
@@ -777,6 +830,8 @@ Paxos 算法包括“准备（Prepare）”和“批准（Accept）”两个阶�
 协定性（Safety）：所有的坏事都不会发生（Something "bad" will never happen）。
 终止性（Liveness）：所有的好事都终将发生，但不知道是啥时候（Something "good" will must happen, but we don't know when）。
 
+![软件架构-分布式共识-时序图](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-分布式共识-时序图.jpeg)
+
 #### 从类库到服务
 ##### 服务发现
 分布式系统永恒的话题：数据一致性与服务可用性之间的矛盾。
@@ -835,6 +890,18 @@ BFF（Backends for Frontends）：在网关这种边缘节点上，针对同样�
 - 第七种，广播调用（Broadcast）。
 任何一个服务提供者出现异常都算调用失败。
 通常被用于实现“刷新分布式缓存”这类的操作。
+
+对比：
+
+| 容错策略 | 优点                                               | 缺点                                                         | 应用场景                                                 |
+| -------- | -------------------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------- |
+| 故障转移 | 系统自动处理，调用者对失败的信息不可见             | 会增加调用时间，也会导致额外的资源开销                       | 调用幂等服务，对调用时间不敏感的场景                     |
+| 快速失败 | 调用者有对失败的处理完全控制权，不依赖服务的幂等性 | 调用者必须正确处理失败逻辑，如果只是一味地对外抛异常，容易引起雪崩 | 调用非幂等的服务，超时阈值较低的场景                     |
+| 安全失败 | 不影响主路逻辑                                     | 只适用于旁路调用                                             | 调用链中的旁路服务                                       |
+| 沉默失败 | 控制错误不影响全局                                 | 出错的地方将在一段时间内不可用推荐用于旁路服务调用，或者对实时性要求不高的主路逻辑。重试任务可能产生堆积，重试仍然可能失败 | 频繁超时的服务                                           |
+| 故障恢复 | 调用失败后自动重试，也不影响主路逻辑               | 额外消耗机器资源，大部分调用可能都是无用功                   | 调用链中的旁路服务，对实时性要求不高的主路逻辑也可以使用 |
+| 并行调用 | 尽可能在最短时间内获得最高的成功率                 | 资源消耗大，失败的概率高                                     | 资源充足且对失败容忍度低的场景                           |
+| 广播调用 | 支持同时对批量的服务提供者发起调用                 |                                                              | 只适用于批量操作的场景                                   |
 
 ##### 容错设计模式
 1. 断路器模式
@@ -901,7 +968,7 @@ LimitN = QuanityA - ∑NCostX
 
 安全模型：
 - 基于边界的安全模型
-- 零信任安全模型
+- 云原生时代下的基于零信任网络的安全模型
   中心思想：不应当以某种固有特征来自动信任任何流量。
   基本特征：集中、共享的安全策略实施点，自动化、标准化的变更管理。
   主要观点：
@@ -913,6 +980,21 @@ LimitN = QuanityA - ∑NCostX
   - 自动化、标准化的变更管理
   - 强隔离性的工作负载
   
+2019年，Google发表的《BeyondProd: A New Approach to Cloud-Native Security》。
+BeyondCorp 和 BeyondProd 是谷歌最新一代安全框架的名字。
+
+| 传统、边界安全模型                                           | 云原生、零信任安全模型                                       | 具体需求                                           |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------------- |
+| 基于防火墙等设施，认为边界内可信                             | 服务到服务通信需认证，环境内的服务之间默认没有信任           | 保护网络边界（仍然有效）；服务之间默认没有互信     |
+| 用于特定的IP和硬件（机器）                                   | 资源利用率、重用、共享更好，包括IP和硬件                     | 受信任的机器运行来源已知的代码                     |
+| 基于IP的身份                                                 | 基于服务的身份                                               | 同上                                               |
+| 服务运行在已知的、可预期的服务器上                           | 服务可运行在环境中的任何地方，包括私有云/公有云混合部署      | 同上                                               |
+| 安全相关的需求由应用来实现，每个应用单独实现                 | 由基础设施来实现，基础设施中集成了共享的安全性要求。         | 集中策略实施点（ChokePoints)，一致地应用到所有服务 |
+| 对服务如何构建、评审、实施的安全需求的约束力较弱             | 安全相关的需求一致地应用到所以服务                           | 同上                                               |
+| 安全组件的可观测性较弱                                       | 有安全策略及其是否生效的全局视图                             | 同上                                               |
+| 发布不标准，发布频率较低                                     | 标准化的构建和发布流程，每个微服务变更独立，变更更频繁       | 简单、自动、标准化的变更发布流程                   |
+| 工作负载通常作为虚拟机部署或部署到物理主机，并使用物理机或管理程序进行隔离 | 封装的工作负载及其进程在共享的操作系统中运行，并有管理平台提供的某种机制来进行隔离 | 在共享的操作系统的工作负载之间进行隔离             |
+
 ##### 零信任网络安全服务访问
 PKI = Public Key Infrastructure 公开密钥基础设施
 
@@ -948,10 +1030,12 @@ Kubernetes 是 CNCF 第一个孵化成功的项目，起源于 Google 的编排�
 Prometheus 是 CNCF 第二个孵化成功的项目，起源于 Google 为 Borg 做的度量监控系统 BorgMon。
 
 https://landscape.cncf.io/?license=apache-license-2-0
-。。。
+![软件架构-可观测性-日志追踪度量的目标与结合](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-可观测性-日志追踪度量的目标与结合.jpeg)
 
 ##### 日志收集 Logging
-。。。
+
+![软件架构-可观测性-日志处理过程](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-可观测性-日志处理过程.jpeg)
+
 1. 输出
 好的日志要能够毫无遗漏地记录信息、格式统一、内容恰当，而“恰当”的真正含义是指日志中不该出现的内容不要有，而该有的不要少。
 
@@ -1060,6 +1144,22 @@ Zipkin、SkyWalking、Jaeger、LightStep Tracing等系统，都可以接受来�
 - 狭义上
   只包括客户端和服务端，不包含终端。
 
+Prometheus Exporter
+Exporter 的作用是以HTTP协议返回符合 Prometheus 格式要求的文本数据给 Prometheus 服务器。
+Prometheus 在2.0版本之前支持过 Protocol Buffer，目前已不再支持。
+
+| 范围     | 常用Exporter                                                 |
+| -------- | ------------------------------------------------------------ |
+| 数据库   | MySQL Exporter、Redis Exporter、MongoDB Exporter、MSSQL Exporter等 |
+| 硬件     | Apcupsd Exporter、loT Edison Exporter、IPMI Exporter、Node Exporter等 |
+| 消息队列 | Beanstalkd Exporter、Kafka Exporter、NSQ Exporter、RabbitMQ Exporter等 |
+| 存储     | Ceph Exporter、Gluster Exporter、HDFS Exporter、ScalelO Exporter等 |
+| HTTP服务 | Apache Exporter、HAProxy Exporter、Nginx Exporter等          |
+| API服务  | AWS ECS Exporter、Docker Cloud Exporter、Docker HubExporter、GitHub Exporter等 |
+| 日志     | Fluentd Exporter、Grok Exporter等                            |
+| 监控系统 | Collectd Exporter、Graphite Exporter、InfluxDBExporter、Nagios Exporter、SNMP Exporter等 |
+| 其它     | Blockbox Exporter、JIRA Exporter、Jenkins Exporter、Confluence Exporter等 |
+
 ### 不可变基础设施
 1. 云原生
 云原生技术有利于各组织在公有云、私有云和混合云等新型动态环境中，构建和运行可弹性扩展的应用。
@@ -1118,15 +1218,45 @@ API = Application Programming Interface 应用程序编程接口：
 2. 隔离访问：namespaces
 Linux 的名称空间是一种由内核直接提供的全局资源封装，它是内核针对进程设计的访问隔离机制。
 
-3. 隔离资源：cgroups
+3. 隔离资源：cgroups = Control Groups 控制群组
+直接由内核提供功能，用于隔离或者说分配并限制某个进程组能够使用的资源配额。
+
+资源配额包括处理器时间、内存大小、磁盘I/O速度，等等。
+
+| 控制组子系统 | 功能                                                         |
+| ------------ | ------------------------------------------------------------ |
+| blkio        | 为块设备（如磁盘，固态硬盘，USB等等）设定I/O限额             |
+| cpu          | 控制cgroups中进程的处理器占用比率                            |
+| cpuacct      | 自动生成cgroups中进程所使用的处理器时间的报告                |
+| cpuset       | 为cgroups中的进程分配独立的处理器（包括多路系统的处理器，多核系统的处理器核心） |
+| devices      | 设置cgroups中的进程访问某个设备的权限（读、写、创建三种权限） |
+| freezer      | 挂起或者恢复cgroups中的进程                                  |
+| memory       | 设定cgroups中进程使用内存的限制，并自动生成内存资源使用报告  |
+| net_cis      | 使用等级识别符标记网络数据包，可允许Linux流量控制程序识别从具体cgroups中生成的数据包 |
+| net_prio     | 用来设置网络流量的优先级                                     |
+| hugetlb      | 主要针对于HugeTLB系统进行限制                                |
+| perf_event   | 允许Perf工具基于cgroups分组做性能监测                        |
+
+Linux Kernel 5.6+，Linux名称空间支持的八种资源的隔离：
+
+| 名称空间 | 隔离内容                                                     | 内核版本 |
+| -------- | ------------------------------------------------------------ | -------- |
+| Mount    | 隔离文件系统，功能上大致可以类比chroot                       | 2.4.19   |
+| UTS      | 隔离主机的Hostname、Domain names                             | 2.6.19   |
+| IPC      | 隔离进程间通信的渠道(可以回顾“远程服务调用”中对IPC的介绍）   | 2.6.19   |
+| PID      | 隔离进程编号，无法看到其他名称空间中的PID，意味着无法对其他进程产生影响 | 2.6.24   |
+| Network  | 隔离网络资源，如网卡、网络栈、IP地址、端口，等等             | 2.6.29   |
+| User     | 隔离用户和用户组                                             | 3.8      |
+| Cgroup   | 隔离cgourps信息，进程有自己的cgroups的根目录视图（在/proc/self/cgroup不会看到整个系统的信息) | 4.6      |
+| Time     | 隔离系统时间，2020年3月最新的5.6内核开始支持进程独立设置系统时间 | 5.6      |
 
 4. 封装系统：LXC
-LXC = LinuX Containers Linux 容器
+  LXC = LinuX Containers Linux 容器
 
 5. 封装应用：Docker
-为什么要用 Docker 而不是 LXC？（Why would I use Docker over plain LXC？）
-Solomon Hykes （Stackoverflow，2013），
-Docker 除了包装来自 Linux 内核的特性之外，它的价值还在于：
+  为什么要用 Docker 而不是 LXC？（Why would I use Docker over plain LXC？）
+  Solomon Hykes （Stackoverflow，2013），
+  Docker 除了包装来自 Linux 内核的特性之外，它的价值还在于：
 - 跨机器的绿色部署：Docker 定义了一种将应用及其所有的环境依赖都打包到一起的格式，仿佛它原本就是绿色软件一样。而 LXC 并没有提供这样的能力，使用 LXC 部署的新机器很多细节都要依赖人的介入，虚拟机的环境基本上肯定会跟你原本部署程序的机器有所差别。
 - 以应用为中心的封装：Docker 封装应用而非封装机器的理念贯穿了它的设计、API、界面、文档等多个方面。相比之下，LXC 将容器视为对系统的封装，这局限了容器的发展。
 - 自动构建：Docker 提供了开发人员从在容器中构建产品的全部支持，开发人员无需关注目标机器的具体配置，就可以使用任意的构建工具链，在容器中自动构建出最终产品。
@@ -1139,11 +1269,12 @@ Docker 除了包装来自 Linux 内核的特性之外，它的价值还在于：
 以 Docker 为代表的容器引擎，是把软件的发布流程从分发二进制安装包，转变为了直接分发虚拟化后的整个运行环境，让应用得以实现跨机器的绿色部署；
 以 Kubernetes 为代表的容器编排框架，是把大型软件系统运行所依赖的集群环境也进行了虚拟化，让集群得以实现跨数据中心的绿色部署，并能够根据实际情况自动扩缩。
 
+![软件架构-虚拟化容器-Kubernetes与容器引擎的调用关系](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-虚拟化容器-Kubernetes与容器引擎的调用关系.jpeg)
+
 ##### 容器构建系统
 UTS = UNIX Time-Sharing System
 
 1. 隔离与协作
-
 Pod 两大最基本的职责：
 - 扮演容器组的角色，满足容器共享名称空间的需求
 - 实现原子性调度
@@ -1204,6 +1335,8 @@ BootstrapSignerController、TokenCleanerController
 
 通过副本集（ReplicaSet）来创建 Pod。
 
+![软件架构-虚拟化容器-控制回路](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-虚拟化容器-控制回路.jpeg)
+
 ##### 应用为中心的封装
 无状态应用与有状态应用的区别是应用程序是否要自己持有其运行所需的数据。
 无状态应用（Stateless Application）：程序每次运行都跟首次运行一样，不依赖之前任何操作所遗留下来的痕迹。
@@ -1214,7 +1347,7 @@ BootstrapSignerController、TokenCleanerController
 用配置文件来配置文件。
 
 - Helm
-Kubernetes 是云原生操作系统，Helm 是成为这个操作系统上面的应用商店与包管理工具。
+Kubernetes 比作云原生操作系统，Helm 就是成为这个操作系统上面的应用商店与包管理工具。
 Helm 提出了与 Linux 包管理直接对应的 Chart 格式和 Repository 应用仓库。
 Helm 社区维护了公开的 Stable 和 Incubator 的中央仓库。
 Helm 为了支持对同一个 Chart 包进行多次部署，每次安装应用都会产生一个 Release，Release 就相当于该 Chart 的安装实例。
@@ -1259,12 +1392,23 @@ Helm 为了支持对同一个 Chart 包进行多次部署，每次安装应用�
 
   一些概念的具体含义：
   - Components（服务组件）：
-  OAM 的 Component 不仅仅是特指构成应用“整体”的一个“部分”，还抽象出那些应该由开发人员去关注的元素。
-  比如应用的名字、自述、容器镜像、运行所需的参数，等等。
+    OAM 的 Component 不仅仅是特指构成应用“整体”的一个“部分”，还抽象出那些应该由开发人员去关注的元素。
+    比如应用的名字、自述、容器镜像、运行所需的参数，等等。
+
   - Workload（工作负荷）：
-  Workload 决定了应用的运行模式，每个 Component 都要设定自己的 Workload 类型。
-  OAM 按照“是否可访问、是否可复制、是否长期运行”预定义了六种 Workload 类型。
-  如果有必要，使用者还可以通过 CRD 与 Operator 去扩展。
+    Workload 决定了应用的运行模式，每个 Component 都要设定自己的 Workload 类型。
+    OAM 按照“是否可访问、是否可复制、是否长期运行”预定义了六种 Workload 类型。
+    如果有必要，使用者还可以通过 CRD 与 Operator 去扩展。
+
+    | 工作负荷         | 可访问 | 可复制 | 长期运行 |
+    | ---------------- | ------ | ------ | -------- |
+    | Server           | √      | √      | √        |
+    | Singleton Server | √      | ×      | √        |
+    | Worker           | ×      | √      | √        |
+    | Singleton Worker | ×      | ×      | √        |
+    | Task             | ×      | √      | ×        |
+    | Singleton Task   | ×      | ×      | ×        |
+
   - Traits（运维特征）：
   Traits 可以用来封装模块化后的运维能力，它可以针对运维中的可重复操作预先设定好一些具体的 Traits，
   比如日志收集 Trait、负载均衡 Trait、水平扩缩容 Trait，等等。
@@ -1283,6 +1427,8 @@ Helm 为了支持对同一个 Chart 包进行多次部署，每次安装应用�
 
 其它的应用封装技术，如CNAB、Armada、Pulumi。
 
+![软件架构-虚拟化容器-OAM角色关系图](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-虚拟化容器-OAM角色关系图.jpeg)
+
 #### 容器间网络
 ##### Linux网络虚拟化
 1. Linux 系统下的网络通信模型
@@ -1290,6 +1436,8 @@ Linux 网络协议栈，简称网络栈 / 协议栈：
 Linux 系统的通信过程无论是按理论上的 OSI 七层模型，还是以实际上的 TCP/IP 四层模型来解构，都明显地呈现出“逐层调用，逐层封装”的特点，这种逐层处理的方式与栈结构，比如程序执行时的方法栈很类似。
 
 程序发送数据做的是层层封包，加入协议头，传给下一层；而接受数据则是层层解包，提取协议体，传给上一层。
+
+![软件架构-容器间网路-Linux系统下的网络通信模型](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-容器间网路-Linux系统下的网络通信模型.jpeg)
 
 Netfilter 框架：从 Linux Kernel 2.4 版开始，内核开放了一套通用的、可供代码干预数据在协议栈中流转的过滤器框架。
 Netfilter 框架是 Linux 防火墙和网络的主要维护者罗斯迪·鲁塞尔（Rusty Russell）提出并主导设计的，它围绕网络层（IP 协议）的周围，埋下了五个钩子（Hooks），每当有数据包流到网络层，经过这些钩子时，就会自动触发由内核模块注册在这里的回调函数，程序代码就能够通过回调来干预 Linux 的网络通信。
@@ -1305,6 +1453,8 @@ Netfilter 框架是 Linux 防火墙和网络的主要维护者罗斯迪·鲁塞�
 它一般用于加工本地进程的输出数据包。
 - POSTROUTING：从本机网卡出去的数据包，无论是本机的程序所发出的，还是由本机转发给其他机器的，都会触发这个钩子，
 它一般是用于源网络地址转换（Source NAT，SNAT）。
+
+![软件架构-容器间网路-Netfilter钩子](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-容器间网路-Netfilter钩子.jpeg)
 
 iptables 的设计意图是因为 Netfilter 的钩子回调虽然很强大，但毕竟要通过程序编码才够能使用，并不适合系统管理员用来日常运维，而它的价值就是以配置去实现原本用 Netfilter 编码才能做到的事情。
 一般来说，iptables 会先把用户常用的管理意图总结成具体的行为，预先准备好，然后就会在满足条件的时候自动激活行为，
@@ -1326,6 +1476,19 @@ iptables 内置了五张不可扩展的规则表（其中的 security 表并不�
 - nat 表：用于修改数据包的源或者目的地址等信息，典型的应用是网络地址转换（Network Address Translation）。
 - filter 表：用于对数据包进行过滤，控制到达某条链上的数据包是继续放行、直接丢弃或拒绝（ACCEPT、DROP、REJECT），典型的应用是防火墙。
 - security 表：用于在数据包上应用SELinux，这张表并不常用。
+
+五张规则表的优先级，从高到低：raw -> mangle -> nat -> filter -> security。
+
+每张表与能够使用到的链的对应关系：
+
+|                   | PREROUTING | POSTROUTING | FORWARD | INPUT | OUTPUT |
+| ----------------- | ---------- | ----------- | ------- | ----- | ------ |
+| raw               | √          | ×           | ×       | ×     | √      |
+| mangle            | √          | √           | √       | √     | √      |
+| nat (Source)      | ×          | √           | ×       | √     | ×      |
+| nat (Destination) | √          | ×           | ×       | ×     | √      |
+| filter            | ×          | ×           | √       | √     | √      |
+| security          | ×          | ×           | √       | √     | √      |
 
 2. 虚拟化网络设备
 - 网卡：tun/tap、veth
@@ -1432,6 +1595,8 @@ Mount 和 Volume 都是来源于操作系统的常用术语。
 Mount 是动词，表示将某个外部存储挂载到系统中；
 Volume 是名词，表示物理存储的逻辑抽象，目的是为物理存储提供有弹性的分割方式。
 
+![软件架构-容器持久化存储-Docker的三种挂载类型](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-容器持久化存储-Docker的三种挂载类型.jpeg)
+
 Kubernetes 是一个工业级的、面向生产应用的容器编排系统。
 
 概念：Volume、PersistentVolume、PersistentVolumeClaim、Provisioner、StorageClass、Volume Snapshot、Volume Snapshot Class、Ephemeral Volumes、FlexVolume Driver、Container Storage Interface、CSI Volume Cloning、Volume Limits、Volume Mode、Access Modes、Storage Capacity……
@@ -1474,10 +1639,14 @@ spec:
 存储驱动：
 - NFS、AWS EBS、GCE PD、iSCSI、RBD（Ceph Block Device）、GlusterFS、HostPath，等等。
 
+![软件架构-容器持久化存储-PVC与PV运作过程](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-容器持久化存储-PVC与PV运作过程.jpeg)
+
 2. Dynamic Provisioning
 容器是镜像的运行时实例，为了保证镜像能够重复地产生出具备一致性的运行时实例，必须要求镜像本身是持久而稳定的，这就决定了在容器中发生的一切数据变动操作，都不能真正写入到镜像当中，否则必然会破坏镜像稳定不变的性质。
 为此，容器中的数据修改操作，大多是基于写入时复制（Copy-on-Write）策略来实现的，容器会利用叠加式文件系统（OverlayFS）的特性，在用户意图对镜像进行修改时，自动将变更的内容写入到独立区域，再与原有数据叠加到一起，使其外观上看起来像是“覆盖”了原有内容。这种改动通常都是临时的，一旦容器终止运行，这些存储于独立区域中的变动信息也将被一并移除，不复存在。所以可见，如果不去进行额外的处理，容器默认是不具备持久化存储能力的。
 而另一方面，容器作为信息系统的运行载体，必定会产生出有价值的、应该被持久保存的信息，比如扮演数据库角色的容器，大概没有什么系统能够接受数据库像缓存服务一样，重启之后会丢失全部数据；多个容器之间也经常需要通过共享存储来实现某些交互操作。
+
+![软件架构-容器持久化存储-StorageClass运作过程](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-容器持久化存储-StorageClass运作过程.jpeg)
 
 ##### Kubernetes 存储扩展架构
 把接入或移除外部存储这件事情，分解为了以下三个操作：
@@ -1524,6 +1693,7 @@ Identity 接口还用于检查插件的健康状态，开发者可以通过 Prob
 
 ##### Kubernetes 存储生态系统
 OSD = Object Storage Device
+AWS = Amazon Web Services
 
 存储系统和设备，可以划分三种存储类型：
 - 块存储。
@@ -1550,6 +1720,8 @@ EFS 的本质是完全托管在云端的网络文件系统（Network File System
 - 对象存储服务是 Amazon Simple Storage Service（AWS S3）。
 S3 通常是以 REST Endpoint 的形式对外部提供文件访问服务的。
 应该直接使用程序代码来访问 S3，而不是靠操作系统或者容器编排系统去挂载它。
+
+![软件架构-容器持久化存储-AWS存储服务](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-容器持久化存储-AWS存储服务.jpeg)
 
 #### 资源与调度
 ##### Kubernetes 资源模型
@@ -1651,6 +1823,7 @@ UDS = Unix Domain Socket
 
 可靠通信
 Envoy 将代理的转发的行为规则抽象成 Listener、Router、Cluster 三种资源，又定义了应该如何发现和访问这些资源的一系列 API，统称为“xDS 协议族”。
+
 - Listener
 Listener 可以简单理解为 Envoy 的一个监听端口，用于接收来自下游应用程序（Downstream）的数据。
 - Cluster
@@ -1659,6 +1832,25 @@ Cluster 包含该服务的连接池、超时时间、Endpoints 地址、端口�
 - Router
 Listener 负责接收来自下游的数据，Cluster 负责将数据转发送给上游的服务，而 Router 则决定 Listener 在接收到下游的数据之后，具体应该将数据交给哪一个 Cluster 处理。
 Router 实际上是承担了服务网关的职责。
+
+xDS v3.0协议族包含的具体协议：
+
+| 简称 | 全称                               | 服务描述           |
+| ---- | ---------------------------------- | ------------------ |
+| LDS  | Listener Discovery Service         | 监听器发现服务     |
+| RDS  | Route Discovery Service            | 路由发现服务       |
+| CDS  | Cluster Discovery Service          | 集群发现服务       |
+| EDS  | Endpoint Discovery Service         | 集群成员发现服务   |
+| ADS  | Aggregated Discovery Service       | 聚合发现服务       |
+| HDS  | Health Discovery Service           | 健康度发现服务     |
+| SDS  | Secret Discovery Service           | 密钥发现服务       |
+| MS   | Metric Service                     | 度量指标服务       |
+| RLS  | Rate Limit Service                 | 速率限制服务       |
+| ALS  | gRPC Access Log Service            | gRPC访问日志服务   |
+| LRS  | Load Reporting service             | 负载报告服务       |
+| RTDS | Runtime Discovery Service          | 运行时发现服务     |
+| CSDS | Client Status Discovery Service    | 客户端状态发现服务 |
+| ECDS | Extension Conflg Discovery Service | 扩展配置发现服务   |
 
 2. 控制平面
 Istio 在 1.5 版本之前，Istio 自身也是采用微服务架构开发的，它把控制平面的职责分解为四个模块去实现：
@@ -1791,11 +1983,14 @@ OSM 项目的其中一个主要目标，是作为 SMI 规范的参考实现。
 - 声明式 HTTP 客户端：默认采用 Spring Cloud OpenFeign。
 可以考虑Retrofit，或者使用 RestTemplete 乃至于更底层的OkHTTP、HTTPClient以命令式编程来访问，多写一些代码而已。
 
+![软件架构-探索与实践-基于SpringCloud的微服务架构](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-探索与实践-基于Spring Cloud的微服务架构.jpeg)
+
 ##### 基于Kubernetes的微服务架构
 “后微服务时代”中的下一次架构演进，这次升级的目标主要有两点：
 - 目标一：尽可能缩减非业务功能代码的比例。
 - 目标二：尽可能在不影响原有代码的前提下完成迁移。
 
+技术组件：
 - 配置中心
 采用 Kubernetes 的 ConfigMap 来管理，通过 Spring Cloud Kubernetes Config 自动将 ConfigMap 的内容注入到 Spring 配置文件中，并实现动态更新。
 - 服务发现
@@ -1803,6 +1998,8 @@ OSM 项目的其中一个主要目标，是作为 SMI 规范的参考实现。
 - 负载均衡
 采用 Kubernetes Service 本身的负载均衡能力实现（DNS 负载均衡），可以不再需要 Ribbon 这样的客户端负载均衡。
 Spring Cloud Kubernetes 从 1.1.2 开始，也已经移除了对 Ribbon 的适配支持，也（暂时）没有对其代替品 Spring Cloud LoadBalancer 提供适配。
+
+![软件架构-探索与实践-基于Kubernetes的微服务架构](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-探索与实践-基于Kubernetes的微服务架构.jpeg)
 
 ##### 基于Istio的服务网格架构
 技术组件：
@@ -1814,8 +2011,9 @@ Spring Cloud Kubernetes 从 1.1.2 开始，也已经移除了对 Ribbon 的适�
 - 认证授权：依靠 Istio 的安全机制来实现。
 Spring Security OAuth 2.0 仍然以第三方 JWT 授权中心的角色存在，为系统提供终端用户认证，为服务网格提供令牌生成、公钥JWKS等支持。
 
+![软件架构-探索与实践-基于Istio的服务网格架构](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/软件架构-探索与实践-基于Istio的服务网格架构.jpeg)
+
 ##### 基于云计算的无服务架构
 无服务架构（Serverless）跟微服务架构本身没有继承替代的关系，它们并不是同一种层次的架构。
 无服务的云函数可以作为微服务的一种实现方式，甚至可能是未来很主流的实现方式。
-
 
