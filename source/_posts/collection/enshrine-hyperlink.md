@@ -193,6 +193,8 @@ W3Schools Online Web Tutorials  https://www.w3schools.com/
 
 Linux 命令搜索引擎  https://wangchujiang.com/linux-command/
 
+SS64 Command line reference  https://ss64.com/
+
 Michael Kerrisk - man7.org  http://man7.org/
 
 The GNU Operating System and the Free Software Movement https://www.gnu.org/

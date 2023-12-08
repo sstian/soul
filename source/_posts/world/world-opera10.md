@@ -1127,7 +1127,6 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
 - 一个人最难改，也最容易忽略的，就是习惯。
   For a person, the hardest thing to change, and the easiest thing to ignore, is old habit.
 
-
 ## 疯狂元素城
 
 **Elemental**
@@ -1147,3 +1146,14 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
   Why does anyone get to tell you what you can do in your life? 
 - 有些话不说，就未必再有机会。
   You don't have forever to say what you need to say.
+
+## 愤怒的小鸟
+
+**Angry Birds**
+
+[美] 哥伦比亚电影公司
+
+《Angry Birds》
+《Angry Birds 2》
+
+胖红，飞镖黄，炸弹黑
