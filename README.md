@@ -204,9 +204,46 @@ in the terminal of command or powershell
 npm run build
 ```
 
+## Fix
+
+### 图片懒加载的bug修复
+一般情况下懒加载会和gallery插件会发生冲突，结果可能就是点开图片，左翻右翻都是loading image。
+matery主题的解决方案是：修改 /themes/matery/source/js 中的 matery.js文件
+在第108行加上：
+```js
+$(document).find('img[data-original]').each(function(){
+    $(this).parent().attr("href", $(this).attr("data-original"));
+});
+```
+
+做完这步之后，还有点小Bug，首页的logo点击会直接打开logo图，而不是跳到首页。
+伪解决方案：打开 /themes/matery/layout/_partial/header.ejs文件，在img和span的两个头加个div：
+```ejs
+<div class="brand-logo">
+    <a href="<%- url_for() %>" class="waves-effect waves-light">
+        <div>
+            <% if (theme.logo !== undefined && theme.logo.length > 0) { %>
+            <img src="<%= theme.logo %>" class="logo-img" alt="LOGO">
+            <% } %>
+            <span class="logo-span"><%- config.title %></span>
+        </div>
+    </a>
+</div>
+```
+
+懒加载优化，可做可不做。
+其实第一次加载后本地都是有缓存的，如果每次都把loading显示出来就不那么好看。
+所以我们需要对插件进行魔改，让图片稍微提前加载，避开加载动画。
+解决方案：打开 Hexo根目录>node_modules > hexo-lazyload-image > lib > simple-lazyload.js 文件
+第11行修改为：
+```js
+&& rect.top <= (window.innerHeight +240 || document.documentElement.clientHeight +240)
+```
+作用：提前240个像素加载图片；当然这个值也可以根据自己情况修改。
+
 ## Reference
 
 Hexo 文档  https://hexo.io/zh-cn/docs/
 hexo+github搭建博客(超级详细版，精细入微)  https://blog.csdn.net/victoryxa/article/details/103733655?spm=1001.2014.3001.5506 
-
+Hexo进阶之各种优化  https://blog.sky03.cn/posts/42790.html
 

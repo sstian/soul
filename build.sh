@@ -12,9 +12,10 @@ echo -e "\n>> git commit -m 'deploy'"  && git commit -m "deploy"
 echo -e "\n>> git push"                && git push
 
 echo "hexo deploying webpage..."
-echo -e "\n>> hexo clean"    && hexo clean
-echo -e "\n>> hexo generate" && hexo generate
-echo -e "\n>> hexo deploy"   && hexo deploy
+# echo -e "\n>> hexo clean"    && hexo clean
+# echo -e "\n>> hexo generate" && hexo generate
+# echo -e "\n>> hexo deploy"   && hexo deploy
+echo -e "\n>> npm run gulp"    && npm run gulp
 
 echo -e "\nbuild completely!"
 end_time=`date +%s`

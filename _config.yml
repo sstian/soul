@@ -156,17 +156,19 @@ abbrlink:
 # 图片懒加载
 ## npm install hexo-lazyload-image --save
 lazyload:
-  enable: false  # 是否开启图片懒加载
+  enable: true  # 是否开启图片懒加载
   onlypost: false  # 是否只对文章的图片做懒加载
   loadingImg: # eg ./images/loading.gif
 
 # gulp代码压缩
+## 1. 安装模块
 ## 全局安装gulp模块
-### npm install gulp -g
+## npm install gulp -g
 ## 安装各种小功能模块  执行这步的时候，可能会提示权限的问题，最好以管理员模式执行
-### npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save
+## npm install gulp gulp-htmlclean gulp-htmlmin gulp-minify-css gulp-uglify gulp-imagemin --save
 ## 额外的功能模块
-### npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 del @babel/core --save
-## 执行方式，在Hexo根目录
-### gulp <=> hexo cl && hexo g 或 
-### gulp build <=> ... + hexo d
+## npm install gulp-debug gulp-clean-css gulp-changed gulp-if gulp-plumber gulp-babel babel-preset-es2015 del @babel/core --save
+## 2. 在Hexo根目录新建文件 gulpfile.js，并复制内容到文件中
+## 3. 执行方式，在Hexo根目录
+## gulp / gulp default <=> hexo clean && hexo generate
+## gulp build <=> hexo clean && hexo generate && hexo deploy

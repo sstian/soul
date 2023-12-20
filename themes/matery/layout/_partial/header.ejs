@@ -3,10 +3,12 @@
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
                 <a href="<%- url_for() %>" class="waves-effect waves-light">
-                    <% if (theme.logo !== undefined && theme.logo.length > 0) { %>
-                    <img src="<%- theme.jsDelivr.url %><%- url_for(theme.logo) %>" class="logo-img" alt="LOGO">
-                    <% } %>
-                    <span class="logo-span"><%= config.title %></span>
+                    <div>
+                        <% if (theme.logo !== undefined && theme.logo.length > 0) { %>
+                        <img src="<%- theme.jsDelivr.url %><%- url_for(theme.logo) %>" class="logo-img" alt="LOGO">
+                        <% } %>
+                        <span class="logo-span"><%= config.title %></span>        
+                    </div>
                 </a>
             </div>
             <%- partial('_partial/navigation') %>
@@ -18,3 +20,8 @@
     </nav>
 
 </header>
+
+<!-- 
+开启图片懒加载的小Bug，首页的logo点击会直接打开logo图，而不是跳到首页。
+伪解决方案：打开 /themes/matery/layout/_partial/header.ejs文件，在img和span的两个头加个div
+-->

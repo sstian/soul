@@ -106,6 +106,12 @@ $(function () {
             subHtmlSelectorRelative: true
         });
 
+        // 一般情况下懒加载会和gallery插件会发生冲突，结果可能就是点开图片，左翻右翻都是loading image。
+        // matery主题的解决方案是：修改 /themes/matery/source/js 中的 matery.js文件，添加如下代码：
+        $(document).find('img[data-original]').each(function(){
+            $(this).parent().attr("href", $(this).attr("data-original"));
+        });
+
         // progress bar init
         const progressElement = window.document.querySelector('.progress-bar');
         if (progressElement) {

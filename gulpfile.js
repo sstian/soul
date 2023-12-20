@@ -151,7 +151,7 @@ gulp.task(
         "compressHtml",
         "compressCss",
         "compressJs",
-        // "compressImage",
+        "compressImage",
         gulp.parallel("deploy")
     )
 );
@@ -162,8 +162,8 @@ gulp.task(
     gulp.series(
         "clean",
         "generate",
-        // gulp.parallel("compressHtml", "compressCss", "compressJs","compressImage")
-        gulp.parallel("compressHtml", "compressCss", "compressJs")
+        gulp.parallel("compressHtml", "compressCss", "compressJs","compressImage")
+        // gulp.parallel("compressHtml", "compressCss", "compressJs")
     )
 );
 // Gulp4最大的一个改变就是gulp.task函数现在只支持两个参数，分别是任务名和运行任务的函数
