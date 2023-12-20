@@ -3,8 +3,7 @@ title: 半小时漫画系列
 categories: Reading
 tags:
   - Book
-  - 二混子
-  - Half Hour
+  - Half Hour Comic
 abbrlink: 4f6a
 date: 2021-02-03 00:42:00
 ---

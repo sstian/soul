@@ -2,9 +2,9 @@
 title: 彭东 操作系统实战45讲
 categories: Technology
 tags:
+  - 极客时间
   - 彭东
   - 操作系统
-  - 极客时间
 abbrlink: d52c
 date: 2023-11-05 18:17:32
 ---

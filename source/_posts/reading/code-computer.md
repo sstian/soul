@@ -3,6 +3,8 @@ title: 编码：隐匿在计算机软硬件背后的语言
 categories: Reading
 tags:
   - Book
+  - Code
+  - Computer
 abbrlink: '1748'
 date: 2022-10-30 12:30:00
 ---

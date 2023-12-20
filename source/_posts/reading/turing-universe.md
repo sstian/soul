@@ -3,6 +3,8 @@ title: 图灵宇宙：原初纪元——计算机科学发展简史
 categories: Reading
 tags:
   - Book
+  - Turing Universe
+  - Computer Science
 abbrlink: 434e
 date: 2023-02-12 20:00:00
 ---
