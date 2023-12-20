@@ -8,8 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "build": "bash build.sh",
-    "hexo": "hexo clean && hexo generate && hexo deploy",
-    "gulp": "gulp default"
+    "hexo": "hexo clean && hexo generate && hexo deploy"
   },
   "hexo": {
     "version": "5.3.0"

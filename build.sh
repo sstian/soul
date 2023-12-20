@@ -15,7 +15,7 @@ echo "hexo deploying webpage..."
 # echo -e "\n>> hexo clean"    && hexo clean
 # echo -e "\n>> hexo generate" && hexo generate
 # echo -e "\n>> hexo deploy"   && hexo deploy
-echo -e "\n>> npm run gulp"    && npm run gulp
+echo -e "\n>> gulp build"    && gulp build
 
 echo -e "\nbuild completely!"
 end_time=`date +%s`
