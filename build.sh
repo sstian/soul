@@ -17,7 +17,7 @@ echo "hexo deploying webpage..."
 # echo -e "\n>> hexo deploy"   && hexo deploy
 echo -e "\n>> gulp build"    && gulp build
 
-echo -e "\nbuild completely!"
+echo -e "\nbuild complete!"
 end_time=`date +%s`
-elapsed_time=`expr $end_time - $start_time`
-echo "elasped time=$elapsed_time seconds"
+elapsed=`expr $end_time - $start_time`
+echo "elasped $elapsed seconds"

@@ -157,8 +157,8 @@ abbrlink:
 ## npm install hexo-lazyload-image --save
 lazyload:
   enable: true  # 是否开启图片懒加载
-  onlypost: false  # 是否只对文章的图片做懒加载
-  loadingImg: # eg ./images/loading.gif
+  onlypost: true  # 是否只对文章的图片做懒加载
+  loadingImg: /medias/loading.gif
 
 # gulp代码压缩
 ## 1. 安装模块

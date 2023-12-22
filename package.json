@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "clean": "hexo clean",
-    "generate": "hexo generate",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
+    "hexo": "hexo clean && hexo generate && hexo server",
+    "gulp": "gulp default && hexo server",
     "build": "bash build.sh",
-    "hexo": "hexo clean && hexo generate && hexo deploy"
+    "build:gulp": "gulp build"
   },
   "hexo": {
     "version": "5.3.0"

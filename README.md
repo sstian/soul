@@ -112,7 +112,7 @@ deploy:
   repo: 
     - git@github.com:sstian/sstian.github.io.git
     - git@gitee.com:sstian/sstian.git
-		- git@101.132.142.119:/home/git/blog.git
+    - git@101.132.142.119:/home/git/blog.git
   branch: master
 ```
 
@@ -177,6 +177,7 @@ build.sh
 set -e
 
 echo "start building..."
+start_time=`date +%s`
 
 echo "git pushing changes..."
 echo -e "\n>> git add --all"           && git add --all
@@ -188,7 +189,10 @@ echo -e "\n>> hexo clean"    && hexo clean
 echo -e "\n>> hexo generate" && hexo generate
 echo -e "\n>> hexo deploy"   && hexo deploy
 
-echo -e "\nbuild completely!"
+echo -e "\nbuild complete!"
+end_time=`date +%s`
+elapsed=`expr $end_time - $start_time`
+echo "elasped $elapsed seconds"
 ```
 
 3. 设置脚本命令
@@ -200,13 +204,13 @@ package.json
 ```
 4. 执行命令
 in the terminal of command or powershell
-```powershell
+```cmd
 npm run build
 ```
 
 ## Fix
 
-### 图片懒加载的bug修复
+### 修复图片懒加载的bug
 一般情况下懒加载会和gallery插件会发生冲突，结果可能就是点开图片，左翻右翻都是loading image。
 matery主题的解决方案是：修改 /themes/matery/source/js 中的 matery.js文件
 在第108行加上：
@@ -241,9 +245,31 @@ $(document).find('img[data-original]').each(function(){
 ```
 作用：提前240个像素加载图片；当然这个值也可以根据自己情况修改。
 
+## Skill
+
+### 测试百度Spider能不能爬你的域名
+在任意目录下执行以下命令（将“你的域名”换成你的域名）：
+```bash
+curl -A "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)" -o example.html 你的域名
+
+# e.g.
+curl -A "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)" -o example.html www.sstian.top
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed 
+100   145  100   145    0     0   2499      0 --:--:-- --:--:-- --:--:--  2685
+```
+执行完命令，在该目录下会生成一个文件 `example.html`，打开它，如果显示：
+- 301 Moved Permanently，说明被重定向了。
+- **302 Found，说明被爬到了。**
+- 如果打开是你的首页，说明爬取到的内容就是你的首页HTML内容。
+- 如果显示以下内容，说明域名解析到GitHub时，403 Forbidden 访问被禁止。
+Your access to this site has been restricted.
+If you believe this is an error, please contact the Support Team.
+
 ## Reference
 
-Hexo 文档  https://hexo.io/zh-cn/docs/
-hexo+github搭建博客(超级详细版，精细入微)  https://blog.csdn.net/victoryxa/article/details/103733655?spm=1001.2014.3001.5506 
-Hexo进阶之各种优化  https://blog.sky03.cn/posts/42790.html
+- Hexo 文档  https://hexo.io/zh-cn/docs/
+- hexo+github搭建博客(超级详细版，精细入微)  https://blog.csdn.net/victoryxa/article/details/103733655?spm=1001.2014.3001.5506 
+- Hexo进阶之各种优化  https://blog.sky03.cn/posts/42790.html
+- 关于百度无法爬取GitHub内容解决方案  https://blog.sky03.cn/posts/7974.html
 

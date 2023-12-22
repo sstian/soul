@@ -142,6 +142,7 @@ gulp.task("compressImage", function () {
         .pipe(imagemin(option))
         .pipe(gulp.dest("./public"));
 });
+
 // 执行顺序： 清除public目录 -> 产生原始博客内容 -> 执行压缩混淆 -> 部署到服务器
 gulp.task(
     "build",
@@ -166,4 +167,5 @@ gulp.task(
         // gulp.parallel("compressHtml", "compressCss", "compressJs")
     )
 );
+
 // Gulp4最大的一个改变就是gulp.task函数现在只支持两个参数，分别是任务名和运行任务的函数
