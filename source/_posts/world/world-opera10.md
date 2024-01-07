@@ -1157,3 +1157,24 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
 《Angry Birds 2》
 
 胖红，飞镖黄，炸弹黑
+
+## 最后的真相
+
+[中] 导演：李太阁，监制：黄晓明
+
+- 不畏义死，不荣幸生。
+  FEAR NOT DYING FOR JUSTICE BE NOT PROUD FOR SIMPLY BEING ALIVE.
+- 法律不是冰冷的条文。法律应该保护每一个人。
+  The law isn't just words on paper. The law should protect each and every one of us.
+
+丁义峰：
+- 真相不会只浮在表面上。
+  The truth isn't just what's on the surface.
+- 有时候为了赢啊，还是要上点手段的，只要我们目的是正确的、心地是善良的，不就行了。
+  Sometimes in order to win, you need to be resourceful. As long as our motives are correct and our heart's in the right place. That's what matters.
+- 谁都怕死。在这个世界上，有两件事情无药可医，一个是死，一个是良心。
+  Everyone's afraid of death. In this world, there are only two things we can't cure: The first is death. The other is our conscience. 
+- 人是有尊严的。法律的公平公正，就在于时刻提醒我们，这件原本最简单不过的事情。法律审判的，不只是罪行，还要保护每个人、有尊严的人。
+  Humans have the right to dignity. The justice of the law is a constant reminder to us of this very simple thing. The law doesn't only punish crimes. It also protects every single person needs dignity.
+- 曾经我以为，律师应该追寻真相。可是当真相无法辨别的时候，我们应该追寻什么？我选择追寻自己的良知。
+  I once believed, lawyers should search for the truth. But when you can't distinguish truth from untruth, what should we strive for? I chose to search for my conscience.
