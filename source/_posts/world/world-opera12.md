@@ -3,6 +3,7 @@ title: World Opera 12
 categories: World
 tags:
   - Opera
+abbrlink: 41ef
 date: 2020-12-20 13:14:00
 ---
 
