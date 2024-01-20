@@ -209,3 +209,21 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
 
 比安卡：
 - 女孩子都更希望男人能主动求婚，比起被父母按排婚姻。
+
+## 超能一家人
+
+**Wonder Family**
+
+[中] 宋阳
+
+郑前：
+- 家是唯一的港湾。船走得再远，只要港湾还在，它就有停靠的地方。不要等失去以后才后悔。
+  Family is the harbour. No mater how far the boat travels, if the harbour is here, then there is always a place for the boat to be berth at. So, don't wait until you lose it, and then regret about it.
+- 眼见着亲人死去，却什么都没做，痛苦，只会成为你余生的全部。
+  Watching your family die right in front of you and do nothing. Pain, will live with you in the rest of your life.
+
+波波洛娃 Bobrova：
+- 家人就是用来拖累的，相互拖累。
+  Family is for us to drag and rely on. We drag and support each other.
+- 家人，就是我的超能力。
+  Family, is my super power.
