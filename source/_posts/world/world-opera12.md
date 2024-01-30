@@ -198,18 +198,6 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
 - 曾经我以为，律师应该追寻真相。可是当真相无法辨别的时候，我们应该追寻什么？我选择追寻自己的良知。
   I once believed, lawyers should search for the truth. But when you can't distinguish truth from untruth, what should we strive for? I chose to search for my conscience.
 
-## 勇者斗恶龙：你的故事
-
-**ドラゴンクエスト ユア・ストーリー，Dragon Quest Your Story**
-
-[日] 山崎贵、八木龙一、花房真
-
-留卡：
-- 你真正爱的人，是你可以毫无顾虑吐露一切的人。
-
-比安卡：
-- 女孩子都更希望男人能主动求婚，比起被父母按排婚姻。
-
 ## 超能一家人
 
 **Wonder Family**
