@@ -103,8 +103,11 @@ Eva Rosalene, Neil Watts, Roxanne Winters, Robert Lin
 
 Johnny Wyles, River Wyles (AS=Asperger's syndrome 亚斯伯格症候群), Joey, Nicholas
 
-- 富有+著名=上流人士。——Neil Watts
-- River:“如果你忘记了，或者走丢了怎么办？”Johnny:“笨蛋，那就在月球上相见吧！”
+Neil Watts：
+- 富有 + 著名 = 上流人士。
+
+River: 如果你忘记了，或者走丢了怎么办？
+Johnny: 笨蛋，那就在月球上相见吧！
 
 ### 寻找天堂
 
@@ -112,9 +115,21 @@ Johnny Wyles, River Wyles (AS=Asperger's syndrome 亚斯伯格症候群), Joey, 
 
 Colin Reeds, Sofia Reeds, Asher, Faye
 
+Sofia：
 - 在真正到来之前，我们永远没有准备好。
-- 对我而言，只要活得充实，选择什么道路都一样。——Sofia
-- 想要另一个人幸福，不只是追寻幸福这么简单。——Robert Lin
+- 对我而言，只要活得充实，选择什么道路都一样。
+
+Robert Lin：
+- 想要另一个人幸福，不只是追寻幸福这么简单。
+
+### 影子工厂 
+
+**Impostor Factory**
+
+Quincy Reynard, Lynri Watts, Neil Watts
+
+Bill Watts：
+- 没有人能永远活着，我们能做的只有珍惜我们所被赐予的一切，也包括时间。
 
 ## 火柴人
 

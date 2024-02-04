@@ -631,4 +631,6 @@ https://www.bilibili.com/video/BV1254y1a7NL/
 https://www.bilibili.com/video/BV1dp4y1G7DN
 
 - 世事难料，所以一定要珍惜现在，别让自己留下遗憾。
+- 敢于直视自身的弱小，方能成为真正的勇者。
+- 无论时间如何流转，真挚的爱永远都不会改变。
 
