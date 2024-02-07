@@ -92,12 +92,14 @@ date: 2020-08-20 13:14:00
 
 https://freebirdgames.com/
 
+> 第一部讲爱情，第二部讲自我，第三部讲亲情（家庭和孩子）。
+
 [SIGMUND 重建人生-西格蒙德机构]“临终关怀”
 Eva Rosalene, Neil Watts, Roxanne Winters, Robert Lin
 
 记忆球=>记忆碎片=>记忆链接
 
-### 去月球
+### 1. 去月球
 
 **To the Moon**
 
@@ -109,7 +111,7 @@ Neil Watts：
 River: 如果你忘记了，或者走丢了怎么办？
 Johnny: 笨蛋，那就在月球上相见吧！
 
-### 寻找天堂
+### 2. 寻找天堂
 
 **Finding Paradise**
 
@@ -122,7 +124,7 @@ Sofia：
 Robert Lin：
 - 想要另一个人幸福，不只是追寻幸福这么简单。
 
-### 影子工厂 
+### 3. 影子工厂 
 
 **Impostor Factory**
 
