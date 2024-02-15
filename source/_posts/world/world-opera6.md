@@ -274,59 +274,6 @@ suck cock 吮吸公鸡（喜欢性爱）
 
 ![红细胞](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/红细胞.png)
 
-## 我的三体
-
-[中]神游八方
-
-**Ⅰ 我的三体 Ⅱ 我的三体之罗辑传 Ⅲ 我的三体之章北海传**
-
-- 两个公理：
-  第一，生存是文明的第一需要；第二，文明不断增长和扩张，但宇宙中的物质总量保持不变。
-  First, survival is the first necessity of civilization. 
-  Second, as civilization constantly grows and expands, total matter quantity in the universe remains uncharged.
-- 两个名词：
-  猜疑链，技术爆炸。 
-  suspicion chain and technical explosion
-
-叶文洁，汪淼，史强，罗辑♡庄颜
-
-[三体组织 ETO=Earth Trisolaris Organization]：降临派（审判日号），拯救派，幸运派
-
-[三体星球]：恒纪元，乱纪元；杀死科学=>染色、神迹、智子工程（锁死基础科学）
-
-[地球]：面壁计划 Wallface Project - 面壁者 Wallfacers => 雪地计划 Snowfield Project
-VS     破壁计划 Wallbreak Project - 破壁者 Wallbreakers
-弗雷德里克·泰勒（Fredrick Taylor）VS 冯·诺依曼（Von Neumann）
-曼努尔·雷迪亚兹（Manuel Ray diaz） VS 墨子（Mozi）
-比尔·希恩斯（Bill Haynes） VS 亚里士多德（Aristotle）
-罗辑 VS 自己
-
-史强：
-- 虫子从来就没有被真正战胜过。
-  The bugs have never been truly defeated.
-
-庄颜：
-- 善良的人才懂得欣赏美。
-  Only good people know beauty.
-
-罗辑：
-- 无言是最大的轻蔑。
-  Your silence is the biggest scorn.
-
-章北海父亲：
-- 语言只是沉默的标点符号。
-  Words are just punctuations to our silence.
-
-## 三体动画
-
-[中] 艺画开天
-
-叶文洁：在疯狂面前，理智都是软弱无力的。
-萨伊：我们只能选择是否牺牲，但不能选择牺牲什么。
-罗辑：只有在你的目光里，我才感到宇宙有另外一面。我感到时空向我们坍缩，星海在振动。所有这一切，都湮没在爱的创世之光里。
-
-> 三体动画拍得不错，可惜叫错了名字。（严重跑题）
-
 ## 一出好戏
 
 **The Island  [中]黄渤**
