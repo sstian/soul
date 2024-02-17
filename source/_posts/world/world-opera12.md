@@ -215,3 +215,35 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
   Family is for us to drag and rely on. We drag and support each other.
 - 家人，就是我的超能力。
   Family, is my super power.
+
+## 鱿鱼游戏
+
+**오징어게임，Squid Game**
+
+[韩] 黄东赫
+
+六轮游戏：一二三木头人、抠糖饼、拔河、打弹珠、玻璃桥、鱿鱼游戏。
+
+**成奇勋**
+
+- ~~姜晓~~：人不是因为值得相信才得相信的，是因为不相信，自己就无所依靠。
+- ~~吴一男~~：旁观绝对不可能会比身临其境更有趣。
+
+## 保你平安
+
+**Post-Truth**
+
+[中] 董成鹏
+
+- 做你觉得正确的事。
+  Do what you think is right.
+
+魏平安：
+- 狱警：一定要行好事、做好人、走正道。
+  prison guard: In the future I must do the right thing, and be a good man who does no evil.
+- 咱们说什么话得讲究个真凭实据。
+  People should base their comments on facts. 
+
+一枝花：
+- 善恶到头终有报。
+  Justice will come eventually.
