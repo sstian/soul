@@ -70,7 +70,7 @@ Heigus粒子
 
 **Black Mirror**
 
-[英] 英国电视4台（Channel 4） [美国] NetFlix公司
+[英] 英国电视4台（Channel 4） [美] NetFlix公司
 
 Season 1: 01 国歌 National Anthem
 Season 2
@@ -247,3 +247,18 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
 一枝花：
 - 善恶到头终有报。
   Justice will come eventually.
+
+## 忍者神龟：变种大乱斗
+
+**Teenage Mutant Ninja Turtles: Mutant Mayhem**
+
+[美] 乔纳森·理贝斯曼
+
+斯普林特 Splinter
+
+莱昂纳多 Leonardo - 蓝色眼罩，武士刀
+拉斐尔 Raphael - 红色眼罩，钢叉
+米开朗基罗 Michelangelo - 橙色眼罩，双节棍
+多纳泰罗 Donatello - 紫色眼罩，棍棒
+
+BOSS：超级苍蝇
