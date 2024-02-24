@@ -59,6 +59,12 @@ fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
 网易云课堂-鑫路历程 VS2015 C语言|C++语法与数据结构|MFC|Linux  https://study.163.com/course/introduction.htm?courseId=1392001
 
+### Java
+
+Java 全栈知识体系  https://www.pdai.tech/
+
+学习Java语言的在线教程 - CodeGym  https://codegym.cc/zh/
+
 ### Golang
 
 GOPROXY.IO - 一个全球代理 为 Go 模块而生  https://proxy.golang.com.cn/zh/
@@ -147,14 +153,6 @@ AST Explorer  https://astexplorer.net/
 
 Web component JS frameworks overview：前端框架语法和特性对比  https://component-party.dev/
 
-### 算法
-
-算法可视化 Algorithm Visualizer  https://algorithm-visualizer.org/
-
-VisuAlgo - 数据结构和算法动态可视化  https://visualgo.net/zh
-
-labuladong独家算法教程  https://labuladong.gitbook.io/algo/
-
 ### 数据
 
 JSON Hero - JSON Viewer  https://jsonhero.io/
@@ -184,10 +182,6 @@ https://www2.tkn.tu-berlin.de/teaching/rn/animations/
 Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://www.zedwood.com/
 
 伯乐在线  http://www.jobbole.com/
-
-CS-Notes  https://cyc2018.github.io/CS-Notes/#/
-
-学习Java语言的在线教程 - CodeGym  https://codegym.cc/zh/
 
 W3Schools Online Web Tutorials  https://www.w3schools.com/
 
@@ -266,10 +260,34 @@ turnoff.us - geek comic site  http://turnoff.us/
 
 酷壳 - CoolShell | 陈皓 “左耳朵耗子”  https://coolshell.cn/
 
+## 计算机
+
+### 计算机理论
+
+CS-Notes  https://cyc2018.github.io/CS-Notes/#/
+
+小林coding：小林 x 图解计算机基础 - 图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！  https://xiaolincoding.com/
+
+### 算法题解
+
+labuladong 的算法笔记  https://labuladong.online/algo/
+
+代码随想录：算法刷题，程序员Carl  https://www.programmercarl.com/
+
+Algorithm Visualizer：算法可视化  https://algorithm-visualizer.org/
+
+VisuAlgo：数据结构和算法动态可视化  https://visualgo.net/zh
+
+Doocs: Gitee: https://gitee.com/yanglbme | GitHub: https://github.com/yanglbme
+- leetcode：多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解  https://doocs.gitee.io/leetcode/
+-  advanced-java：互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识  https://doocs.gitee.io//advanced-java
+-  source-code-hunter：源码剖析挖掘互联网行业主流技术的底层实现原理   https://doocs.gitee.io/source-code-hunter
+-  jvm：JVM 底层原理最全知识总结  https://doocs.gitee.io/jvm/
+-  coding-interview：代码面试题集，包括剑指 Offer、编程之美等   https://doocs.gitee.io/coding-interview
+
 ## 设计
 
 稿定设计 - 做图做视频必备|在线设计神器|海量版权素材模板  https://www.gaoding.com/
-
 - 稿定抠图  https://koutu.gaoding.com/
 - 在线PS  https://ps.gaoding.com/#/
 
