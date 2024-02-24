@@ -262,3 +262,18 @@ Mandela Effect: By feeding people details and hints continuously,a memory can be
 多纳泰罗 Donatello - 紫色眼罩，棍棒
 
 BOSS：超级苍蝇
+
+## 灌篮高手 2022年动画电影
+
+**THE FIRST SLAM DUNK**
+
+[日] 井上雄彦
+
+[湘北高中] 樱木花道，流川枫，赤木刚宪，三井寿，宫城良田
+
+安西教练：
+- 一旦放弃，比赛就等于结束了。
+
+宫城良田：
+- 优势是需要靠我们自己去争取的。
+
