@@ -306,3 +306,53 @@ K10高级经理，K9经理，K8组长，K7高级专员，K6专员，K5操作员/
 说点花言巧语，显得你跟他关系不错，然后让他替你干活。
 第三，鼓励下属互相鞭策，狼性竞争。
 鼓励大家相互批评，把他们对你的不满，转移到别人身上去。
+
+## 孤注一掷
+
+**No More Bets**
+
+[中] 申奥
+
+```mathematica
+凯利公式 Kelly formula：一条可应用在投资资金和赌注的公式。
+f* = (bp-q)/b = (p(b+1)-1)/b
+
+各参数意义为：
+f* = 应投注的资本比值
+p = 获胜的概率
+q = 失败的概率，即1 - p
+b = 赔率，等于期望盈利÷可能亏损（也就是盈亏比）
+
+分子bp-q代表“赢面”，数学中叫“期望值”
+```
+
+祖师爷分的千门八将：正提反脱，风火除谣。
+Notorous Eight", recognized by venerable masters: Positoner, Hustlers, Enticers, Assisting evaders, Informants, Enforcer, Mediators, Rumormongers.
+- 提将/狗推 doggy-push，负责聊天、进货
+- 正将，负责写程序、增改网页
+- 脱将，负责网络安全
+
+诈骗组织业务范围：炒股 investment in stocks，挖币 Bitcoin mining，网游 online gaming，电商 electronic commerce，博彩 online gambing。
+
+美女荷官 在线发牌 an amazing team of attractive croupiers who host online games：
+轮盘 Roulette，骰盅 Dice，二十一点 Blackjack，斗牛 Bull Poker，炸金花 Three Card Poker，龙虎斗 The Big Battle，百家乐 Baccarat，裸聊 Nude Chat...
+
+黎霜：
+- 女人最重要是什么？是独立。
+  What is most important for woman? Independence.
+
+赵东冉：
+- 我们铺天盖地的做反诈宣传，可为什么还是有那么多人上当受骗。因为人有两颗心：一颗是贪心，一颗是不甘心。
+  We are conducint widespread anti-fraud campaigns. There are still many of them getting caught in a scam. Because people have two hearts, one is greedy, the other is unsatisfied.
+- 以网赌为诱饵的诈骗，博彩软件里有木马，他的消费习惯、银行短信，一览无余。诈骗分子根据这些数据，实施精准诈骗，然后放贷款，透露内幕消息，用输赢交替的方式，控制受害者的情绪。这跟年龄受教育程度都没多大关系。他们不怕你赢，就怕你不玩。
+  That's a 100% fraudelent scheme using online gambing as bait. They insert a Trojan hourse in the gambling software, so they can acquire and analysis his spending habits and bank text messages. They manipulate these data and information to set up a scheme precisely, and assign the loan, give away the so-called inside dope, control the victims' feelings and mindset by employing a pattern of altemating wins and losses. Regardless of the age or accademic achievement, they are not afraid of you wining, but not playing.
+
+宋雨：
+- 别信，别贪，别冲动。
+  Don't believe it, don't be greedy, think again before you do it.
+
+汪国强：
+- 反诈行动：抓金主，铲窝点，打平台，断资金。
+  The Operation Anti-fraud: We will target the masterminds, dismantle the criminal networks, shut down the platforms, and cut off their funding.
+
+> 游戏本身就是被操纵的。
