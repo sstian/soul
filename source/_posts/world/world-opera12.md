@@ -70,13 +70,14 @@ Heigus粒子
 
 **Black Mirror**
 
-[英] 英国电视4台（Channel 4） [美] NetFlix公司
+[英] 英国电视4台（Channel 4 -> [美] NetFlix公司
 
-Season 1: 01 国歌 National Anthem
-Season 2
+Season 1: 01 国歌 National Anthem ...
+Season 2：...
 圣诞特辑：白色圣诞 White Christmas
-Season 3: 02 游戏测试 PLAYTESET
-Season 4: 01 卡利斯特号星舰 U.S.S.Callister 06 黑色博物馆 Black Museum
+Season 3: 02 游戏测试 PLAYTESET ...
+Season 4: 01 卡利斯特号星舰 U.S.S.Callister 06 黑色博物馆 Black Museum ...
+Season 5: ...
 
 一杆进洞 Hole-in-one
 
@@ -130,6 +131,9 @@ Coach 教练：
 哈利 Harry：
 - 让你退缩不前的是对于刺激的恐惧，说到底你唯一担心的就是状态的转换。但这其实伤不到你，因为这就是状态改变而已。
   It's the fear of the shock that holds you back. Ultimately the only thing you've worried about is the transition from one state to another, and that can't hurt you, because it's... it's just a state change.
+
+小艾希莉 Ashley Too：
+- 只要坚信自己，你就会无所不能。
 
 ## 消失的她
 
