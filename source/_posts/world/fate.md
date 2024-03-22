@@ -9,7 +9,7 @@ abbrlink: '3874'
 date: 2021-02-01 00:12:19
 ---
 
-## Fate Zero 
+## Fate Zero *
 
 [日] 虚渊玄
 

@@ -91,7 +91,7 @@ the Fountain of Youth 不老泉，Shipwreck Cove 沉船湾
 
 [中] 郭帆
 
-**《流浪地球》《流浪地球2》**
+**《流浪地球》《流浪地球2》***
 
 Jupiter 木星
 
@@ -159,7 +159,7 @@ Liu Peiqiang: I choose hope.
 
 ![爱宠大机密](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/爱宠大机密.png)
 
-## 魔道祖师
+## 魔道祖师 *
 
 [中] 墨香铜臭xiù
 

@@ -73,7 +73,7 @@ valentine/sweetheart 情人，pregnant 怀孕的
 
 ## 环太平洋
 
-**Ⅰ环太平洋（Pacific Rim）  [美]吉尔莫•德尔•托罗**
+**Ⅰ环太平洋（Pacific Rim）*  [美]吉尔莫•德尔•托罗**
 **Ⅱ环太平洋：雷霆再起（PacificRim: Uprising）  [美]斯蒂文•S•迪奈特**
 
 jaeger program 贼鸥计划，jaeger 机甲战士，Kaiju 怪兽，marshal 元帅，holy jesus 天啊，Breach 虫洞，Precursors 先驱，rocket thruster 火箭推进器
@@ -624,7 +624,7 @@ United states of Smash 合众粉碎
 - 年少的我们，以为只要说过了永远，就一定能够永远；
   就像我们以为说过了再见，就一定能够再见。——屠小意
 
-## 头号玩家
+## 头号玩家 *
 
 **Ready Player One  [美]史蒂文·斯皮尔伯格**
 

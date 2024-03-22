@@ -86,7 +86,7 @@ date: 2020-08-20 13:14:00
 
 ## Freebird Games
 
-**(RPG)**
+**(RPG = Role-playing game 角色扮演游戏)**
 
 [加拿大] Kan Reives Gao
 
@@ -99,7 +99,7 @@ Eva Rosalene, Neil Watts, Roxanne Winters, Robert Lin
 
 记忆球=>记忆碎片=>记忆链接
 
-### 1. 去月球
+### 1. 去月球 *
 
 **To the Moon**
 
@@ -166,7 +166,7 @@ Bill Watts：
 
 ## 误杀
 
-### 误杀
+### 误杀 *
 
 **Sheep Without A Shepherd**
 
@@ -308,7 +308,7 @@ Bill Watts：
 - 正因为有不懂的事，人才能变得温柔。
 - 因为要是什么都懂，就无法尝试任何事了。要是什么都不尝试，就不会产生新的事物。人类呢，总是想为不了解的事，找到答案，不断地追寻。在追寻时，就会产生温柔、怀念，还有开心喜悦的心情。
 
-### 只有我不存在的城市
+### 只有我不存在的城市 *
 
 **僕だけがいない街**
 
@@ -539,7 +539,7 @@ U-NASA=United-National Aeronoutics and Space Administration 联合国航空航�
 
 ## 新海诚动画
 
-### 你的名字。
+### 你的名字。 *
 
 **君の名は。**
 

@@ -220,7 +220,7 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 
 | 序号 | 名称                                                         | 日本首映时间  |
 | ---- | ------------------------------------------------------------ | ------------- |
-| 1    | **名侦探柯南：计时引爆摩天楼（時計じかけの摩天楼，The Time Bomb Skyscraper）** | 1997年4月19日 |
+| 1    | **名侦探柯南：计时引爆摩天楼（時計じかけの摩天楼，The Time Bomb Skyscraper）*** | 1997年4月19日 |
 | 2    | 名侦探柯南：第14个目标（14番目の標的，The Fourteenth Target） | 1998年4月18日 |
 | 3    | 名侦探柯南：世纪末的魔术师（世紀末の魔術師，The Last Wizard of the Century） | 1999年4月17日 |
 | 4    | 名侦探柯南：瞳孔中的暗杀者（瞳の中の暗殺者，Captured In Her Eyes） | 2000年4月22日 |
@@ -232,16 +232,16 @@ WC = Water Closet 洗手间，toilet 厕所、盥洗室
 | 10   | 名侦探柯南：侦探们的镇魂歌（探偵たちの鎮魂歌，The Private Eyes' Requiem） | 2006年4月15日 |
 | 11   | 名侦探柯南：绀碧之棺（ジョリー ロジャー，Jolly Roger in the Deep Azure） | 2007年4月21日 |
 | 12   | 名侦探柯南：战栗的乐谱（戦慄の楽譜，Full Score of Fear）     | 2008年4月19日 |
-| 13   | **名侦探柯南：漆黑的追踪者（漆黒の追跡者，The Raven Chaser）** | 2009年4月18日 |
-| 14   | **名侦探柯南：天空的遇难船（天空の難破船，The Lost Ship in the Sky）** | 2010年4月17日 |
+| 13   | **名侦探柯南：漆黑的追踪者（漆黒の追跡者，The Raven Chaser）*** | 2009年4月18日 |
+| 14   | **名侦探柯南：天空的遇难船（天空の難破船，The Lost Ship in the Sky）*** | 2010年4月17日 |
 | 15   | 名侦探柯南：沉默的15分钟（沈黙の15分，Quarter of Silence）   | 2011年4月16日 |
 | 16   | 名侦探柯南：第11个前锋（11人目のストライカー，The Eleventh Striker） | 2012年4月14日 |
 | 17   | 名侦探柯南：绝海的侦探（絶海の探偵，Private Eye in the Distant Sea） | 2013年4月20日 |
 | 18   | 名侦探柯南：异次元的狙击手（異次元の狙撃手，Dimensional Sniper） | 2014年4月19日 |
 | 19   | 名侦探柯南：业火的向日葵（業火の向日葵，Sunflowers of Inferno） | 2015年4月18日 |
-| 20   | **名侦探柯南：纯黑的噩梦（純黒の悪夢，The Darkest Nightmare）** | 2016年4月16日 |
+| 20   | **名侦探柯南：纯黑的噩梦（純黒の悪夢，The Darkest Nightmare）*** | 2016年4月16日 |
 | 21   | 名侦探柯南：唐红的恋歌（から紅の恋歌，The Crimson Love Letter） | 2017年4月15日 |
-| 22   | **名侦探柯南：零的执行人（ゼロの執行人，Zero the Enforcer）** | 2018年4月13日 |
+| 22   | **名侦探柯南：零的执行人（ゼロの執行人，Zero the Enforcer）*** | 2018年4月13日 |
 | 23   | 名侦探柯南：绀青之拳（紺青の拳，The Fist of Blue Sapphire）  | 2019年4月12日 |
 | 24   | 名侦探柯南：绯色的子弹（緋色の弾丸，The Scarlet Bullet）     | 2021年4月16日 |
 | 25   | 名侦探柯南：万圣节的新娘（ハロウィンの花嫁，The Bride of Halloween） | 2022年4月15日 |

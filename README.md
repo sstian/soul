@@ -17,15 +17,15 @@ It's my personal website.
 
 Markdown style:
 ```markdown
-## 影视名
+## 影视名 {推荐的加*}
 
 {**原版名，外文名，其它名字**}
 
 [国籍] 作者1、作者2 / [国籍] 导演：作者1、作者2、……，监制：作者1、作者2、……
 
-{内容设定。}
+{内容设定}
 
-{人物角色。}
+{人物角色}
 
 - 佚名语录。
 
@@ -121,7 +121,7 @@ deploy:
   repo: 
     - git@github.com:sstian/sstian.github.io.git
     - git@gitee.com:sstian/sstian.git
-    - git@101.132.142.119:/home/git/blog.git
+    - git@sstian.top:/home/git/blog.git
   branch: master
 ```
 

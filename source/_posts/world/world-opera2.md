@@ -222,7 +222,7 @@ UHDTV=Ultra High Definition Television 超高清电视：
 - 只要是有意义的事，再晚去做还是有意义的。——戴西
   For what it’s worth, it’s never too late.——Daisy
 
-## 境界的彼方
+## 境界的彼方 *
 
 **境界の彼方  [日]鸟居なごむ**
 

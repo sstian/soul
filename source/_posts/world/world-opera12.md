@@ -286,7 +286,7 @@ BOSS：超级苍蝇
 
 - 张陈若曦：一个男的，做销售的，想约你出去，无非就两点：一是办卡，二是想睡你。
 
-## 年会不能停！
+## 年会不能停！ *
 
 **Johnny Keep Walking!**
 
@@ -332,6 +332,7 @@ b = 赔率，等于期望盈利÷可能亏损（也就是盈亏比）
 
 祖师爷分的千门八将：正提反脱，风火除谣。
 Notorous Eight", recognized by venerable masters: Positoner, Hustlers, Enticers, Assisting evaders, Informants, Enforcer, Mediators, Rumormongers.
+
 - 提将/狗推 doggy-push，负责聊天、进货
 - 正将，负责写程序、增改网页
 - 脱将，负责网络安全

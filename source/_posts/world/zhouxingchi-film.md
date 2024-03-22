@@ -34,8 +34,8 @@ date: 2021-01-31 22:44:46
 
 [中]导演：刘镇伟，制片人：周星驰 1995
 
-**月光宝盒西游记第一百零一回之月光宝盒 A Chinese Odyssey PartⅠ: Pandoras Box**
-**大圣娶亲西游记大结局之仙履奇缘 A Chinese Odyssey Part Two: Cinderella**
+**月光宝盒西游记第一百零一回之月光宝盒 A Chinese Odyssey PartⅠ: Pandoras Box ***
+**大圣娶亲西游记大结局之仙履奇缘 A Chinese Odyssey Part Two: Cinderella ***
 
 小甜甜 Sweetie，紫青宝剑 Magic Sword，孙悟空 Monkey King
 
@@ -136,7 +136,7 @@ date: 2021-01-31 22:44:46
 - 足球，不是一个人可以踢的。
 - 真正的比赛，就是打仗。——明峰
 
-### 功夫
+### 功夫 *
 
 **Kung Fu Hustle  2004.12.23**
 
