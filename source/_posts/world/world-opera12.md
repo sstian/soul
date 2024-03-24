@@ -78,6 +78,10 @@ Season 2：...
 Season 3: 02 游戏测试 PLAYTESET ...
 Season 4: 01 卡利斯特号星舰 U.S.S.Callister 06 黑色博物馆 Black Museum ...
 Season 5: ...
+Season 6: ...
+
+电影：
+黑镜：潘达斯奈基 Black Mirror: Bandersnatch
 
 一杆进洞 Hole-in-one
 
@@ -134,6 +138,9 @@ Coach 教练：
 
 小艾希莉 Ashley Too：
 - 只要坚信自己，你就会无所不能。
+
+科林·里特曼 Colin Ritman：
+- 所有的东西都是被设计的，都是代码而已。
 
 ## 消失的她
 
