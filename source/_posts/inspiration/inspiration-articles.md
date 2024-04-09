@@ -476,6 +476,8 @@ Life* one = new Self; one->Create(“Te Amo”, Self::Emotion);
 一个issue查一天，
 一个bug改一天，
 一个测试搞一天。
+一周一次release，
+下周接着做change。
 何时才能写代码？
 一天一天又一天，
 像拧螺丝在车间。
