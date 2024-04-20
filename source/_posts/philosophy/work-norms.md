@@ -1,7 +1,8 @@
 ---
-title: work-norms 工作规范
+title: 工作规范 Work Norms
 categories: Philosophy
 tags:
+  - Work
   - Norms
 abbrlink: 327e
 date: 2020-07-20 09:00:00

@@ -4,6 +4,7 @@ abbrlink: 717b
 date: 2021-01-16 12:54:37
 categories: Technology
 tags:
+  - Book
   - Blockchain
   - FinTech
 ---

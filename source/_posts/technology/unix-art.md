@@ -1,6 +1,6 @@
 ---
 title: UNIX编程艺术
-categories: Reading
+categories: Technology
 tags:
   - Book
   - UNIX

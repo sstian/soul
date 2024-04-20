@@ -1,5 +1,5 @@
 ---
-title: 格式设计
+title: 格式标准
 categories: Collection
 tags:
   - Format

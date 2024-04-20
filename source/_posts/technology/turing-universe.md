@@ -1,6 +1,6 @@
 ---
 title: 图灵宇宙：原初纪元——计算机科学发展简史
-categories: Reading
+categories: Technology
 tags:
   - Book
   - Turing Universe
