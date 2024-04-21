@@ -1,10 +1,11 @@
 {
-  "name": "website",
+  "name": "soul",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "hexo": "hexo clean && hexo generate && hexo server",
-    "gulp": "gulp default && hexo server",
+    "dev": "hexo clean && hexo generate && hexo server",
+    "hexo": "hexo clean && hexo generate && hexo deploy",
+    "gulp": "gulp default && hexo deploy",
     "build": "bash build.sh",
     "build:gulp": "gulp build"
   },

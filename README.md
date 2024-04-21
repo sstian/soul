@@ -27,7 +27,7 @@ Markdown style:
 
 {人物角色}
 
-// 经典语录：nobody -> one -> more -> dialog
+// 经典语录：nobody -> one -> more -> talk
 - 佚名语录。
 
 - 人物名：经典语录。
