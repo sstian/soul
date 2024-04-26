@@ -17,7 +17,7 @@ summary: 收藏链接
 
 网站名称 - 自带说明：附加说明  网址
 
-## 开发
+## 开发环境
 
 ### 软件包
 
@@ -163,8 +163,6 @@ HexEd.it - Hex编辑器  https://hexed.it/
 
 regex101 - build, test, and debug regex  https://regex101.com/
 
-Compiler Explorer：多语言交互式汇编  https://godbolt.org/
-
 中国地图数据  https://geojson.cn/
 
 ### 网络
@@ -270,13 +268,13 @@ CS-Notes  https://cyc2018.github.io/CS-Notes/#/
 
 ### 算法题解
 
-labuladong 的算法笔记  https://labuladong.online/algo/
-
-代码随想录：算法刷题，程序员Carl  https://www.programmercarl.com/
-
 Algorithm Visualizer：算法可视化  https://algorithm-visualizer.org/
 
 VisuAlgo：数据结构和算法动态可视化  https://visualgo.net/zh
+
+labuladong 的算法笔记  https://labuladong.online/algo/
+
+代码随想录：算法刷题，程序员Carl  https://www.programmercarl.com/
 
 Doocs: Gitee: https://gitee.com/yanglbme | GitHub: https://github.com/yanglbme
 - leetcode：多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解  https://doocs.gitee.io/leetcode/
@@ -284,6 +282,14 @@ Doocs: Gitee: https://gitee.com/yanglbme | GitHub: https://github.com/yanglbme
 -  source-code-hunter：源码剖析挖掘互联网行业主流技术的底层实现原理   https://doocs.gitee.io/source-code-hunter
 -  jvm：JVM 底层原理最全知识总结  https://doocs.gitee.io/jvm/
 -  coding-interview：代码面试题集，包括剑指 Offer、编程之美等   https://doocs.gitee.io/coding-interview
+
+Hello 算法：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码  https://www.hello-algo.com/
+
+### 编译
+
+Compiler Explorer：多语言交互式汇编  https://godbolt.org/
+
+Online Python Tutor - visualize, debug, get AI help for Python, Java, C, C++, and JavaScript  https://pythontutor.com/
 
 ## 设计
 
