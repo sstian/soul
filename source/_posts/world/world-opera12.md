@@ -368,3 +368,15 @@ Notorous Eight", recognized by venerable masters: Positoner, Hustlers, Enticers,
   The Operation Anti-fraud: We will target the masterminds, dismantle the criminal networks, shut down the platforms, and cut off their funding.
 
 > 游戏本身就是被操纵的。
+
+## 情癫大圣
+
+**A Chinese Tall Story**
+
+[中] 刘镇伟
+
+- 世间最远的距离不是我站在你面前而你不知道我爱你，而是明明相爱，却不能在一起。
+
+- 孙悟空：意由心生才是王道。
+- 唐僧：世间安得双全法，不负如来不负卿。
+

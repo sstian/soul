@@ -149,11 +149,13 @@ gulp.task(
     gulp.series(
         "clean",
         "generate",
-        "compressHtml",
-        "compressCss",
-        "compressJs",
-        "compressImage",
-        gulp.parallel("deploy")
+        // "compressHtml",
+        // "compressCss",
+        // "compressJs",
+        // "compressImage",
+        // gulp.parallel("deploy")
+        gulp.parallel("compressHtml", "compressCss", "compressJs","compressImage"),
+        "deploy"
     )
 );
 

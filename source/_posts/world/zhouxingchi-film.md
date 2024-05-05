@@ -32,10 +32,10 @@ date: 2021-01-31 22:44:46
 
 **A Chinese Odyssey**
 
-[中]导演：刘镇伟，制片人：周星驰 1995
+[中] 导演：刘镇伟，制片人：周星驰 1995
 
-**月光宝盒西游记第一百零一回之月光宝盒 A Chinese Odyssey PartⅠ: Pandoras Box ***
-**大圣娶亲西游记大结局之仙履奇缘 A Chinese Odyssey Part Two: Cinderella ***
+**月光宝盒 西游记第一百零一回之月光宝盒 A Chinese Odyssey Part Ⅰ: Pandoras Box ***
+**大圣娶亲 西游记大结局之仙履奇缘 A Chinese Odyssey Part Two: Cinderella ***
 
 小甜甜 Sweetie，紫青宝剑 Magic Sword，孙悟空 Monkey King
 
@@ -61,7 +61,7 @@ date: 2021-01-31 22:44:46
 - 爱一个人是那么痛苦！——紫霞仙子
   Love means pain!
 
-**大话西游3 A Chinese Odyssey Part Three [中]刘镇伟  2016.09.14**
+**大话西游3 A Chinese Odyssey Part Three [中] 刘镇伟 2016.09.14**
 
 - 爱情是无畏的。爱情是需要时间的。
   Love is fearless. Love takes time.
