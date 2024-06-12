@@ -25,7 +25,7 @@ date: 2020-07-20 09:00:00
 - 提前请假，有备无患。
 - 一种改bug的思路：查看前人的 Pull Request，该实现方式是否有问题。
 - 优秀的员工除了专注于本职工作，也要了解整个产品线上下游的工作流程与运作机制。
-研发产品线：
+1. Product line：
 PO = Product Owner
 PM = Project Manager
 BA = Business Analyst
@@ -40,6 +40,11 @@ QA = Quantity Assurance
 | **功能开发** | **develop** | **Developer** |
 | 质量测试     | test        | QA            |
 | 运行维护     | operation   | Support       |
+
+2. Product workflow:
+Business workflow. BA. CEO
+Technology workflow. Developer. CTO
+Management workflow. Manager. COO/CEO
 
 ### 覃光辉 Toby:
 

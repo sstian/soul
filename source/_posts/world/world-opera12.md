@@ -380,3 +380,31 @@ Notorous Eight", recognized by venerable masters: Positoner, Hustlers, Enticers,
 - 孙悟空：意由心生才是王道。
 - 唐僧：世间安得双全法，不负如来不负卿。
 
+## 给19岁的我自己
+
+**To my 19-year-old**
+
+[中] 黄朝亮
+
+阳艺雪：
+- 世界上有三件事是藏不住的：咳嗽、贫穷和我喜欢你。
+  That there are three things in the world that cannot be hidden: Coughs, poverty, and loving you.
+- 你以为是道选择题，但其实，爱情应该是一道是非题：爱或不爱而已。爱情本来就该是自私的。
+  You thought you should take a side. In fact, you should give an answer to yourself: To love or not. Love should be selfish.
+- 其实男生打球，回过头来第一眼看的人，就是他喜欢的人。
+  When boys play balls. The first pair of eyes they turn their head to catch is their lover's.
+- 很多事情别执着于眼前，看远点、看开点会更美。
+  Don't obsessed with the trivial thing at present. Seeing things from a full picture and in a long-term, you can find the beauty in it.
+- 喜欢他就要和他在一起。什么往事匆匆、此情追忆，都是狗屁。
+  If you like him, be with him. Forget about the bullshit saying "Time passes and love turns into memory". 
+- 幸福不存在犹豫，有机会就要勇敢做选择，毕竟生命只有一次。遗失的美好，也没可能再捡回来。老天或许注定了结局，但生命的过程中，我们永远有权选择过得精彩。我相信对每个人来说，幸福的含义其实就是：珍惜在一起的时候，无论他在我身边，还是在天边。
+  That happiness is no hesitation. You need to be brave to make a decision when ou have the opportunity. You only live for once, so the loss of the good things may not be returned. God may set the end, but we always have choice to live a wonderful life. I believe, to everyone, the meaning of happiness is actually "cherished together". Whether he is by my side or far way from me.
+
+莫晓枫：
+- 岁月是一把雕刻刀，每天都在创作。
+  Time is like a carving knife. That creates everyday.
+
+莫晓枫：你还愿意跟我在一起吗？
+阳艺雪：这个答案可能会很长，你准备好用一辈子的时间来听我说吗。
+Mo Xiaofeng: Can you forgive my lies and be my girlfriend?
+Yang Yixue: The answer may be long. Are you ready to listen to it for the rest of life?

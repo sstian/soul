@@ -1,10 +1,11 @@
 ---
 title: Studio Ghibli 吉卜力作品集
-date: 2024-04-04 14:05:34
 categories: World
 tags:
   - Opera
   - Ghibli
+abbrlink: dce3
+date: 2024-04-04 14:05:34
 ---
 
 吉卜力工作室（Studio Ghibli），
@@ -15,6 +16,8 @@ tags:
 
 スタジオジブリの作品
 https://www.ghibli.jp/works/
+
+![studio-ghibli-log](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/studio-ghibli-log.jpg)
 
 ## 阿雅与魔女
 
