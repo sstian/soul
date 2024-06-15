@@ -120,4 +120,5 @@ tags:
 系统软件
 操作系统
 底层原理
-
+- 凡事“多练”！熟能生巧。
+  Practise makes perfect.

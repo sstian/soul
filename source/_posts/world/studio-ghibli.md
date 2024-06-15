@@ -30,3 +30,10 @@ https://www.ghibli.jp/works/
 
 阿雅 Earwig：
 - 最好的点子要在最恶劣的情况下才能想的出来。
+
+## 回忆中的玛妮
+
+**思い出のマーニー，When Marnie Was There**
+
+安娜，玛妮
+
