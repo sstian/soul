@@ -437,7 +437,11 @@ PikPak - 极速秒存的私密云盘  https://mypikpak.com/
 
 在线工具 - wetools.com微工具  https://www.wetools.com/
 
+一个工具箱 - 好用的在线工具  http://www.atoolbox.net/ | https://www.a.tools/
+
 人人都是自媒体 | 视频解析下载  https://youtube.iiilab.com/
+
+尼卡 · 短视频下载  https://sp.1fooai.com/
 
 Convertio - 文件转换器  https://convertio.co/zh/
 
@@ -492,6 +496,8 @@ SourceForge - Download, Develop and Publish Free Open Source Software  https://s
 软仓丨RuanCang.Net - 免费的设计软件分享网站  https://www.ruancang.net/
 
 NCH 软件 - 在线下载免费软件  https://www.nchsoftware.com/cn/
+
+Downloadly - Free Software Download  https://downloadlynet.ir/
 
 ## 二次元
 
