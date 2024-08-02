@@ -13,49 +13,6 @@ It's my personal website.
 + max title number is **20**, in every article post with markdown
 + max tag number is **3**, in every article, in order to good reading experience
 
-## Post Article
-
-Markdown style:
-```markdown
-## 影视名 {推荐的加*}
-
-{**原版名，外文名，其它名字**}
-
-[国籍] 作者1、作者2 / [国籍] 导演：作者1、作者2、……，监制：作者1、作者2、……
-
-{内容设定}
-
-{人物角色}
-
-// 经典语录：nobody -> one -> more -> talk
-- 佚名语录。
-
-- 人物名：经典语录。
-
-人物名 原始名：
-- 经典语录。
-  原版语言。
-
-人物1：对话1。
-人物2：对话2。
-
-> 其它内容
-```
-
-e.g.
-```markdown
-## 你好世界
-
-**HELLO WORLD，ハロー・ワールド**
-
-[日] 伊藤智彦
-
-一行琉璃：
-- 被人阅读，才是书的夙愿吧。
-
-> 一行琉璃，二度救赎，三千世界，四亭八当。
-```
-
 ## 配置环境
 
 ### 安装node.js

@@ -163,6 +163,8 @@ HexEd.it - Hex编辑器  https://hexed.it/
 
 regex101 - build, test, and debug regex  https://regex101.com/
 
+RegExr: Learn, Build, &amp; Test RegEx  https://regexr.com/
+
 中国地图数据  https://geojson.cn/
 
 ### 网络
@@ -483,6 +485,8 @@ Diagram Designer: Simple vector graphics editor  http://meesoft.com/DiagramDesig
 
 Vizard录屏  https://vizard.video/
 
+res-downloader 爱享资源下载器：支持视频号、小程序、抖音、快手、小红书、酷狗、QQ音乐等网络资源下载  https://github.com/putyy/res-downloader
+
 ## 应用商店
 
 zd423 - 软件分享平台领跑者  http://www.zdfans.com/
@@ -524,6 +528,8 @@ AGE动漫：在线动画 动漫下载  https://donghua.agefans.com/
 唯美女生：一双发现美的眼睛！  https://www.vmgirls.com/
 
 爱美女：美女写真  https://www.2meinv.com/
+
+ant搬运网|蚂蚁搬运网：漫画游戏搬运  https://www.antbyw.com/
 
 ## 游戏王
 
