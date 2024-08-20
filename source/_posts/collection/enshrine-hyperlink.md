@@ -65,6 +65,8 @@ Java 全栈知识体系  https://www.pdai.tech/
 
 学习Java语言的在线教程 - CodeGym  https://codegym.cc/zh/
 
+JavaGuide  https://javaguide.cn/
+
 ### Golang
 
 GOPROXY.IO - 一个全球代理 为 Go 模块而生  https://proxy.golang.com.cn/zh/
@@ -152,6 +154,8 @@ Flex Cheatsheet  https://yoksel.github.io/flex-cheatsheet/
 AST Explorer  https://astexplorer.net/
 
 Web component JS frameworks overview：前端框架语法和特性对比  https://component-party.dev/
+
+Patterns.dev：JavaScript设计和性能模式  https://www.patterns.dev/
 
 ### 数据
 

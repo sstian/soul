@@ -338,6 +338,12 @@ VS     破壁计划 Wallbreak Project - 破壁者 Wallbreakers
 - 语言只是沉默的标点符号。
   Words are just punctuations to our silence.
 
+### 三体2：黑暗森林 自制动画
+
+[中] 刘骏
+
+https://space.bilibili.com/451664/channel/collectiondetail?sid=1291813
+
 ### 三体 电视剧
 
 **Three Body**
