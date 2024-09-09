@@ -506,8 +506,11 @@ Zootopia  [美]拜恩·霍华德 里奇·摩尔 杰拉德·布什
 
 **Despicable Me  [美]环球影业：皮艾尔·柯芬 克里斯·雷纳德**
 
-格鲁 Gru 弟：德鲁 Dru ♡路西 Lucy，艾格尼丝Agnes，伊迪丝 Edith，
-玛戈 Margo，纳法里奥博士 Dr. Nefario，小黄人 Minions
+1 2 3
+
+格鲁 Gru，弟弟：德鲁 Dru，老婆：路西 Lucy。
+艾格尼丝 Agnes，伊迪丝 Edith，玛戈 Margo，
+纳法里奥博士 Dr. Nefario，小黄人 Minions
 
 - 生活总是充满失望，对某些人来说。
   Life is full of disappointments for some people.

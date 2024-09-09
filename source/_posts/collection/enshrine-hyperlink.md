@@ -211,6 +211,8 @@ Balsamiq Wireframes for Desktop  https://balsamiq.com/wireframes/
 
 ASCIIFlow - Infinite ASCII diagrams  https://asciiflow.com/
 
+GeoGebra 计算器套件：绘图|3D计算器|几何|CAS|概率  https://www.geogebra.org/calculator
+
 ### 文档
 
 Swagger - API Documentation & Design Tools for Teams  https://swagger.io/
@@ -272,7 +274,7 @@ CS-Notes  https://cyc2018.github.io/CS-Notes/#/
 
 小林coding：小林 x 图解计算机基础 - 图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！  https://xiaolincoding.com/
 
-开发内功修炼@张彦飞 - 分享我的技术日常思考，和大伙儿一起共同成长！   https://kfngxl.cn/
+开发内功修炼@张彦飞 - 分享我的技术日常思考，和大伙儿一起共同成长！  https://kfngxl.cn/
 - Github: https://github.com/yanfeizhang/coder-kung-fu
 - 《深入理解Linux进程与内存》一书的配套源码以及勘误列表  https://github.com/yanfeizhang/deep_linux_process_memory_tests
 
