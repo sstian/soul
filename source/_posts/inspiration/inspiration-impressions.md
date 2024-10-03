@@ -133,5 +133,6 @@ tags:
 - 凡事“多练”！熟能生巧。
   Practise makes perfect.
 - 事项时长 = 准备时间 + 执行时间 + 收尾时间
+  task elapsed (specified long task) = prepare time + execute time + checkout time
 - 全局掌控，单点突破；横扫架构，深耕细作。
 - 先完成再完善最后完美。

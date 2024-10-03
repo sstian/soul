@@ -1,6 +1,3 @@
----
-abbrlink: '0'
----
 
 ## Post Article
 

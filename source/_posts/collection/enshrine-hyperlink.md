@@ -479,6 +479,8 @@ GeoGebra - 免费的数学应用软件 (图形计算器/3D计算器/几何/增�
 
 唧唧Down - bilibili视频或弹幕下载  http://www.jijidown.com/
 
+HEU_KMS_Activator：Windows & Office的KMS/OEM智能激活工具  https://github.com/zbezj/HEU_KMS_Activator/releases
+
 KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 
 OneMark - 用 Markdown 重新认识 OneNote  https://onemark.neuxlab.cn/
@@ -499,7 +501,9 @@ res-downloader 爱享资源下载器：支持视频号、小程序、抖音、�
 
 ## 应用商店
 
-zd423 - 软件分享平台领跑者  http://www.zdfans.com/
+~~zd423 - 软件分享平台领跑者  http://www.zdfans.com/~~
+
+423Down：软件下载站，有常用的、去广告版、绿色版、破解版等  https://www.423down.com/
 
 Softpedia - Free Downloads Encyclopedia  http://www.softpedia.com/
 

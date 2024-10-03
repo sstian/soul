@@ -504,18 +504,34 @@ Zootopia  [美]拜恩·霍华德 里奇·摩尔 杰拉德·布什
 
 ## 神偷奶爸
 
-**Despicable Me  [美]环球影业：皮艾尔·柯芬 克里斯·雷纳德**
+**Despicable Me  [美] 环球影业：皮艾尔·柯芬 克里斯·雷纳德**
 
-1 2 3
+1 2 3 4
 
-格鲁 Gru，弟弟：德鲁 Dru，老婆：路西 Lucy。
+格鲁 Gru - 弟弟：德鲁 Dru，老婆：路西 Lucy。
 艾格尼丝 Agnes，伊迪丝 Edith，玛戈 Margo，
 纳法里奥博士 Dr. Nefario，小黄人 Minions
 
+- 尽享自由和快乐，没有什么事永恒的，每个人都想统治世界。
+  All for freedom And for pleasure. Nothing ever lasts forever. Everybody wants to Rule tyhe world.
+
+格鲁：
 - 生活总是充满失望，对某些人来说。
   Life is full of disappointments for some people.
-- 我会接住你的，永远不会再放开。——格鲁
-  I will catch you. And I will never let you go again. ——Gru
+- 我会接住你的，永远不会再放开。
+  I will catch you. And I will never let you go again.
+- 很多情绪，生活大改变。少说话，多走路。
+  Lots of emotions. Big life change. Less talking, more walking.
+- 抢劫最重要的部分，就是时刻警惕潜在的危险。
+  The most important port of a heist is being constantly aware of potential danger.
+
+纳法里奥博士 Dr. Nefario：
+- 小菜一碟，也不疯狂。
+  No job too small, or too mad.
+
+Easy-peasy. 小菜一碟
+Stay focused. 专心点
+Assemble the Mega Minions. 超级小黄人集合
 
 ## 恋与制作人
 
