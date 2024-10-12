@@ -287,9 +287,9 @@ BOSS：超级苍蝇
 
 ## 热辣滚烫
 
-[中] 贾玲
-
 **YOLO / You Only Live Once**
+
+[中] 贾玲
 
 - 张陈若曦：一个男的，做销售的，想约你出去，无非就两点：一是办卡，二是想睡你。
 
@@ -482,3 +482,66 @@ Love is in Gunfile. Love is in storm. Love is whatever.
 [中] 五百
 
 赵子安：贼眼里有贼光。而你（丢了孩子的）正好相反，没神，没光，浑儿。
+
+## 逆行人生
+
+**Upstream**
+
+[中] 徐峥
+
+- 伸手不打笑脸人。
+  One does not hit a smiling face.
+- 跑。跑起来。
+  Go. Ride away.
+
+deliver food 送外卖
+
+## 抓娃娃
+
+**Successor**
+
+[中] 闫非、彭大魔
+
+- 物质决定意识，存在决定思维。
+
+马成钢：
+- 人在一无所有的时候，自尊心一文不值。
+- 要想解决问题，就必须抓住问题的本质。
+- 男人，必须千锤百炼，才能成为一个真正的男人。
+- 善意的谎言从来就不是欺骗，是保护，是爱，是最高维度的爱，The Great Love!（最伟大的爱）
+
+马继业：
+- 我爸曾告诉我，遇到百思不得其解的问题时，一定要停下脚步、冷静观察，随时按下暂停键，调转方向，你会发现一个不一样的世界。不要试图向欺骗你的人去询问真相，要心有城府，隐藏自己的真实想法，这也是我爸教我的。
+- 兵者，诡道也。攻其不备，出其不意。调虎离山，声东击西。
+
+李春华：
+- 人无信，则不立；人不诚，则不可交也。
+
+## 志愿军系列
+
+[中] 陈凯歌
+
+《志愿军：雄兵出击》（The Volunteers: To the War）
+
+毛泽东：
+- 千军不易得，一将更难求。
+  A thousand warriors are precious. A good general even more so.
+- 抗美援朝，保家卫国。
+  Resist America and aid Korea. Protect home and country.
+
+彭德怀：
+- 骄兵必败。
+  Over-confidence dooms an army.
+- 你我生在这个时代，牺牲是我们一定要付出的代价，你不付，儿子付，孙子付。我们这辈人，一身血，两脚泥，还是我们付吧。
+  In these times we live in, we have to pay a price in sacrifice. If you don't pay, your sons pay, your grandsons pay. Our generation is bloodied and mired in mud. It's for us to make the sacrifice.
+- 一个人一辈子总会遇上那么几件天大的难事。害怕困难的人遇上了，就慌了。我就慌过。可如今想想，困难算什么呢。有的人想遇，都遇不到了。
+  Everyone runs into big difficulties in life. If difficulty scares you, you panic. I've paincked in the past. But these days I don't mind difficulty. Some people can only wish for challenges. 
+
+伍修权：
+- 中国人民是爱好和平的，但美国侵略者，如果以为，这是中国人民软弱的表现，那就大错特错了！中国人民，从不，也永不，害怕反抗侵略者，这是全国四万万七千五百万同胞坚定不移的意志！
+  The Chinsess people are peace-loving but if the United States aggressors mistake think that this is a sing of Chinese weekness that would be a grave mistake. The Chinese people never have been  and never will be afraid of a war of resistance against aggression. All our 475 million compatriots share this unalterable, iron will.
+
+Central People's Government of the People's Republic of China 中华人民共和国中央人民政府
+Let's show'em what we're made of! 给他们点颜色看看 (show'em = show them)
+Comrades 同志们
+
