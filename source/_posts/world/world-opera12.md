@@ -521,7 +521,8 @@ deliver food 送外卖
 
 [中] 陈凯歌
 
-《志愿军：雄兵出击》（The Volunteers: To the War）
+**《志愿军：雄兵出击》（The Volunteers: To the War）**
+**《志愿军：存亡之战》（The Volunteers: The Battle of Life and Death）**
 
 毛泽东：
 - 千军不易得，一将更难求。
@@ -536,10 +537,14 @@ deliver food 送外卖
   In these times we live in, we have to pay a price in sacrifice. If you don't pay, your sons pay, your grandsons pay. Our generation is bloodied and mired in mud. It's for us to make the sacrifice.
 - 一个人一辈子总会遇上那么几件天大的难事。害怕困难的人遇上了，就慌了。我就慌过。可如今想想，困难算什么呢。有的人想遇，都遇不到了。
   Everyone runs into big difficulties in life. If difficulty scares you, you panic. I've paincked in the past. But these days I don't mind difficulty. Some people can only wish for challenges. 
+- 张飞当阳一声吼，吓退曹操百万兵。
 
 伍修权：
 - 中国人民是爱好和平的，但美国侵略者，如果以为，这是中国人民软弱的表现，那就大错特错了！中国人民，从不，也永不，害怕反抗侵略者，这是全国四万万七千五百万同胞坚定不移的意志！
   The Chinsess people are peace-loving but if the United States aggressors mistake think that this is a sing of Chinese weekness that would be a grave mistake. The Chinese people never have been  and never will be afraid of a war of resistance against aggression. All our 475 million compatriots share this unalterable, iron will.
+
+~~张孝恒~~：
+- 你要冷静，沉住气。
 
 Central People's Government of the People's Republic of China 中华人民共和国中央人民政府
 Let's show'em what we're made of! 给他们点颜色看看 (show'em = show them)
