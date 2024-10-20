@@ -1003,3 +1003,6 @@ Ruby代码简洁、优雅、富有表现力。
 
 - Joel Spolsky：抽象只能节省你的工作时间，不能节省你的学习时间。
 - Lisp大佬Richard P. Gabriel：Worse is better。软件设计有四个目标：简单性，正确性，一致性，完整性。
+- Start small. Give it time. Have fun. 从小处着眼，投入时间，享受乐趣。
+  瑞典程序员丹尼尔花了28年时间，开发了世界上最流行的软件：cURL。
+  丹尼尔多次强调：Have Fun。Linux之父也告诉我们：Just for Fun。是的，一切源于兴趣。

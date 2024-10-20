@@ -499,6 +499,8 @@ Vizard录屏  https://vizard.video/
 
 res-downloader 爱享资源下载器：支持视频号、小程序、抖音、快手、小红书、酷狗、QQ音乐等网络资源下载  https://github.com/putyy/res-downloader
 
+沉浸式翻译 - 双语对照网页翻译插件 | PDF翻译 | 视频字幕翻译  https://immersivetranslate.com/zh-Hans/
+
 ## 应用商店
 
 ~~zd423 - 软件分享平台领跑者  http://www.zdfans.com/~~
