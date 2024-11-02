@@ -814,7 +814,7 @@ Keepalived - 将Nginx集群分成master-slave结构，同一时刻只有一个�
 一个master库，多个slave库。
 master库可读可写，slave库只能读、不能写。最后还要将master库的数据尽快复制到slave库，让数据保持一致。
 
-#### 微服务 microservice
+#### Microservice 微服务
 OA = Office Automation 办公自动化
 CRM = Customer Relationship Management 客户关系管理系统
 ERP = Enterprise Resource Planning 企业资源计划
@@ -984,6 +984,430 @@ Ruby代码简洁、优雅、富有表现力。
 看书，知识体系更加完整、理解更有深度。
 写作：写笔记、写博客，从内容的消费者变成内容的生产者。
 “转教别人”（Teach others）的办法属于主动学习，效率是最高的。
+
+## 码农翻身 2 *
+
+PBC = Personal Business Commitment 个人业务承诺
+VCS = Version Control System 版本控制系统
+
+GNU = GNU's Not Unix!
+> GNU = Generic Non-conmercial Unix ?
+
+bootstraping 自举
+Simple Point of Failure 单点失败
+
+- Why有时候比How重要得多，懂得Why以后，再去看How，就犹如开启了“上帝视角”，一切都变得简单起来。
+- 历史的车轮滚滚向前，想逆潮流而动，无异于螳臂当车。
+- “大牛”的风格：多说无益，直接上代码。Talk is cheap, Show me the code!
+
+### 1. 基础知识
+
+#### 负载均衡
+LVS = Linux Virtual Server：工作在OSI 模型的四层，基于IP进行负载均衡。
+工作模式：
+- NAT = Network Address Translation
+- DR = Direct Routing 直接路由
+- TUN = Tunneling 隧道
+
+#### IO访问
+不同设备的速度：
+
+|                                | 时间     | 相当于   |
+| ------------------------------ | -------- | -------- |
+| 1个CPU周期                     | 0.3纳秒  | 1秒      |
+| 内存访问                       | 120纳秒  | 6分钟    |
+| 读写机械硬盘                   | 1~10毫秒 | 1~12个月 |
+| 网络访问（从旧金山大澳大利亚） | 183毫秒  | 19年     |
+
+Node.js，单线程（好处是不用对内存的数据加锁），非阻塞IO，事件循环。
+![Node.js-事件循环](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/Node.js-事件循环.JPG)
+
+#### 零拷贝 zero copy
+用户态 // 
+内核态 // 数据 -> [硬盘] --DMA复制--> [内核缓冲区] --复制--> [socket缓冲区]
+
+网卡驱动可以直接从内核缓冲区中读取数据。
+从内核角度来看，除了把文件从硬盘中读取出来，没有任何额外的copy操作。
+zero copy减少了上下文的切换，避免了数据被不断地在用户态和核心态之间搬运，不要CPU参与数据复制，提高了系统性能。
+引入该技术的实例，Nginx、Apache等Web服务器。
+
+#### 内存
+地址从低到高，以字节为单位。
+- 先高位再地位 -> 大端法 -- 网络字节序
+- 先地位再高位 -> 小端法 -- 主机字节序
+
+网络字节序 --lton()-->|<--ntol()-- 主机字节序
+
+信息 = 位 + 上下文
+
+程序想通过指针访问自己根本没有访问权限的区域，操作系统会引发segment fault，杀死这个程序，释放它的内存空间，生成core dump文件。
+
+### 2. 后端
+
+#### 状态
+无状态的HTTP管理会话：
+session id -> session sticky复制 -> 集中存储session id 
+-> 验证：token（组合数据和签名），有效期，黑名单（有效期还没到，但是要立即失效的token）
+
+#### 缓存
+解决数据同步/缓存同步的一种方法：Cache Aside Pattern
+- 读数据流程：1. 从缓存中读取。2. 缓存中有数据，直接返回；缓存中没有数据，访问数据库。3. 把从数据库中读取的值写入缓存。
+- 写数据流程：1. 更新数据库。2. 使缓存中的数据失效。
+
+缓存穿透：查询一个根本不存在的数据,缓存层和持久层都不会命中。
+  可选解决方式：布隆过滤器 Bloom Filter，一种数据结构，只需要极少的空间就可以判断出一个元素绝对不在一个集合内或者可能在一个集合内。
+  （一定的误报也是被允许的，没有完美的事情，总要付出代价的。）
+缓存失效：超级热门的数据失效了。
+  可选解决方式：Redis分布式锁。
+
+#### 数据一致性
+**机械硬盘**，磁头在光滑的**盘片**上滑来滑去，寻找**磁道**，定位**扇区**，读取数据。
+
+读写分离：
+1. 基于SQL语句的复制。
+    “重放”（重新执行）SQL。
+    缺点：不能解决存在随机数RAND的记录。
+2. 基于行的复制。
+    记录SQL操作的日志：
+    insert语句，记录所有列的新值；
+    delete语句，记录被删除的行，用主键标识；
+    update语句，记录更新的行，用主键标识，以及更新的列和新值。
+    缺点：处理大量数据时性能低下。
+3. 两者的混合模式。
+
+数据延迟：复制数据需要时间，能保证最终一致性，不能保证实时一致性。
+  可选解决方式：将不能容忍延迟的操作放在主库里读写。
+
+#### 分布式ID - Snowflake
+专门解决分布式系统的唯一ID问题。
+64位整数：
+- 1位 暂时不用。
+- 41位 时间戳，精确到毫秒。
+- 10位 机器ID，可以自由分配，例如5位机房号+5位机器号
+- 12位 序列哈
+
+Snoeflake的特性：
+1. ID 生成算法没有网络调用，不用数据库，非常快！
+2. 同一台机器，在同一时间（毫秒）内生成的ID是不同的。
+3. 将毫秒数放在最高位，生成的ID是趋势递增的。
+
+#### Serverless 无服务器
+Serverless，不是没有服务器，而是服务器对用户是透明的。应用的装载、启动、卸载、路由均需要平台来搞定。
+更适合无状态的应用，比如图像和视频的加工、转换，物联网设备状态的信息处理等。
+不适合需要保存 会话状态、数据持久化 的应用。应以“服务”的方式呈现，即BaaS = Backend as a Service
+
+API GateWay，转发请求到确定的某个函数。
+
+#### NoSQL 非关系型数据库
+关系型数据库，模式+规范化。必须事先定义好模式（表结构）才能保存数据。
+数据库厂商的“方言”和存储过程，规则各异。
+O/R Mapping - Java Hibernate/iBatis/JPA，.NET NHibernate
+
+NoSQL = Not Only SQL
+优点：支持分布式和集群。
+弱点：缺乏模式（如表结构），数据完整性约束很弱，对事务的支持很弱甚至没有。
+分类：
+1. 键值对 key-value：Redis, Memcached。当缓存用。
+2. JSON文档：MongoDB, CouchDB。树状结构数据。
+3. 图结构：Neo4j。表示社交网络、推荐系统的系统。
+4. 列式数据库：HBase, Cassandra。两级嵌套的Map；存储移动互联网产生的海量数据，如日志、聊天记录、监控数据、物联网数据等，结构化不强。
+
+> 分布式ID - Snowflake
+> 分布式事务 - 两阶段提交
+> 分布式存储 - HDFS
+> 分布式服务：微服务
+> 分布式计算：云计算
+> 分布式VCS：Git
+> 分布式搜索引擎：Elastic Search
+
+### 3. 中间件
+
+#### Elastic Search
+Lucene -> Elastic Search（2010.02）
+
+inverted index 倒排索引
+
+Lucene，类图设计：
+1. 文档分析设计：
+Document类，表示HTML/PDF/Word/DB的抽象，属性叫作Field；原始内容划分为一个个Term
+Analyzer抽象类，负责对Document进行分析
+    子类：StandardAnalyzer, SimpleAnalyzer, ...
+IndexWriter类，将分析结果加入索引库
+Directory抽象类，表示索引文件的存储
+    子类：RAMDirectory, FSDirectory
+2. 用户搜索设计：
+QueryParser，解析用户输入的搜索字符串为Query
+Query，表示用户的搜索要求。子类：
+    TermQuery，查询特定Field上的Term
+    BooleanQuery，将各个查询用AND,OR,NOT组合起来
+    WildcardQuery，支持通配符的查询
+IndexSearcher，接收Query，实现搜索
+
+Elastic Search，用RESTful方式表示索引。
+如：/myapp/blog/1001
+/myapp 表示 索引库 -- 数据库
+/blog 表示 索引的类型 -- 数据库的表
+1001 表示 数据的ID -- 数据库的表的记录
+
+分布式存储，存储海量的索引数据。
+1. 索引分片：索引 index，分片 shard，机器/节点 node。
+`shard编号 = hash(文档的ID) % shard总数`
+用户在创建索引库的时候，必须指定shard的数量，并且不能更改。`"number_of_shards": 3`
+2. 索引备份：主分片 primary shard。`"number_of_replicas": 3`
+
+客户端读写文档。
+可以让请求发送到集群的任意一个节点，并且让每个节点都具备处理任何请求的能力。
+要求各个节点之间互通有无。
+选举主节点 Master，维护整个集群的状态，如增加或移除节点、创建或删除索引库、维护主分片和集群的关系等。
+
+Web, RESTful, REST API, HTTP+JSON
+
+好的设计是成功的一半。好的设计一般都比较漂亮。
+软件设计就是一个不断抽象的过程。
+好用就是最大的“生产力”。
+
+#### HDFS
+HDFS = Hadoop Distributed File System。（Hadoop，玩具象的名字）
+适合“一次写入，多次读取”。
+
+元数据Metadata：文件分块信息和位置、系统中服务器信息和占据的空间等。
+NameNode，存储元数据的服务器。
+DataNode，存储数据的服务器。
+NameNode和DataNode需要定期通信，设计一个通信协议。
+
+读取文件，NameNode值返回文件的分块及该分块所在的DataNode列表。“距离”：数据中心 > 机架 > 机器。
+写入文件，把多个DataNode组成一个管道Pipeline，让数据在管道内“流动”起来，只把数据发送给第一个DataNode，第一个给第二个发送备份，以此类推。
+
+MapRecude，程序1为Mapper，程序2为Reducer。
+Map，数据的变换。
+Reduce，给定一个函数和初始值，每次对列表中的一个元素调用该函数，不断地“折叠”一个列表，最终把它变成一个值。
+实现并行计算，尽可能地让计算靠近数据，降低网络流量的开销。
+
+Divide and Conquer 分而治之
+“魔鬼”都是存在于细节中的，一遇到异常分支，程序就变得异常复杂。
+什么是框架？框架自然是搭建好基础设施，把重复的工作都做了，让用户写的程序越简单越好的强大工具。
+
+#### Quartz 任务调度系统
+设计灵活，可扩展，持久化 -> RAM/DB，高可用 -> 集群。
+
+设计类：
+Job接口，表示要执行的任务
+  实现类：SendMailJob, CopyDataJob, ...
+Trigger接口，表示定时触发。实现类：
+  SimpleTrigger，指定Job开始的时间、触发的时间的间隔、运行多少次
+  CronTrigger，可以像crontab那样定义Job运行的时间
+  ……
+Scheduler接口，调度器，接收Job，按照各种Trigger运行。
+
+持久化设计：
+JobStore接口，表示Job的存储。实现类：
+  RAMJobStore，把Job运行情况保存在内存中
+  DbJobStore，把Job运行情况保存在数据库中
+DriverDelegate接口，用于屏蔽数据库细节，供DbJobStore使用
+  实现类：StdJDBCDelegate
+    继承类：OracleDelegate, Db2Delegate, ... 不用数据库独有的实现
+
+高可用设计：
+把定时任务调度系统部署到多台机器上，形成几个备份；集中存储调度信息。
+
+保证同一时刻一个Job只能在一个实例上运行：
+多加一个数据表 LOCKS，里面的每一行记录都可以当作一把“锁”来用，即数据库的行锁，别的事务只能等待当前事务被提交以后才能访问。
+比如 `select * from LOCKS where LOCK_NAME = "TRIGGER" for update`
+
+#### 数据查询方式的演变
+1. rexec
+一台机器上远程执行另一台机器的命令
+> remote execute
+
+2. RPC
+CORBA = Common Object Request Broker Architecture 公共对象请求代理体系结构
+RMI = Remote Method Invocation 远程方法调用
+客户端代理 Stub，服务器端代理 Skeleton
+
+3. XML-RPC
+HTTP+XML
+用XML描述接口：
+```xml
+<methodCall>
+  <methodName>findUser</methodName>
+    <params>
+      <param>
+        <value><int>10001</int></value>
+      </param>
+    </params>
+</methodCall>
+```
+用XML描述对象：
+```xml
+<value>
+  <struct>
+    <member>
+      <name>name</name>
+      <value><string>Andy</string></value>
+    </member>
+    <member>
+      <name>age</name>
+      <value><int>22</int></value>
+    </member>
+  </struct>
+</value>
+```
+
+4. Web Service
+一套协议：
+- WSDL = Web Services Description Language Web服务描述语言：用于描述一个服务的接口名、输入/输出、参数类型等信息。
+- UDDI = Universal Description Discovery and Integration：实现服务的注册和发现。
+- SOAP = Simple Object Access Protocol 简单对象访问协议：类似XML-RPC，但是更加规范、正式、复杂……
+
+服务提供者 --发布WSDL--> UDDI
+服务消费者 --发现服务和它的地址--> UDDI
+服务消费者 --调用（SOAP）--> 服务提供者
+
+5. RESTful API
+HTTP+JSON
+用URI表示资源，用HTTP方法充当动词。
+存在的问题：1 发送请求过多。2. 太多的额外信息。
+关系模型在表示树形/图形关联的时候，非常不方便。
+
+6. GraphQL
+HTTP+JSON, 后端数据模型师图Graph
+定义类型及属性：
+```graphql
+type Artical {
+  id INT!
+  tile String!
+  abstract String!
+  author User
+}
+
+type User {
+  id INT!
+  name Sting!
+  avatar_url String!
+  friends [User]
+}
+```
+
+Google Protobuf，Dubbo
+
+无论什么技术，都有非常古老的遗留系统需要维护，真是“命苦”的程序员啊。
+
+#### ZooKeeper
+ZooKeeper的关键概念和API：
+
+| 概念    | 描述                                                         |
+| ------- | ------------------------------------------------------------ |
+| session | 表示某个客户系统（如 Batch Job）和 ZooKeeper 之间的连接会话。Batch Job 连接上ZooKeeper 以后会周期性地发送心跳信息，如果 ZooKeeper 在特定时间内收不到心跳信息，就会认为这个Batch Job 已经挂掉了，session 就会结束 |
+| znode   | 树形结构中的每个节点叫作 znode，按类型可以分为永久的znode（除非主动删除，否则一直存在）、临时的 znode（session 结束就会被删除）和顺序的 znode（分布式锁中的 process_01、process_02...） |
+| Watch   | 某个客户系统（如 Batch Job）可以监控 znode节点的变化（删除、修改数据等），这样 Batch Job 可以采取相应的动作，如抢着创建节点 |
+
+#### JPDA调试
+Java文件编译成class文件后，LineNumberTable区域描述了Java源码和字节码行号（字节码偏移量）之间的对应关系，用来添加断点调试。
+
+C调试器 gdb，Java调试器 Java Debugger。
+
+为了保证被调试程序的独立性，调试器和被调试程序不能处于一个JVM中，通过共享内存的方式通信。
+
+JPDA = Java Platform Debugger Architecture：Java平台调试器架构，是一套Java虚拟机自带的调试体系。
+由三个部分组成：
+- JVM TI = Java VM Tool Interface：定义VM（虚拟机）的调试服务。包括但不限于：JVM分析，监控，调试，线程分析，以及覆盖率分析等功能。由JVM提供，与具体语言无关。
+- JDWP = Java Debug Wire Protocol：定义调试器与调试者的通信协议，即传输信息和请求数据格式，但不限制传输机制（socket, serial line, share memory, ...）。
+- JDI = Java Debug Interface：Java语言实现的Debug Inteface，可以直接使用其编写远程调试工具。
+
+先通过JDI接口创建断点，然后在断点处获取变量的值。背后会用JDWP向JVM TI发出请求，获取数据。
+创建一个断点：
+```java
+ClassPrepareEvnet event = ......
+ClassType classType = (ClassType)event.referenceType();
+
+// 获取表示第10行的Location对象
+Location location = classType.locationOfLine(10).get(0);
+
+// 通过Location对象创建一个断点
+BreakpointRequest bpReg = vm.eventRequestManager().createBreakpointRequest(location);
+bpReg.enable();
+```
+
+在断点处获取变量的值：
+```java
+// 到达了一个断点处
+BreakpointEvent event = ......
+// 获取当前的线程
+ThreadReference threadReference = event.thread();
+
+// 获取当前的栈帧
+StackFrame stackFrame = threadReference.frame(0);
+
+// 从栈帧中得到本地变量i
+LocalVariable localVariable = stackFrame.visibleVariableByName("1");
+Value value = stackFrame.getValue(localVariable);
+int i = ((IntegerValue)value).value();
+System.out.println("The local variable i is " + i)
+```
+
+### 4. 编程语言的渗透
+
+
+### 5. 编程语言的本质
+
+
+### 6. 网络安全
+
+
+
+### 7. “老司机”经验
+
+费曼：“凡是我们读到的东西，我们都尽量把它转换成某种现实中存在的东西，从这里我学到一个本领——凡是我所读的内容，我总设法通过某种转换来弄明白它究竟是什么意思，它到底在说什么。”
+在讲解一个概念的时候，举例和类比很重要，人类习惯于通过例子来学习，从具体走向抽象。
+费曼技巧/费曼学习法：“以教促学”：
+- 第一步，（自学），选择新概念/新知识，自己先去学习它。
+- 第二步，（教授），假装当一个老师，去教授别人。
+- 第三步，（重温），如果你在教授别人的过程中遇到了麻烦，卡壳了，就返回去学习。
+- 第四步，（简化），简化你的语言。
+> 学习技巧：
+> 输入 -- 输出 -- 改进 | 简化
+> 学习 -- 分享 -- 反馈 | 类比
+> 形容词：专注/沉浸/心流；专心致志/全神贯注/聚精会神/心无旁骛/废寝忘食 -> 忘我
+
+长久不变的东西，主要包括：
+C语言，Linux，面向对象设计和抽象，网络和Web编程基础，分布式系统的基础知识，计算机基础知识。
+
+用你的技术赚更多的钱。
+想从老板那里拿到更高的工资，最好的办法就是，你能帮老板赚更多的钱。
+一般程序员和优秀程序员的一大区别就是用技术产生价值的能力，而那些最优秀的程序员，则能够用技术开创一个全新的行业。
+用技术给公司带来价值的方法：
+1. 能通过新的工具、流程、方法来提升开发效率和测试效率，这是最简单的。（提升效率）
+2. 熟悉业务，能够用最合适的技术来实现最大的业务价值。（实现价值）
+3. 能把技术直接输出到客户那里。再加上一定的客户资源，离自己创业不远了。（输出客户）
+4. 在技术方面和厉害，设计的系统能直接给公司带来收益。（带来收益）
+
+阅读源码的三种境界：
+1. 昨夜西风凋碧树，独上高楼，望尽天涯路。
+   登高望远，瞰察路径，明确目标和方向，了解源码的概貌。
+2. 衣带渐宽终不悔，为伊消得人憔悴。
+   静态地看代码+动态地执行Debug操作。
+3. 众里寻他千百度，蓦然回首，那人却在灯火阑珊处。
+   千百度的上下求索，瞬间的顿悟与理解。
+> 坚持下去，保持好奇心。
+
+Code Review 代码评审，成功的经验：
+1. 领导的支持。
+2. 民主的决策。
+3. 能用工具完成的，就别再麻烦人了。
+4. Check List很有用。
+5. 每次评审适量的代码。
+
+Web服务器 = 规范或约定 + 动态内容服务器。本质是为了实现关注点的分离。
+- Java: Servlet + Tomcat (HttpRequest, HttpResponse)
+- Python: WSGI + WSGI Server (Environment: dit)
+定义规范 - WSGI = Web Service Gateway Interface
+类或函数，实现相关逻辑 - WSGI Application
+动态服务器 - WSGI Server
+
+极限编程是敏捷软件开发领域的一个“奇葩”，它的宗旨就是，如果一个软件开发实践很好，我们就把它做到极致！
+遇到问题要深度思考，努力看到本质，这样才能举一反三。
+
+> 例会，例行会议 / 依照惯例开的会议
 
 ## 公众号文章
 
