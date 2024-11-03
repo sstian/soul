@@ -144,12 +144,12 @@ D = Durability 持久性：数据的修改是永久的。
 | ---------------------------- | ---------------------------------------------------------- | ---------------------------------------------- |
 | 面向对象                     | 封装、继承、多态，Prototype / Mixin / Traits / Duck Typing |                                                |
 | 函数式编程                   | 高阶函数、闭包、惰性求值、递归、不可变状态、无副作用……     | JVM: Lisp, Clojure                             |
-| 元编程                       |                                                            | Java动态代理CgLib，Lisp宏                      |
+| 元编程                       | 使用模板，用程序生成程序                                   | Java动态代理CgLib，Lisp宏                      |
 | 并发模型                     | 同步与互斥、锁、死锁、软件事务内存……                       | Java线程，Python协程，Go routine, Erlang Actor |
-| 虚拟机和垃圾回收             |                                                            | JVM垃圾回收                                    |
+| 虚拟机和垃圾回收             | 字节码，垃圾回收算法                                       | JVM垃圾回收                                    |
 | 静态类型、动态类型、类型推导 | 静态类型：编译期确定。动态类型：运行期确定                 |                                                |
 | 抽象语法树                   | AST=Abstract Syntax Trees                                  |                                                |
-| 指针                         |                                                            | C语言的灵魂                                    |
+| 指针                         | 内存地址                                                   | C语言的灵魂                                    |
 | 其它                         | 错误处理（异常）、泛型、同步异步、序列化                   |                                                |
 
 ## 码农翻身 1 *
@@ -994,7 +994,6 @@ GNU = GNU's Not Unix!
 > GNU = Generic Non-conmercial Unix ?
 
 bootstraping 自举
-Simple Point of Failure 单点失败
 
 - Why有时候比How重要得多，懂得Why以后，再去看How，就犹如开启了“上帝视角”，一切都变得简单起来。
 - 历史的车轮滚滚向前，想逆潮流而动，无异于螳臂当车。
@@ -1009,7 +1008,12 @@ LVS = Linux Virtual Server：工作在OSI 模型的四层，基于IP进行负载
 - DR = Direct Routing 直接路由
 - TUN = Tunneling 隧道
 
-#### IO访问
+#### 双击热备
+Simple Point of Failure 单点失败
+
+动态绑定解绑VIP（Virtual IP），使其在不同服务器之间移动。
+
+#### 阻塞与异步
 不同设备的速度：
 
 |                                | 时间     | 相当于   |
@@ -1060,7 +1064,7 @@ session id -> session sticky复制 -> 集中存储session id
 缓存失效：超级热门的数据失效了。
   可选解决方式：Redis分布式锁。
 
-#### 数据一致性
+#### 数据复制
 **机械硬盘**，磁头在光滑的**盘片**上滑来滑去，寻找**磁道**，定位**扇区**，读取数据。
 
 读写分离：
@@ -1091,6 +1095,14 @@ Snoeflake的特性：
 2. 同一台机器，在同一时间（毫秒）内生成的ID是不同的。
 3. 将毫秒数放在最高位，生成的ID是趋势递增的。
 
+> 分布式ID - Snowflake
+> 分布式事务 - 两阶段提交
+> 分布式存储 - HDFS
+> 分布式服务：微服务
+> 分布式计算：云计算
+> 分布式VCS：Git
+> 分布式搜索引擎：Elastic Search
+
 #### Serverless 无服务器
 Serverless，不是没有服务器，而是服务器对用户是透明的。应用的装载、启动、卸载、路由均需要平台来搞定。
 更适合无状态的应用，比如图像和视频的加工、转换，物联网设备状态的信息处理等。
@@ -1111,14 +1123,6 @@ NoSQL = Not Only SQL
 2. JSON文档：MongoDB, CouchDB。树状结构数据。
 3. 图结构：Neo4j。表示社交网络、推荐系统的系统。
 4. 列式数据库：HBase, Cassandra。两级嵌套的Map；存储移动互联网产生的海量数据，如日志、聊天记录、监控数据、物联网数据等，结构化不强。
-
-> 分布式ID - Snowflake
-> 分布式事务 - 两阶段提交
-> 分布式存储 - HDFS
-> 分布式服务：微服务
-> 分布式计算：云计算
-> 分布式VCS：Git
-> 分布式搜索引擎：Elastic Search
 
 ### 3. 中间件
 
@@ -1345,17 +1349,570 @@ int i = ((IntegerValue)value).value();
 System.out.println("The local variable i is " + i)
 ```
 
-### 4. 编程语言的渗透
+### 4. 编程语言的特性
 
+#### Python
+泛型：
+Java泛型可以在编译期做类型检查。
+Python中的变量不需要声明类型，不用做编译器类型检查；运行时检查。
+```java
+List<String> files = new ArrayList<String>();
+string file = files.get(0);  // 不必做强制类型转换
+files.add(new File(...));   // 编译错误
+```
+
+反射：
+```java
+public class User {
+  public void login(...) {
+    ...
+  }
+}
+```
+```python
+class User:
+  def login(self):
+    print("This is login")
+
+
+methods = [x for x, y in User.__dict__.items() if type(y) == FunctionType]
+print(methods)  # ["login"]
+
+
+url = "/use?action=login"
+# 根据URL解析得到类和方法，代码略
+clz = "User"
+action = "login"
+# 根据名称获得User对象和方法
+user = globals()[clz]()
+func = getattr(user, action)  # 获取login方法
+func()  # 输出 “This is login”
+```
+
+动态代理：
+Java的增强，只能修改字节码，创建新的类，封装老的类。
+Python是动态语言，运行时可以修改。
+```python
+class User:
+  def loin(self):
+    print("user login")
+
+  def logout(self):
+    print("user logout")
+
+class Proxy:
+  def __init__(self, target):
+    self .target = target
+
+  # 每当调用方法或访问字段的时候，Python都会通过__getattribute__先找到这个方法或字段，然后才进行真正的调用
+  def __getattribute__(self, name):
+    target = object.__getattribute__(self, "target")
+    attr = object.__getattribute__(target, name)
+
+    if name == "login":
+      def newFunc(*args, **kwargs):
+        print ("login start")
+        result = attr(*args, **kwargs)
+        print("login end")
+        return result
+    else:
+      return attr
+
+u = User()
+p = Proxy(u)
+
+p.login()   # 实际上调用的是动态创建的方法
+p.logout()  # 调用的是原来的方法
+```
+
+GIL = Global Interpreter Lock 全局解释器锁
+程序的瓶颈不在CPU，而在于I/O；利用多核，使用多进程；测试用例很关键。
+
+Python之禅：
+```
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse (稀疏的) is better than dense (稠密的).
+Readability counts.
+......
+```
+
+《设计模式》《Head First 设计模式》
+Python没有接口：
+Python的鸭子类型 Duck Typing。
+语言不重要，编程思想才重要。
+```python
+class Duck:
+  def fly(self):
+    print("Duck flying")
+
+class Plane:
+  def fly(self):
+    print("Plane flying")
+
+def lift_off(entity):
+  entity.fly()
+
+
+duck = Duck()
+plane = Plane()
+
+lift_off(duck)
+lift_off(plane)
+```
+
+Adapter模式：
+弊端是不知道方法的参数类型，重构困难。
+```python
+def log(file, msg):
+  file.write("[{}] - {}".format(datetime.now(), msg))
+
+class DBAdapter:
+  def __init__(self, db):
+    self.db = db
+
+  def write(self, msg):
+    self.db.insert(msg)
+
+
+db_adapter = DBAdapter(db)
+log(db_adapter, "sev1 error accurred")
+```
+
+单例模式：
+利用Python的module实现信息的隐藏。
+```python
+# 定义
+# singleton.py
+class Singleton:
+  def __init__(self):
+    self.name = "I am singleton"
+
+instance = Singleton()
+del Singgleton  # 删除构造函数
+
+
+# 使用
+# test_singleton.py
+import singleton
+
+print(singleton.instance.name)  # I am singleton
+
+instance = Singleton()  # NameError: name 'Singleton' is not defined
+```
+
+Visitor模式：
+本质在于分离结构和操作。Python使用generator优雅实现。
+```python
+# 方法1. 类式实现
+class TreeNode:
+  def __init__(self, data):
+    self.data = data
+    self.left = None
+    self.right = None
+
+  # 中序遍历
+  def accept(self, visitor):
+    if self.left is not None:
+      self.left.accept(visitor)
+
+    visitor.visit(self.data)
+
+    if self.right is not None:
+      self.right.accept(visitor)
+
+class PrintVisitor:
+  def visit(self, node):
+    print(node.data)
+
+
+root = TreeNode("1")
+root.left = TreeNode("2")
+root.right = TreeNode("3")
+
+visitor = PrintVisitor()
+root.accept(visitor) # 2 1 3
+
+
+# 方法2. 生成器实现
+class TreeNode:
+  def __iter__(self):
+    return self.__generator()
+
+  def __generator(self):
+    if self.left is not None:
+      yield from iter(self.left)
+
+     yield from self.data
+
+    if self.right is not None:
+       yield from iter(self.right)
+
+
+root = TreeNode("1")
+root.left = TreeNode("2")
+root.right = TreeNode("3")
+
+for elf in root:
+  print(ele)
+```
+
+Python解释器：
+Python看似解释执行，实际上把Python文件进行编译，形成字节码；基于栈的虚拟机。
+垃圾回收机制：引用计数法，标记-清除法，分代回收法等。
+“一核有难，多核围观”。
+Jython：用Java写的Python解释器。在底层被编译为Java字节码，运行在Java虚拟机中，没有GIL。
+Python的设计目标是易于使用，易于扩展。
+
+#### JavaScript
+没有了选择的烦恼，但同时减少了选择的权利，是好还是坏？
+
+> 类是对象的抽象，数据+行为。接口是类的抽象。
+> 接口 -> 类 -> 对象
+
+创建对象：
+```js
+// 方法1. 函数式
+function Student(name) {
+  this.name = name;
+}
+
+Student.prototype.sayHello = function () {
+  console.log(`Hi, I am ${this.name}`);
+}
+
+
+let andy = new Student("Andy");
+andy.sayHello();  // Hi, I am Andy
+
+
+// 方法2. 类式语法糖
+class Student {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sayHello() {
+    console.log(`Hi, I am ${this.name}`);
+  }
+}
+
+
+let alan = new Student("Alan");
+alan.sayHello();  // Hi, I am Alan
+```
+
+JavaScript的this，谁调用this指向谁。`who.func(); this is who.`
+
+#### Go
+气血逆行，胸口烦闷，恶心难受。
+
+Go语言设计者，UNIX之父 Ken Thompson。
+类型后置；用大小写实现信息隐藏，用组合代替继承，用隐式实现接口来实现多态。
+支持高并发编程，用协程方式，创建Goroutine。
+
+封装：
+```go
+type Employee struct {
+  FirstName string  // 首字母大写，表示包外可以直接访问
+  lastName string   // 首字母小写，只能在包内访问
+  age int
+}
+
+func (e Employee) SayHello() {
+  fmt.Printf("Hi, I am %s %s, welcome!\n", e.FirstName, e.lastName)
+}
+
+
+e := Employee{"Andy", "Liu", 30}
+e.SayHello()
+```
+继承：
+```go
+type Manager struct {
+  Employee
+  privilege string
+}
+
+
+e := Employee{"Harry", "Liu", 30}
+m := Manager{e, "manager"}
+m.SayHello()  // 直接使用了Employee的SayHello方法
+```
+
+多态：
+```go
+type Flyable struct {
+  fly()
+}
+
+type Duck struct {
+  name string
+}
+
+func (d Duck) fly() {
+  fmt.Println("Duck flying")
+}
+
+type Plane struct {
+  name string
+}
+
+func (p Plane) fly() {
+  fmt.Println("Plane flying")
+}
+
+func liftOff(e Flyable) {
+  e.fly()
+}
+
+
+func main() {
+  liftOff(Duck{"duck"})
+  liftOff(Plane{"plane"})
+}
+```
+
+#### Java
+
+##### Vert.x
+异步操作的事件驱动：事件，事件队列，事件循环
+
+Vert.x 的 Verticle实例可以被部署到不同的JVM中，通过 Event Bus 消息传递交互，实现分布式通信。
+```java
+import io.vertx.core.AbstractVerticle;
+
+public class Server extends AbstractVerticle {
+  public void start() {
+    vertx.createHttpServer().requestHandler(req -> {
+      req.response()
+        .putHeader("content-type", "text/plain")
+        .end("Hello World");
+    }).listen(8080);
+  }
+}
+```
+
+##### ServiceLoader
+jar文件是类的压缩包，classpath是把这些类平铺。
+
+ServiceLoader，实现模块化的封装。不破坏封装性，具有灵活性，相当于在运行时装配对象。
+JDK必须实现这个ServiceLoader，才能获取具体的实现。
+```
+// 接口模块 org.foo.api
+[module.info.java]
+module org.foo {
+  exports org.foo.api
+}
+[org.foo.api]
+[  FooService]
+
+
+// 实现模块 org.foo.provider
+[module.info.java]
+module org.foo {
+  require org.foo.api;
+  privides org.foo.api.FooService with org.foo.provider.FooServiceImpl
+}
+
+[org.foo.provider]
+[  FooServiceImpl]
+
+
+// Client使用
+Iterable<FooService> iter = ServiceLoader.load(FooService.class);
+……遍历iter，获取FooService类并且使用……
+```
 
 ### 5. 编程语言的本质
 
+#### 面向对象
+编程的关键不在于是否使用了面向对象的语言。编程的关键就是找到、抽象出稳定的接口。
+编程/抽象，就是发现变化，隔离变化，使用各种语言都可以。
+> 封装变化点
+
+“变态”的应用层，“不讲道理”的业务逻辑。
+
+```
+Logger:
+  interface Formatter:
+    implement: TextFormatter, HTMLFormatter, XMLFormatter
+  interface Appender:
+    implement: FileAppender, DbAppender, MailAppender
+```
+
+TIOBE = The Importance Of Being Earnest 认真的重要性：编程语言排行榜，反映某个编程语言的热门程度的指标
+
+C语言实现面向对象：
+```c
+// 1. 封装
+/* animal.h */
+struct Animal;
+struct Animal* Animal_create(int age);
+void Animal_init(struct Animal* self, int age);
+void Animal_run(struct Animal* self);
+
+
+/* animal.c */
+struct Animal {
+  int age;
+};
+
+struct Animal* Animal_Create(int age) {
+  struct Animal* animal = malloc(sizeof(struct Animal));
+  animal -> age = age;
+  return animal;
+}
+
+void Animal_init(struct Animal* self, int age) {
+  self = Animal_Create(age);
+}
+
+void Animal_run(struct Animal* self) {
+  println("Animal_run(): %d", self->age);
+}
+
+
+/* main.c */
+struct Animal* a = Animal_Create(3);
+Animal_run(a);
+
+
+// 2. 继承
+struct Dog {
+  struct Animal base;
+  int color;
+};
+
+struct Animal* Dog_Create(int age, int color) {
+  struct Dog* dog = malloc(sizeof(struct Dog));
+  Animal_init((struct Animal*)dog, age);
+  dog -> color = color;
+  return dog;
+}
+
+
+struct Dog* d = Dog_Create(3, 5);
+Animal_run((struct Animal*)d);
+
+
+// 3. 多态、虚函数表和虚函数指针
+// 虚函数表
+struct AnimalVtbl {
+  void (*eat)(struct Animal* self);
+  void (*speak)(struct Animal* self);
+}
+
+struct Animal {
+  struct Animal* vptr;  // 指向虚函数表的指针
+  int age;
+};
+
+void Animal_eat(struct Animal* self) {
+  // 查找虚函数表，需要子类把vptr指向不同的虚函数表
+  return (*self->vptr->eat)(self);
+}
+
+
+struct Dog* d2 = Dog_Create(4, 6);
+Animal_eat((struct Animal*)d);
+```
+
+#### 元编程
+使用模板，用程序生成程序。
+
+Lisp：
+代码就是数据，代码可以在运行时被修改。
+程序和数据的表示方式是一致的。
+
+C语言的宏是编译器的文本替换。
+
+#### 汇编语言
+汇编语言的指令类型：
+- 数据传输类：用于把数据从一个位置复制到另一个位置。
+- 算数和逻辑运算类：用于进行加减乘除、AND/OR、左移右移等。
+- 控制类：用于比较两个值，并跳转到某个位置。
+
+高级语言的if...else, while, do...while, for -> if+goto -> 汇编语言的比较和跳转
+
+所谓高级语言，主要是为了方便人类的编写和阅读的，从而提升人类的编程效率。
+
+机器语言，只有0和1！
 
 ### 6. 网络安全
 
+#### 浏览器安全
+同源，{protocal, host, port} 必须一样。
+XMLHttpRequest遵守同源策略。
+跨域加载资源：`<script src="xxx">, <img src="xxx">, <link href="xxx">`
+跨域访问方式：1. 代理模式：通过服务器端中转。2. CORS = Cross Origin Resource Sharing，需要服务器配合。
 
+#### 信息安全
+1. 代码注入。XSS = Cross Site Scripting 跨站脚本
+防范：Cookie加上HttpOnly，浏览器禁止JavaScript读取Cookie；过滤输入，编码/转义输出。
+`Set-Cookie: JSESSIONID=xxxxxx;Path=/;Domain=book.com;HttpOnly`
 
-### 7. “老司机”经验
+2. 伪造请求CSRF = Cross Site Request Forgery 跨站请求伪造
+防范：表单额外添加一个token
+`<input type="hidden" name="token" value="dfaf;ccxoe983243xdadg2305885"/>`
+
+3. SQL注入
+防范：不要拼接字符串，使用预编译语句，绑定变量。
+```java
+String sql = "select id from users where name = ?";
+PreparedStatement ps = conn.prepareStatement(sql);
+ps.setString(1, request.getParameter("name"));
+ps.executeQuery();
+```
+
+4. 密码破解。Hask破解法：猜测；查表。
+防范：加盐，给每个密码加一个随机数，作为一列存储在数据库中。
+
+5. 缓冲区溢出攻击。
+用户输入的数据是从低地址向高地址存放的。
+```c
+int hello() {
+  int x = 10;
+  int y = 20;
+  int sum = add(x, y);
+  printf("the sum is %d\n", sum);
+  return sum;
+}
+
+int add(int x, int y) {
+  char buf[8];
+  int sum;
+  // scanf函数没有检查边界，黑客会将代码注入栈帧中，修改返回的地址，程序会跳转到指定的地方执行！
+  scanf("%s", buf);
+  sum x + y;
+  return sum;
+}
+```
+
+#### 加密
+1. 中间人攻击。防范：
+浏览器端：
+**username**
+hash(password, salt) -> **has_password**
+发送 -> (username, has_password)
+
+2. 重放攻击。防范：
+浏览器端：
+**username**
+**captcha**
+hash(password, salt) -> has_password1
+hash(has_password1, captcha ) -> **has_password2**
+发送 -> (username, has_password2, captcha)
+
+3. 中间人改写。防范：
+使用HTTPS
+
+### 7. “老司机”工作经验
 
 费曼：“凡是我们读到的东西，我们都尽量把它转换成某种现实中存在的东西，从这里我学到一个本领——凡是我所读的内容，我总设法通过某种转换来弄明白它究竟是什么意思，它到底在说什么。”
 在讲解一个概念的时候，举例和类比很重要，人类习惯于通过例子来学习，从具体走向抽象。
