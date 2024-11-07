@@ -483,6 +483,8 @@ HEU_KMS_Activator：Windows & Office的KMS/OEM智能激活工具  https://github
 
 KMSpico 10.2.0 Activator For Windows & Office  https://kmspico.co/
 
+一键激活windows系统和office软件,Office软件安装,KMS激活  https://kms.cx/
+
 OneMark - 用 Markdown 重新认识 OneNote  https://onemark.neuxlab.cn/
 
 Google Chrome 浏览器  https://www.google.cn/intl/zh-CN/chrome/
