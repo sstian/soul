@@ -641,6 +641,14 @@ https://www.bilibili.com/video/BV1dp4y1G7DN
 - 人到中年，你知道我最大的遗憾是什么吗？就是当初我为什么不再勇敢一点！再回首才发现，那些世俗的偏见，只不过是增加人生的遗憾罢了。
 - 万事莫要嚣张。
 
+## 全家热衷当备胎，我转身离开 *
+夏小麦，裴珩
+https://www.youtube.com/watch?v=0lwbCr-ntw8
+
+## 失控关系
+颜初倾，傅砚
+https://www.youtube.com/watch?v=GJZ8dR1RBTI
+
 ## 龙族幻想
 
 **Dragon Raja，コード：ドラゴンブラッド**
