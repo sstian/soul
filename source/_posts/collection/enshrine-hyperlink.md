@@ -171,16 +171,6 @@ RegExr: Learn, Build, &amp; Test RegEx  https://regexr.com/
 
 中国地图数据  https://geojson.cn/
 
-### 网络
-
-https://www2.tkn.tu-berlin.de/teaching/rn/animations/
-
-- 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/)
-- 排队和丢失  https://www2.tkn.tu-berlin.de/teaching/rn/animations/queue/
-- 滑动窗口可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/
-- 流量控制可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/flow/
-- CSMA/CA  https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/
-
 ### 教程
 
 Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://www.zedwood.com/
@@ -188,20 +178,6 @@ Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://ww
 伯乐在线  http://www.jobbole.com/
 
 W3Schools Online Web Tutorials  https://www.w3schools.com/
-
-### Linux
-
-鳥哥的 Linux 私房菜  http://linux.vbird.org/
-
-Linux 命令搜索引擎  https://wangchujiang.com/linux-command/
-
-SS64 Command line reference  https://ss64.com/
-
-Michael Kerrisk - man7.org  http://man7.org/
-
-The GNU Operating System and the Free Software Movement https://www.gnu.org/
-
-- Index of /gnu/wget https://ftp.gnu.org/gnu/wget/
 
 ### 画图
 
@@ -278,6 +254,18 @@ CS-Notes  https://cyc2018.github.io/CS-Notes/#/
 - Github: https://github.com/yanfeizhang/coder-kung-fu
 - 《深入理解Linux进程与内存》一书的配套源码以及勘误列表  https://github.com/yanfeizhang/deep_linux_process_memory_tests
 
+### 计算机网络
+
+计算机网络 - 一种动画方法  https://www2.tkn.tu-berlin.de/teaching/rn/animations/
+
+- 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/)
+- 排队和丢失  https://www2.tkn.tu-berlin.de/teaching/rn/animations/queue/
+- 滑动窗口可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/
+- 流量控制可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/flow/
+- CSMA/CA  https://www2.tkn.tu-berlin.de/teaching/rn/animations/csma/
+
+ChatTCP：聊天版TCP分析工具  https://chattcp.com/
+
 ### 算法题解
 
 Algorithm Visualizer：算法可视化  https://algorithm-visualizer.org/
@@ -302,6 +290,20 @@ Hello 算法：动画图解、一键运行的数据结构与算法教程。支�
 Compiler Explorer：多语言交互式汇编  https://godbolt.org/
 
 Online Python Tutor - visualize, debug, get AI help for Python, Java, C, C++, and JavaScript  https://pythontutor.com/
+
+### Linux
+
+鳥哥的 Linux 私房菜  http://linux.vbird.org/
+
+Linux 命令搜索引擎  https://wangchujiang.com/linux-command/
+
+SS64 Command line reference  https://ss64.com/
+
+Michael Kerrisk - man7.org  http://man7.org/
+
+The GNU Operating System and the Free Software Movement https://www.gnu.org/
+
+- Index of /gnu/wget https://ftp.gnu.org/gnu/wget/
 
 ## 设计
 

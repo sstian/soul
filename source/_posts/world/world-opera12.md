@@ -550,3 +550,21 @@ Central People's Government of the People's Republic of China 中华人民共和
 Let's show'em what we're made of! 给他们点颜色看看 (show'em = show them)
 Comrades 同志们
 
+## 好东西
+
+**Her Story**
+
+[中] 邵艺辉
+
+小叶：
+- 做观众只有快乐和无聊，只会越来越无聊；创造快乐会痛苦，但会更快乐。就和爱情一样。
+
+小马：
+- 那是因为我拒绝绑架，所以相对自由。
+
+王茉莉：
+- 你的眼泪很美很亮，我很喜欢，你怎么看我都可以。你的眼泪也很好吃。
+- 正是我们足够乐观和自信，才能直面悲观。
+
+小胡：
+- 别问为什么，爱我便是。
