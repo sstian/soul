@@ -258,7 +258,7 @@ CS-Notes  https://cyc2018.github.io/CS-Notes/#/
 
 计算机网络 - 一种动画方法  https://www2.tkn.tu-berlin.de/teaching/rn/animations/
 
-- 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/)
+- 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/
 - 排队和丢失  https://www2.tkn.tu-berlin.de/teaching/rn/animations/queue/
 - 滑动窗口可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/
 - 流量控制可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/flow/
