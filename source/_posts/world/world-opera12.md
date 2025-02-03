@@ -521,8 +521,8 @@ deliver food 送外卖
 
 [中] 陈凯歌
 
-**《志愿军：雄兵出击》（The Volunteers: To the War）**
-**《志愿军：存亡之战》（The Volunteers: The Battle of Life and Death）**
+《志愿军：雄兵出击》（The Volunteers: To the War）
+《志愿军：存亡之战》（The Volunteers: The Battle of Life and Death）
 
 毛泽东：
 - 千军不易得，一将更难求。
@@ -643,3 +643,19 @@ Comrades 同志们
 
 江流儿：棋盘上只有赢家和输家。
 刘南如：还有快乐。
+
+## 封神三部曲
+
+《封神第一部：朝歌风云》（Creation of The God: Kingdom of Storms）
+
+- 姜子牙：天下，非商王之天下，乃天下人之天下。
+- 姬昌：你是谁的儿子不重要，你是谁，才重要。
+
+## 阿凡达系列
+
+《阿凡达》（Avatar）
+《阿凡达：水之道》（Avatar：The Way of Water）
+
+杰克·萨利：
+- 为人父，为的是，庇护家人。一个生命结束，另一个生命开始。
+- 一家人不能分开，这既是我们软肋，也是我们的盔甲。

@@ -57,11 +57,12 @@ date: 2020-11-20 13:14:00
 博士：
 - 有了天才的头脑就免不了要忍受孤独。
 
-## 长津湖
-
-**The Battle at Lake Changjin**
+## 长津湖系列
 
 [中] 陈凯歌、徐克、林超贤
+
+《长津湖》（The Battle at Lake Changjin）
+**《长津湖之水门桥》（The Battle At Lake Changjin II） ***
 
 毛泽东：
 - 尊严，只能在战场上取得。
@@ -108,6 +109,8 @@ date: 2020-11-20 13:14:00
   I don't believe in missions impossible to complete. 
   I don't believe in difficulties impossible to overcome. 
   I don't believe in enemies impossible to defeat.
+- 没有冻不死的英雄，更没有打不死的英雄，只有军人的荣耀。
+  There aren't any heroes who will never freeze to death, let alone ones who will never be killed. A soldier only lives for honor and glory.
 
 美国军官：
 - 面对有如此决心的敌人，我们永远无法战胜他们。
