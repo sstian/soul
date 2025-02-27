@@ -465,6 +465,10 @@ TinyWow - Free AI Writing, PDF, Image, Video, File etc. Online Tools  https://ti
 
 联行号-全国银行开户行联行号查询网  https://www.icvio.cn/
 
+Z-library Project - eBook Library Z. Download free Books  https://z-library.sk/
+
+- Twitter: Z-Library Official / @Z_Lib_official  https://x.com/z_lib_official
+
 ## 工具软件
 
 COREL会声会影中文版官网  http://www.huishenghuiying.com.cn/
