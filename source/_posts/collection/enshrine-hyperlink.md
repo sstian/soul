@@ -393,13 +393,23 @@ voflix HD - 最新好看的电影电视剧免费在线观看  https://www.voflix
 
 TapTap全球手游  https://www.taptap.com/
 
-电玩巴士-中国综合游戏门户  http://www.tgbus.com/
+电玩巴士 - 中国综合游戏门户  http://www.tgbus.com/
 
-多玩游戏-PSP掌机店  http://psp.duowan.com/
+多玩游戏 - PSP掌机店  http://psp.duowan.com/
 
-3DMGAME-中国第一单机游戏门户  http://www.3dmgame.com/
+3DMGAME - 中国第一单机游戏门户  http://www.3dmgame.com/
 
-小霸王  https://www.yikm.net/
+小霸王，其乐无穷  https://www.yikm.net/
+
+CrazyGames: Free Online Games  https://www.crazygames.com/
+
+Poki (宝玩)：免费在线小游戏  https://poki.com/zh
+
+Kick Ass - Destroy the web  https://kickassapp.com/
+
+itch.io - Download the latest indie games  https://itch.io/
+
+反斗限免 - 反斗软件旗下软件限免资讯网站  https://free.apprcn.com/
 
 ## 助手网站
 

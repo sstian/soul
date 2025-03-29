@@ -649,6 +649,9 @@ https://www.youtube.com/watch?v=0lwbCr-ntw8
 颜初倾，傅砚
 https://www.youtube.com/watch?v=GJZ8dR1RBTI
 
+## 请君入我怀
+宋瑶枝：所见，即所想。心怀卑劣，便只见卑劣。
+
 ## 龙族幻想
 
 **Dragon Raja，コード：ドラゴンブラッド**
