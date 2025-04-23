@@ -138,3 +138,5 @@ tags:
   task elapsed (specified long task) = prepare time + execute time + checkout time
 - 全局掌控，单点突破；横扫架构，深耕细作。
 - 先完成再完善最后完美。
+- 运维管硬件，开发管软件，经理管人员。
+  如果裁了，没硬件可以自己堆，没软件可以自己造，没人就一无是处了。
