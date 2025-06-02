@@ -179,6 +179,8 @@ Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://ww
 
 W3Schools Online Web Tutorials  https://www.w3schools.com/
 
+Refactoring.Guru：免费在线学习代码重构和设计模式  https://refactoringguru.cn/
+
 ### 画图
 
 draw.io/diagrams.net  https://app.diagrams.net/
@@ -225,6 +227,10 @@ Cheat Sheet : All Cheat Sheets in one page  http://www.cheat-sheets.org/
 Programming Idioms  https://www.programming-idioms.org/
 
 Developer Roadmaps  https://roadmap.sh/
+
+### AI
+
+OpenRouter - The Unified Interface For LLMs：开源AI模型聚合路由器  https://openrouter.ai/
 
 ### 其它
 
@@ -284,6 +290,8 @@ Doocs: Gitee: https://gitee.com/yanglbme | GitHub: https://github.com/yanglbme
 -  coding-interview：代码面试题集，包括剑指 Offer、编程之美等   https://doocs.gitee.io/coding-interview
 
 Hello 算法：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码  https://www.hello-algo.com/
+
+mycodeschool：Strong programming foundations  https://www.youtube.com/@mycodeschool
 
 图码：数据结构可视化交互动画版  https://www.totuma.cn/
 
@@ -480,6 +488,8 @@ TinyWow - Free AI Writing, PDF, Image, Video, File etc. Online Tools  https://ti
 Z-library Project - eBook Library Z. Download free Books  https://z-library.sk/
 
 - Twitter: Z-Library Official / @Z_Lib_official  https://x.com/z_lib_official
+
+Aconvert.com - Convert document, image, video and audio files online：多功能在线文件转换工具  https://www.aconvert.com/
 
 ## 工具软件
 
