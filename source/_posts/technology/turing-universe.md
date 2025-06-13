@@ -83,6 +83,8 @@ ACM = Association for Computing Machinery 美国计算机协会
 | 2003 | Groovy         | James Strachan 詹姆斯·斯特拉坎, Bob Mcwhirter 鲍勃·麦克沃特  | 是Java语言的一个分支                                         |
 | 2009 | Go             | Google 谷歌公司                                              | 用于解决大型软件系统中的常见问题                             |
 | 2014 | Swift          | Apple 苹果公司                                               | 是苹果公司操作系统和软件的主要开发语言                       |
+| 2015 | Rust           | 由Mozilla研究院的 Graydon Hoare 设计创造                     | 系统编程语言，专注于内存和并发安全，针对多核体系             |
+| 2016 | Kotlin         | JetBrains 开发                                               | 用于现代多平台应用的静态编程语言，可以编译成Java字节码、JavaScript、二进制代码 |
 
 
 约翰·冯·诺依曼（John von Neumann）“博弈论之父” ，克劳德·香农（Claude Shannon）“信息论之父”。
