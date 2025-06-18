@@ -424,7 +424,7 @@ Unix的解法是三层结构：网页窗体调用CGI，CGI调用命令。而命�
 界面设计师的工作是方便用户，而不是在用户面前碍眼。
 沉默是金——接口设计作为整体应该遵从最小立异原则，但是信息内容应该符合最大惊奇原则——仅仅对偏离通常期望的情况详加说明。
 
-![UNIX编程艺术-程序接口分离](../../../assets/image/UNIX编程艺术-程序接口分离.jpeg)
+![UNIX编程艺术-程序接口分离](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/UNIX编程艺术-程序接口分离.jpeg)
 
 #### 12 优化
 Optimization
@@ -461,7 +461,7 @@ Unix思想中的一个主题就是强调工具小巧锐利，设计从零开始�
 
 曹洞禅：行程才是目的；顿悟在每日的实践中。
 
-![UNIX编程艺术-复杂度种类及其来源](../../../assets/image/UNIX编程艺术-复杂度种类及其来源.jpeg)
+![UNIX编程艺术-复杂度种类及其来源](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/UNIX编程艺术-复杂度种类及其来源.jpeg)
 
 ### 三 工具
 
