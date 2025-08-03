@@ -73,9 +73,14 @@ GOPROXY.IO - 一个全球代理 为 Go 模块而生  https://proxy.golang.com.cn
 
 ### JavaScript
 
-ECMAScript® Language Specification  https://tc39.es/ecma262/
+- [x] ECMAScript® Language Specification  https://tc39.es/ecma262/
 
-ES6 入门教程 - 阮一峰  https://es6.ruanyifeng.com/
+
+- [x] ES6 入门教程 - 阮一峰  https://es6.ruanyifeng.com/
+
+Patterns.dev：JavaScript设计和性能模式  https://www.patterns.dev/
+
+TypeScript Playground - An online editor for exploring TypeScript and JavaScript  https://www.typescriptlang.org/play
 
 ## 程序员
 
@@ -97,17 +102,11 @@ OpenCV中文网站  http://www.opencv.org.cn/
 
 酷勤网 - 在线教程-Qt参考文档  http://www.kuqin.com/qtdocument/index.html
 
-廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git  https://www.liaoxuefeng.com/
-
-菜鸟教程 - 学的不仅是技术，更是梦想！  https://www.runoob.com/
-
-网道 - 互联网开发文档：HTML+JavaScript+TypeScript+C+Bash+SSH  https://www.wangdoc.com/
-
 ### 前端
 
-BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
+- [x] MDN Web Docs  https://developer.mozilla.org/zh-CN/
 
-MDN Web Docs  https://developer.mozilla.org/zh-CN/
+BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
 
 CodePen - Online Code Editor and  Web Developer Community  https://codepen.io/
 
@@ -155,7 +154,11 @@ AST Explorer  https://astexplorer.net/
 
 Web component JS frameworks overview：前端框架语法和特性对比  https://component-party.dev/
 
-Patterns.dev：JavaScript设计和性能模式  https://www.patterns.dev/
+Three.js - JavaScript 3D Library
+
+- 英文官网  https://threejs.org/
+- ThreeX - ThreeJS的小程序原生移植版  https://three-x.cn/
+- Three.js中文网 - Three.js教程  http://www.webgl3d.cn/
 
 ### 数据
 
@@ -179,7 +182,15 @@ Code for Monkeys - C++, PHP, CSS, Programming Resource :: zedwood.com  http://ww
 
 W3Schools Online Web Tutorials  https://www.w3schools.com/
 
+w3school 在线教程  https://www.w3school.com.cn/
+
 Refactoring.Guru：免费在线学习代码重构和设计模式  https://refactoringguru.cn/
+
+菜鸟教程 - 学的不仅是技术，更是梦想！  https://www.runoob.com/
+
+廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git+Makefile+区块链  https://www.liaoxuefeng.com/
+
+- [x] 网道 - 互联网开发文档：HTML+JavaScript+TypeScript+WebAPI+C+Bash+SSH  https://www.wangdoc.com/
 
 ### 画图
 
@@ -236,11 +247,13 @@ OpenRouter - The Unified Interface For LLMs：开源AI模型聚合路由器  htt
 
 Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/
 
-程序员的自我修养 A Programmer Prepares-Leo Hui  https://leohxj.gitbooks.io/a-programmer-prepares/index.html
+- [x] 程序员的自我修养 A Programmer Prepares-Leo Hui  https://leohxj.gitbooks.io/a-programmer-prepares/index.html
+
 
 Cocos Creator开源游戏、插件、教程、视频汇总 - Cocos中文社区  http://forum.cocos.com/t/creator/44782
 
-Learn Git Branhing  https://learngitbranching.js.org/
+- [x] Learn Git Branhing  https://learngitbranching.js.org/
+
 
 谷粒-Chrome插件英雄榜  https://zhaoolee.com/ChromeAppHeroes/
 
@@ -252,9 +265,17 @@ turnoff.us - geek comic site  http://turnoff.us/
 
 ### 计算机理论
 
-CS-Notes  https://cyc2018.github.io/CS-Notes/#/
+CS-Notes面试笔记：技术面试必备的算法、计算机基础、数据库、Java、系统设计、面向对象、编码实践  https://cyc2018.xyz/
 
-小林coding：小林 x 图解计算机基础 - 图解计算机网络、操作系统、计算机组成、数据库，让天下没有难懂的八股文！  https://xiaolincoding.com/
+- GitHub: https://github.com/CyC2018/CS-Notes
+
+hadyang Interview：计算机与Java笔试面试知识整理 - 计算机基础、Java、框架、系统架构、剑指offer、LeetCode  https://hadyang.github.io/interview/
+
+- GitHub: https://github.com/hadyang/interview
+
+小林coding：小林 x 图解计算机基础 - 图解计算机网络、操作系统、计算机组成、数据库、Java面试题，让天下没有难懂的八股文！  https://xiaolincoding.com/
+
+- GitHub: https://github.com/xiaolincoder/CS-Base
 
 开发内功修炼@张彦飞 - 分享我的技术日常思考，和大伙儿一起共同成长！  https://kfngxl.cn/
 - Github: https://github.com/yanfeizhang/coder-kung-fu
@@ -300,6 +321,8 @@ mycodeschool：Strong programming foundations  https://www.youtube.com/@mycodesc
 Compiler Explorer：多语言交互式汇编  https://godbolt.org/
 
 Online Python Tutor - visualize, debug, get AI help for Python, Java, C, C++, and JavaScript  https://pythontutor.com/
+
+tutorialspoint | Online Programming Compilers and Editors  https://www.tutorialspoint.com/compilers/index.htm
 
 ### Linux
 
@@ -601,7 +624,7 @@ OurOcg 共享精彩决斗生活  http://www.ourocg.cn/
 
 ## 恋爱
 
-小鲸恋爱班-教你如何谈恋爱  http://www.whaleclass.com/
+~~小鲸恋爱班-教你如何谈恋爱  http://www.whaleclass.com/~~
 
 ## 柔术
 

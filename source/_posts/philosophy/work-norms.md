@@ -42,9 +42,9 @@ QA = Quantity Assurance
 | 运行维护     | operation   | Support       |
 
 2. Product workflow:
-Business workflow. BA. CEO
-Technology workflow. Developer. CTO
-Management workflow. Manager. COO/CEO
+Business workflow - BA, CEO
+Technology workflow - Developer, CTO
+Management workflow - Manager, COO/CEO
 
 ### 覃光辉 Toby:
 
@@ -70,5 +70,5 @@ Management workflow. Manager. COO/CEO
 
 ### 董祺：
 
-- 遇到问题不要紧，关键是发现问题和解决问题。
+- 遇到问题不要紧，关键是分析问题和解决问题。
 - 任何人都会有疏忽的时候，但是 checkout plan 要全面。
