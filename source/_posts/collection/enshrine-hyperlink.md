@@ -61,11 +61,11 @@ fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
 ### Java
 
-Java 全栈知识体系  https://www.pdai.tech/
-
 学习Java语言的在线教程 - CodeGym  https://codegym.cc/zh/
 
-JavaGuide  https://javaguide.cn/
+Java全栈知识体系  https://www.pdai.tech/
+
+JavaGuide：Java学习 + 面试指南  https://javaguide.cn/
 
 ### Golang
 
