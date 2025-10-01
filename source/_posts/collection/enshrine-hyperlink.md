@@ -136,6 +136,8 @@ Babel 中文网 - Babel 下一代 JavaScript 语法的编译器  https://www.bab
 
 BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务  https://www.bootcdn.cn/
 
+Bootstrap可视化布局系统  https://www.bootcss.com/p/layoutit/
+
 印记中文 - 深入挖掘国外前端新领域，为国内 Web 前端开发人员提供优质文档！  https://docschina.org/
 
 W3C中国 - [万维网联盟（W3C=World Wide Web Consortium）](http://www.w3.org/)  https://www.chinaw3c.org/
@@ -188,7 +190,8 @@ Refactoring.Guru：免费在线学习代码重构和设计模式  https://refact
 
 菜鸟教程 - 学的不仅是技术，更是梦想！  https://www.runoob.com/
 
-廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git+Makefile+区块链  https://www.liaoxuefeng.com/
+- [x] 廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git+Makefile+区块链  https://www.liaoxuefeng.com/
+
 
 - [x] 网道 - 互联网开发文档：HTML+JavaScript+TypeScript+WebAPI+C+Bash+SSH  https://www.wangdoc.com/
 
@@ -500,6 +503,8 @@ PikPak - 极速秒存的私密云盘  https://mypikpak.com/
 
 尼卡 · 短视频下载  https://sp.1fooai.com/
 
+TikTok Downloader - Download and Save TikTok Videos Without Watermark &amp; MP3 Songs  https://www.savefast.video/
+
 Convertio - 文件转换器  https://convertio.co/zh/
 
 深言达意：据意找词找句  https://www.shenyandayi.com/
@@ -513,6 +518,8 @@ Z-library Project - eBook Library Z. Download free Books  https://z-library.sk/
 - Twitter: Z-Library Official / @Z_Lib_official  https://x.com/z_lib_official
 
 Aconvert.com - Convert document, image, video and audio files online：多功能在线文件转换工具  https://www.aconvert.com/
+
+标准地图服务  http://bzdt.ch.mnr.gov.cn/
 
 ## 工具软件
 
@@ -529,6 +536,10 @@ PPSSPP吧导航  https://tieba.baidu.com/p/3652287279?red_tag=2448979608
 GeoGebra - 免费的数学应用软件 (图形计算器/3D计算器/几何/增强现实等)  https://www.geogebra.org/
 
 唧唧Down - bilibili视频或弹幕下载  http://www.jijidown.com/
+
+哔哩下载姬downkyi - 哔哩哔哩网站视频下载工具  https://github.com/leiurayer/downkyi
+
+哔哩下载姬(跨平台版)downkyi  https://github.com/yaobiao131/downkyicore
 
 HEU_KMS_Activator：Windows & Office的KMS/OEM智能激活工具  https://github.com/zbezj/HEU_KMS_Activator/releases
 
@@ -628,7 +639,7 @@ OurOcg 共享精彩决斗生活  http://www.ourocg.cn/
 
 ## 柔术
 
-超柔安娜Anna McNulty https://mulpix.com/instagram/annaemcnulty.html
+~~超柔安娜Anna McNulty  https://mulpix.com/instagram/annaemcnulty.html~~
 
 柔术女孩-Flexible Girls from Flexflicks.com  http://flexflicks.com/blog/
 
