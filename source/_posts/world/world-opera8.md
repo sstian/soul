@@ -219,6 +219,19 @@ Bill Watts：
 - 警察没用。
 - 佛祖只会原谅真心忏悔的人。
 
+## 默杀
+
+**A Place Called Silence**
+
+[中] 柯汶利
+
+- ~~林在福~~：人可以像石头一样顽强，但真理就像一把榔头，可以砸碎顽石。
+  People can be as tough as rocks, but truth is like a hammer that can break even the firmest stone.
+- 校长：有时候这不会说话，也比乱说话要来得好。
+  Sometinmes, not talking is better than talking nonsense.
+
+> 集体的“沉默”无异于“杀人”的利器。
+
 [中] 甘剑宇
 
 ## 白夜行
