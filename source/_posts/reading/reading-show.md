@@ -697,6 +697,14 @@ https://www.dailymotion.com/video/x9soilw  https://www.dailymotion.com/video/x9s
 
 ## 蛇年大吉之婚不可挡
 
+## 裴总每天都想父凭子贵
+裴奕：
+- 游戏是游戏，人生是人生。
+- 有血缘不是家，有爱才是。
+
+林家家：
+- 愿你兜兜转转，遇见爱与美好。愿你有家可回，有人在等，有饭可吃，有一盏灯为你而留。
+
 ## 龙族幻想
 
 **Dragon Raja，コード：ドラゴンブラッド**
