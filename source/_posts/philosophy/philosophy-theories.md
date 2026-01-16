@@ -146,4 +146,6 @@ date: 2019-08-08 00:09:00
 - 纵使有万般理由，都是自己懒惰的借口，所谓的没时间，只是不想有时间而已。
   有一种勇气叫做忍耐，有一种力量叫做坚持。
   保持健康，保持好心情。
+- 向前一小步，文明一大步。
+  One small step for moving forward. One giant step for civilization.
 
