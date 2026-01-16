@@ -1,11 +1,12 @@
 ---
 title: 法律法规
-date: 2026-01-05 17:59:24
 categories: Reading
 tags:
   - Book
   - Law
   - Regulation
+abbrlink: e46
+date: 2026-01-05 17:59:24
 ---
 
 中华人民共和国的法律：
