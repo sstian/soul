@@ -246,6 +246,8 @@ Developer Roadmaps  https://roadmap.sh/
 
 OpenRouter - The Unified Interface For LLMs：开源AI模型聚合路由器  https://openrouter.ai/
 
+OpenI - 打开我，进入AI时代：全面高效的AI工具产品情报 https://openi.cn/
+
 ### 其它
 
 Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/

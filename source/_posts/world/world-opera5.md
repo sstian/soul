@@ -487,37 +487,60 @@ language: 假球 fraud，小吉祥物 Little mascot，甜甜圈 doughnut，
 
 ![后会无期](https://cdn.jsdelivr.net/gh/sstian/images/blogimg/后会无期.jpg)
 
-## 飞驰人生
+## 飞驰人生 1 2 3
 
-**Pegasus  [中]韩寒**
+**Pegasus**
 
-张弛，孙宇强，记星，林臻东，洪阔，万和平
+[中] 韩寒
 
+the king of Bayanlulak 巴音布鲁克之王
+
+张弛，孙宇强，记星，厉小海，刘显德，叶经理，林臻东
+
+- 人生哪有那么多机会给你再来一条。
+  Life doesn’t give you too many second chances.
+
+- Mr.Z.Sun.X：若有人将我从深渊拉起，我必敢再次凝视深渊。
+- 万和平：对于个人，法无禁止即可为；对于仲裁庭，法无授权不可为。
+  For him, he can do anything that’s not prohibited by law. And for the arbitration court, we mustn’t do anything unless it’s authorized by law.
+- 百强：管理最怕的就是外行选手内行。
+- 安部长：人太复杂了，还是技术纯粹，
+- 叶经理：这开的已经不是路书了，这是一封情书。
+
+张弛：
 - 有的人啊，活的是造型，有的人活的是人设，我活的是本事。
-  Some people live off their looks, others just create a fake image of themselves. 
-  But I live off mh skills.
+  Some people live off their looks, others just create a fake image of themselves. But I live off mh skills.
 - 成年人的崩溃是从借钱开始的。
   We often say that people’s problems start with borrowing money.
 - 只有当一人对自己失去信心的那一刻，他才是真的过时了。
   One becomes outdated, the day he stops believing in himself.
 - 竞技体育，成绩是练出来的，冠军是撞出来的。
   In sports competitions, success comes from practice, and championship are born from crashes.
-- 你并不是征服了这片土地，你只是战胜了你的对手。——张弛
+- 你并不是征服了这片土地，你只是战胜了你的对手。
   You didn’t comquer the land. You just beat your opponents.
-- 对于个人，法无禁止即可为；对于仲裁庭，法无授权不可为。——万和平
-  For him, he can do anything that’s not prohibited by law. 
-  And for the arbitration court, we mustn’t do anything unless it’s authorized by law.
-- 人生哪有那么多机会给你再来一条。
-  Life doesn’t give you too many second chances.
-- 张弛：都是老司机了，没必要幻想，耽误大家伙工夫，还挡着道。
-  We all know how this works. No more fantasies. 
-  It’d just be a waste of time, and we’d be in everyone’s way.
+- 都是老司机了，没必要幻想，耽误大家伙工夫，还挡着道。
+  We all know how this works. No more fantasies. It’d just be a waste of time, and we’d be in everyone’s way.
+- 聚是一盘沙，散是一盘散沙。
+  When we are together, it's like a pile of sand. When we are apart, it's like a pile of sand scattered.
+- 这书上说呀，只要反复经历伤痛，或者远离伤痛，就都有可能走出伤痛。战胜恐惧最好的方法，就是面对恐惧。
+  As the book says, it's possible to overcome pain, if you repeatedly experience pain, or just stay away from pain. The best way to overcome fear is to face it.
+- 不是所有的比赛，都发生在会议室里。
+
+马宗亮：可是你的事不都已经过去了吗？
+张弛：不是过去了，我只是接受了呀。
+Ma: But haven't you already let it go?
+Zhang: I didn't let it go. I just accepted it.
+
+孙宇强：其实咱们只要足够努力，机会就一直会在。
+张弛：不是的，我努力过无数次了，但我知道，机会只会出现在这其中的一两次
+Sun: As long as we work hard enough, the opportunity will always exist.
+Zhang: Not really. I've tried countless times. But I know, the opportunity will only appear once, or once more among all of them.
 
 ## 心花路放
 
 **Breakup Buddies  [宁浩]**
 
-Little lolita priincess 小萝莉，kitty puppy 小猫小狗，honey/sweetie 亲爱的
+Little lolita princess 小萝莉，kitty puppy 小猫小狗，honey/sweetie 亲爱的
 
 耿浩，郝义♡东东，康小雨，周丽娟，思晴，小北
 
