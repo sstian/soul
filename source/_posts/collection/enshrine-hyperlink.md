@@ -57,7 +57,7 @@ C++ reference  http://en.cppreference.com/w/
 
 fffaraz/awesome-cpp  https://github.com/fffaraz/awesome-cpp
 
-网易云课堂-鑫路历程 VS2015 C语言|C++语法与数据结构|MFC|Linux  https://study.163.com/course/introduction.htm?courseId=1392001
+[x] 网易云课堂-鑫路历程 VS2015 C语言|C++语法与数据结构|MFC|Linux  https://study.163.com/course/introduction.htm?courseId=1392001
 
 ### Java
 
@@ -73,10 +73,9 @@ GOPROXY.IO - 一个全球代理 为 Go 模块而生  https://proxy.golang.com.cn
 
 ### JavaScript
 
-- [x] ECMAScript® Language Specification  https://tc39.es/ecma262/
+[x] ECMAScript® Language Specification  https://tc39.es/ecma262/
 
-
-- [x] ES6 入门教程 - 阮一峰  https://es6.ruanyifeng.com/
+[x] ES6 入门教程 - 阮一峰  https://es6.ruanyifeng.com/
 
 Patterns.dev：JavaScript设计和性能模式  https://www.patterns.dev/
 
@@ -104,7 +103,7 @@ OpenCV中文网站  http://www.opencv.org.cn/
 
 ### 前端
 
-- [x] MDN Web Docs  https://developer.mozilla.org/zh-CN/
+[x] MDN Web Docs  https://developer.mozilla.org/zh-CN/
 
 BezKoder - Mobile &amp; Web App Development Tutorials  https://bezkoder.com/
 
@@ -190,10 +189,11 @@ Refactoring.Guru：免费在线学习代码重构和设计模式  https://refact
 
 菜鸟教程 - 学的不仅是技术，更是梦想！  https://www.runoob.com/
 
-- [x] 廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git+Makefile+区块链  https://www.liaoxuefeng.com/
+SivaLabs：Java, Spring Boot, Microservices, Cloud and DevOps Tutorials  https://www.sivalabs.in/
 
+[x] 廖雪峰的官方网站：Java+Python+JavaScript+SQL+Git+Makefile+区块链  https://www.liaoxuefeng.com/
 
-- [x] 网道 - 互联网开发文档：HTML+JavaScript+TypeScript+WebAPI+C+Bash+SSH  https://www.wangdoc.com/
+[x] 网道 - 互联网开发文档：HTML+JavaScript+TypeScript+WebAPI+C+Bash+SSH  https://www.wangdoc.com/
 
 ### 画图
 
@@ -209,7 +209,7 @@ GeoGebra 计算器套件：绘图|3D计算器|几何|CAS|概率  https://www.geo
 
 Swagger - API Documentation & Design Tools for Teams  https://swagger.io/
 
-  - Swagger Editor  https://editor.swagger.io/
+- Swagger Editor  https://editor.swagger.io/
 
 Shields.io - Quality metadata badges for open source projects  https://shields.io/
 
@@ -242,23 +242,15 @@ Programming Idioms  https://www.programming-idioms.org/
 
 Developer Roadmaps  https://roadmap.sh/
 
-### AI
-
-OpenRouter - The Unified Interface For LLMs：开源AI模型聚合路由器  https://openrouter.ai/
-
-OpenI - 打开我，进入AI时代：全面高效的AI工具产品情报 https://openi.cn/
-
 ### 其它
 
 Google 开源项目风格指南 (中文版)  http://zh-google-styleguide.readthedocs.io/en/latest/
 
-- [x] 程序员的自我修养 A Programmer Prepares-Leo Hui  https://leohxj.gitbooks.io/a-programmer-prepares/index.html
-
+[x] 程序员的自我修养 A Programmer Prepares-Leo Hui  https://leohxj.gitbooks.io/a-programmer-prepares/index.html
 
 Cocos Creator开源游戏、插件、教程、视频汇总 - Cocos中文社区  http://forum.cocos.com/t/creator/44782
 
-- [x] Learn Git Branhing  https://learngitbranching.js.org/
-
+[x] Learn Git Branhing  https://learngitbranching.js.org/
 
 谷粒-Chrome插件英雄榜  https://zhaoolee.com/ChromeAppHeroes/
 
@@ -310,10 +302,10 @@ labuladong 的算法笔记  https://labuladong.online/algo/
 
 Doocs: Gitee: https://gitee.com/yanglbme | GitHub: https://github.com/yanglbme
 - leetcode：多种编程语言实现 LeetCode、《剑指 Offer（第 2 版）》、《程序员面试金典（第 6 版）》题解  https://doocs.gitee.io/leetcode/
--  advanced-java：互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识  https://doocs.gitee.io//advanced-java
--  source-code-hunter：源码剖析挖掘互联网行业主流技术的底层实现原理   https://doocs.gitee.io/source-code-hunter
--  jvm：JVM 底层原理最全知识总结  https://doocs.gitee.io/jvm/
--  coding-interview：代码面试题集，包括剑指 Offer、编程之美等   https://doocs.gitee.io/coding-interview
+- advanced-java：互联网 Java 工程师进阶知识完全扫盲：涵盖高并发、分布式、高可用、微服务、海量数据处理等领域知识  https://doocs.gitee.io//advanced-java
+- source-code-hunter：源码剖析挖掘互联网行业主流技术的底层实现原理   https://doocs.gitee.io/source-code-hunter
+- jvm：JVM 底层原理最全知识总结  https://doocs.gitee.io/jvm/
+- coding-interview：代码面试题集，包括剑指 Offer、编程之美等   https://doocs.gitee.io/coding-interview
 
 Hello 算法：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码  https://www.hello-algo.com/
 
