@@ -41,6 +41,8 @@ Spring Boot Admin Reference Guide  https://codecentric.github.io/spring-boot-adm
 
 Notepad++  https://github.com/notepad-plus-plus/notepad-plus-plus
 
+Visual Studio Code  https://code.visualstudio.com/
+
 ## 编程语言
 
 ### C/C++
@@ -205,10 +207,20 @@ ASCIIFlow - Infinite ASCII diagrams  https://asciiflow.com/
 
 GeoGebra 计算器套件：绘图|3D计算器|几何|CAS|概率  https://www.geogebra.org/calculator
 
+### 动画
+
+Canvas Commons - Visualize Your Ideas With Code: A community TypeScript library for creating animated videos using the Canvas API  https://canvascommons.io/
+- GitHub: https://github.com/canvas-commons/canvas-commons
+
+HyperFrames - Write HTML Render Video Built for Agents: Lets AI agents compose videos by writing HTML, CSS & JS  https://hyperframes.heygen.com/
+- GitHub: https://github.com/heygen-com/hyperframes
+
+Remotion - Make videos programmatically: Create real MP4 videos with React. Use coding agents, build apps and render in bulk  https://www.remotion.dev/
+- GitHub: https://github.com/remotion-dev/remotion
+
 ### 文档
 
 Swagger - API Documentation & Design Tools for Teams  https://swagger.io/
-
 - Swagger Editor  https://editor.swagger.io/
 
 Shields.io - Quality metadata badges for open source projects  https://shields.io/
@@ -220,11 +232,9 @@ Carbon - Create and share beautiful images of your source code  https://carbon.n
 开放API-2.0  https://api.apiopen.top/
 
 Hitokoto - 一言：一句话服务  https://hitokoto.cn/
-
 - https://v1.hitokoto.cn/
 
 现实君：一句话服务  https://uixsj.cn/
-
 - 一言API  https://api.uixsj.cn/hitokoto/
 > https://api.uixsj.cn/hitokoto/get?type=social
 
@@ -263,15 +273,12 @@ turnoff.us - geek comic site  http://turnoff.us/
 ### 计算机理论
 
 CS-Notes面试笔记：技术面试必备的算法、计算机基础、数据库、Java、系统设计、面向对象、编码实践  https://cyc2018.xyz/
-
 - GitHub: https://github.com/CyC2018/CS-Notes
 
 hadyang Interview：计算机与Java笔试面试知识整理 - 计算机基础、Java、框架、系统架构、剑指offer、LeetCode  https://hadyang.github.io/interview/
-
 - GitHub: https://github.com/hadyang/interview
 
 小林coding：小林 x 图解计算机基础 - 图解计算机网络、操作系统、计算机组成、数据库、Java面试题，让天下没有难懂的八股文！  https://xiaolincoding.com/
-
 - GitHub: https://github.com/xiaolincoder/CS-Base
 
 开发内功修炼@张彦飞 - 分享我的技术日常思考，和大伙儿一起共同成长！  https://kfngxl.cn/
@@ -281,7 +288,6 @@ hadyang Interview：计算机与Java笔试面试知识整理 - 计算机基础�
 ### 计算机网络
 
 计算机网络 - 一种动画方法  https://www2.tkn.tu-berlin.de/teaching/rn/animations/
-
 - 传输与传播延迟  https://www2.tkn.tu-berlin.de/teaching/rn/animations/propagation/
 - 排队和丢失  https://www2.tkn.tu-berlin.de/teaching/rn/animations/queue/
 - 滑动窗口可视化  https://www2.tkn.tu-berlin.de/teaching/rn/animations/gbn_sr/
@@ -402,6 +408,8 @@ Alpha Coders - Your Source For Wallpapers, Art, Photography, Gifs and More!  htt
 50音资源分享  https://www.50yin.com/
 
 超高无损音乐  https://www.sq688.com/
+
+HiFiTi - 音乐磁场 | 无损音乐下载|高清MV|FLAC|MP3高品质音乐免费下载试听网站  https://www.hifiti.com/
 
 ## 影视
 
@@ -560,6 +568,10 @@ Vizard录屏  https://vizard.video/
 res-downloader 爱享资源下载器：支持视频号、小程序、抖音、快手、小红书、酷狗、QQ音乐等网络资源下载  https://github.com/putyy/res-downloader
 
 沉浸式翻译 - 双语对照网页翻译插件 | PDF翻译 | 视频字幕翻译  https://immersivetranslate.com/zh-Hans/
+
+LocalSend - 与附近设备共享文件：开源 跨平台 局域网 文件共享  https://localsend.org/
+
+MuMu模拟器：网易的安卓模拟器，全平台覆盖 | 电脑畅玩手游 | 智能操作 | 自由多开 | 远程控制  https://mumu.163.com/
 
 ## 应用商店
 
