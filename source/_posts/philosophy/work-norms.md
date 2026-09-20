@@ -10,6 +10,11 @@ date: 2020-07-20 09:00:00
 
 ## 经验之谈
 
+王处的焚诀 [小红书-@老头们的快乐生活]：
+- 报早不报晚，周一三行字（干了啥，要干啥，啥问题）
+- 说人话，影响、轻重、咋办。
+- 带着两条路进门，外加一条你自己的建议。
+
 ### 田继辉:
 
 - 领导让畅所欲言，并非是想说什么就说什么，他想听到的是：有价值的问题、有启发意义的建议、较独特的思考。
@@ -47,6 +52,9 @@ QA = Quantity Assurance
 Business workflow - BA, CEO
 Technology workflow - Developer, CTO
 Management workflow - Manager, COO/CEO
+
+3. Company Department:
+市场部，产品部，销售部，技术部，物流部，……
 
 ### 覃光辉 Toby:
 
