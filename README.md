@@ -159,12 +159,12 @@ fi
 echo "start building..."
 start_time=`date +%s`
 
-echo "git pushing changes..."
+echo -e "\ngit pushing changes..."
 echo -e "\n>> git add --all"                      && git add --all
 echo -e "\n>> git commit -m \"$commit_message\""  && git commit -m "$commit_message"
 echo -e "\n>> git push"                           && git push
 
-echo "hexo deploying webpage..."
+echo -e "\nhexo deploying webpage..."
 echo -e "\n>> hexo clean"    && hexo clean
 echo -e "\n>> hexo generate" && hexo generate
 echo -e "\n>> hexo deploy"   && hexo deploy

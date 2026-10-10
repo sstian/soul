@@ -411,6 +411,8 @@ Alpha Coders - Your Source For Wallpapers, Art, Photography, Gifs and More!  htt
 
 HiFiTi - 音乐磁场 | 无损音乐下载|高清MV|FLAC|MP3高品质音乐免费下载试听网站  https://www.hifiti.com/
 
+OpenFlac - 无损音乐免费下载  https://www.openflac.com/
+
 音乐博客  https://music.dujin.org/
 
 ## 影视
