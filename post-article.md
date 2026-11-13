@@ -13,6 +13,7 @@ Markdown style:
 
 {人物角色}
 
+---  // 可选，根据需要可添加分割线
 // 经典语录：nobody -> one -> more -> talk
 - 佚名语录。
 
